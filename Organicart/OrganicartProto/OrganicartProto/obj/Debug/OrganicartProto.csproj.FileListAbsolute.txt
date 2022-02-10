@@ -1,0 +1,28 @@
+C:\Users\ivani\OneDrive\Documentos\CICLO 3\OrganicartProto\OrganicartProto\bin\Debug\OrganicartProto.exe.config
+C:\Users\ivani\OneDrive\Documentos\CICLO 3\OrganicartProto\OrganicartProto\bin\Debug\OrganicartProto.exe
+C:\Users\ivani\OneDrive\Documentos\CICLO 3\OrganicartProto\OrganicartProto\bin\Debug\OrganicartProto.pdb
+C:\Users\ivani\OneDrive\Documentos\CICLO 3\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.csprojAssemblyReference.cache
+C:\Users\ivani\OneDrive\Documentos\CICLO 3\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.Principal.resources
+C:\Users\ivani\OneDrive\Documentos\CICLO 3\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.Properties.Resources.resources
+C:\Users\ivani\OneDrive\Documentos\CICLO 3\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.csproj.GenerateResource.cache
+C:\Users\ivani\OneDrive\Documentos\CICLO 3\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.csproj.CoreCompileInputs.cache
+C:\Users\ivani\OneDrive\Documentos\CICLO 3\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.exe
+C:\Users\ivani\OneDrive\Documentos\CICLO 3\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.pdb
+C:\Users\ivani\OneDrive\Documentos\CICLO 3\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.Form3.resources
+C:\Users\ivani\OneDrive\Documentos\CICLO 3\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.Form2.resources
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\bin\Debug\OrganicartProto.exe.config
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\bin\Debug\OrganicartProto.exe
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\bin\Debug\OrganicartProto.pdb
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.csproj.AssemblyReference.cache
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.csproj.SuggestedBindingRedirects.cache
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.Form2.resources
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.Properties.Resources.resources
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.csproj.GenerateResource.cache
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.csproj.CoreCompileInputs.cache
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.exe
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.pdb
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.Login.resources
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.SignUpForm.resources
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.ProfileForms.resources
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.CartForm.resources
+C:\Users\ANDREA\Downloads\OrganicartProto\OrganicartProto\OrganicartProto\obj\Debug\OrganicartProto.CustomCartItem.resources
