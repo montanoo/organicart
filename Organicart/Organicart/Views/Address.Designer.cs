@@ -53,6 +53,8 @@
             this.profilebtn = new System.Windows.Forms.PictureBox();
             this.Cartbtn = new System.Windows.Forms.PictureBox();
             this.Productsbtn = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -60,6 +62,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.Cartbtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Productsbtn)).BeginInit();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.SetChildIndex(this.label1, 0);
             // 
             // dateTimePicker1
             // 
@@ -138,6 +145,7 @@
             this.btnsiguiente.TabIndex = 21;
             this.btnsiguiente.Text = "Siguiente";
             this.btnsiguiente.UseVisualStyleBackColor = false;
+            this.btnsiguiente.Click += new System.EventHandler(this.btnsiguiente_Click);
             // 
             // radioButton2
             // 
@@ -339,6 +347,17 @@
             this.Productsbtn.TabStop = false;
             this.Productsbtn.Click += new System.EventHandler(this.Productsbtn_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(480, 38);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(319, 50);
+            this.label1.TabIndex = 55;
+            this.label1.Text = "Datos de entrega";
+            // 
             // Address
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
@@ -371,6 +390,8 @@
             this.Controls.SetChildIndex(this.label3, 0);
             this.Controls.SetChildIndex(this.dateTimePicker1, 0);
             this.Controls.SetChildIndex(this.panel2, 0);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -410,5 +431,6 @@
         public System.Windows.Forms.PictureBox profilebtn;
         public System.Windows.Forms.PictureBox Cartbtn;
         public System.Windows.Forms.PictureBox Productsbtn;
+        private System.Windows.Forms.Label label1;
     }
 }

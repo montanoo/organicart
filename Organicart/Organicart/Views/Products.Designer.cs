@@ -35,6 +35,7 @@
             this.Cartbtn = new System.Windows.Forms.PictureBox();
             this.Productsbtn = new System.Windows.Forms.PictureBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profilebtn)).BeginInit();
@@ -44,8 +45,10 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.SetChildIndex(this.comboBox1, 0);
+            this.panel1.Controls.SetChildIndex(this.label7, 0);
             // 
             // flowLayoutPanel1
             // 
@@ -114,6 +117,17 @@
             this.comboBox1.TabIndex = 1;
             this.comboBox1.Text = "Sucursales";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(549, 38);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(199, 50);
+            this.label7.TabIndex = 55;
+            this.label7.Text = "Productos";
+            // 
             // Products
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
@@ -127,6 +141,7 @@
             this.Controls.SetChildIndex(this.flowLayoutPanel1, 0);
             this.Controls.SetChildIndex(this.panel2, 0);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.profilebtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cartbtn)).EndInit();
@@ -143,5 +158,6 @@
         public System.Windows.Forms.PictureBox Cartbtn;
         public System.Windows.Forms.PictureBox Productsbtn;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label7;
     }
 }

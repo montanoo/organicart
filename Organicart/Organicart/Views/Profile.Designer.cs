@@ -62,6 +62,8 @@
             this.profilebtn = new System.Windows.Forms.PictureBox();
             this.Cartbtn = new System.Windows.Forms.PictureBox();
             this.Productsbtn = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -74,6 +76,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.Cartbtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Productsbtn)).BeginInit();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.SetChildIndex(this.label7, 0);
             // 
             // pictureBox8
             // 
@@ -105,7 +112,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(298, 27);
             this.textBox4.TabIndex = 89;
-            this.textBox4.Text = "Ingresa tu DUI...";
+            this.textBox4.Text = "1234567-0";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label9
@@ -149,7 +156,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(298, 27);
             this.textBox3.TabIndex = 85;
-            this.textBox3.Text = "Ingresa tu correo...";
+            this.textBox3.Text = "john.doe@company.com";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label8
@@ -235,7 +242,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(319, 27);
             this.textBox2.TabIndex = 77;
-            this.textBox2.Text = "Ingresa tu apellido...";
+            this.textBox2.Text = "Doe";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label5
@@ -279,7 +286,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(319, 27);
             this.textBox1.TabIndex = 73;
-            this.textBox1.Text = "Ingresa tu nombre...";
+            this.textBox1.Text = "John";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
@@ -368,7 +375,7 @@
             this.usertxt.Name = "usertxt";
             this.usertxt.Size = new System.Drawing.Size(304, 27);
             this.usertxt.TabIndex = 65;
-            this.usertxt.Text = "Ingresa tu usuario...";
+            this.usertxt.Text = "MG210111";
             this.usertxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
@@ -446,6 +453,17 @@
             this.Productsbtn.TabStop = false;
             this.Productsbtn.Click += new System.EventHandler(this.Productsbtn_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(551, 38);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(230, 50);
+            this.label7.TabIndex = 93;
+            this.label7.Text = "Editar perfil";
+            // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
@@ -514,6 +532,8 @@
             this.Controls.SetChildIndex(this.pictureBox8, 0);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.panel9, 0);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -565,5 +585,6 @@
         public System.Windows.Forms.PictureBox profilebtn;
         public System.Windows.Forms.PictureBox Cartbtn;
         public System.Windows.Forms.PictureBox Productsbtn;
+        private System.Windows.Forms.Label label7;
     }
 }

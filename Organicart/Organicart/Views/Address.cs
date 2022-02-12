@@ -37,5 +37,12 @@ namespace Organicart.Views
             enterProfile.Show();
             this.Hide();
         }
+
+        private void btnsiguiente_Click(object sender, EventArgs e)
+        {
+            var enterPayment = new Payment();
+            enterPayment.Show();
+            this.Hide();
+        }
     }
 }

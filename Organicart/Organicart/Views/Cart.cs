@@ -68,8 +68,8 @@ namespace Organicart
 
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            var enterPayment = new Payment();
-            enterPayment.Show();
+            var enterAddress = new Address();
+            enterAddress.Show();
             this.Hide();
         }
     }
