@@ -50,6 +50,7 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.label1);
+            this.panel1.Size = new System.Drawing.Size(1285, 102);
             this.panel1.Controls.SetChildIndex(this.label1, 0);
             // 
             // pictureBox2
@@ -208,7 +209,6 @@
             this.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.Name = "Login";
             this.Text = "Login";
-            this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.pictureBox2, 0);
             this.Controls.SetChildIndex(this.loginbtn, 0);
             this.Controls.SetChildIndex(this.label4, 0);
@@ -220,6 +220,7 @@
             this.Controls.SetChildIndex(this.panel5, 0);
             this.Controls.SetChildIndex(this.pictureBox3, 0);
             this.Controls.SetChildIndex(this.pictureBox4, 0);
+            this.Controls.SetChildIndex(this.panel1, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

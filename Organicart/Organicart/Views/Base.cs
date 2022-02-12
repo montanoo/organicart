@@ -16,12 +16,13 @@ namespace Organicart
         public Base()
         {
             InitializeComponent();
+            pictureBox1.Left = Width - 100;
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
-        private extern static void ReleaseCapture();
+        private static extern void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
 
-        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int Wparam, int lParam);
+        private static extern void SendMessage(IntPtr hWnd, int wMsg, int wParam, int lParam);
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
