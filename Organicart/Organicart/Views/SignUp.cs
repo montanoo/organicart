@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Organicart
 {
-    public partial class Form1 : Form
+    public partial class SignUp : Base
     {
-        public Form1()
+        public SignUp()
         {
             InitializeComponent();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            var login = new Login();
+            login.Show();
+            this.Hide();
         }
     }
 }
