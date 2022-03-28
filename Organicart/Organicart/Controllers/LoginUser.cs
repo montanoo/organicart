@@ -52,7 +52,6 @@ namespace Organicart.Controllers
             // recorremos la lista enlazada.
             while (currentUser != null)
             {
-                MessageBox.Show(currentUser.Data.username + " || " + currentUser.Data.password);
                 // si encontramos una coincidencia, buscamos que rol tiene.
                 if (currentUser.Data.username == pUsername && currentUser.Data.password == pPassword)
                 {
