@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Organicart.Controllers;
 
 namespace Organicart
 {
@@ -15,6 +16,11 @@ namespace Organicart
         public Login()
         {
             InitializeComponent();
+
+            var check = new CheckDatabase();
+            check.Check();
+
+
         }
 
         private void SignUp_Click(object sender, EventArgs e)
@@ -26,9 +32,8 @@ namespace Organicart
 
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            var enterHome = new HomePage();
-            enterHome.Show();
-            this.Hide();
+            var login = new LoginUser();
+            login.Login(txtUser.Text, txtPassword.Text);
         }
     }
 }

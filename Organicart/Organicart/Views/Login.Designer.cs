@@ -34,10 +34,10 @@
             this.loginbtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.passwordtxt = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.usertxt = new System.Windows.Forms.TextBox();
+            this.txtUser = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -50,7 +50,7 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Size = new System.Drawing.Size(1285, 102);
+            this.panel1.Size = new System.Drawing.Size(1280, 102);
             this.panel1.Controls.SetChildIndex(this.label1, 0);
             // 
             // pictureBox2
@@ -112,19 +112,19 @@
             this.panel5.Size = new System.Drawing.Size(481, 12);
             this.panel5.TabIndex = 29;
             // 
-            // passwordtxt
+            // txtPassword
             // 
-            this.passwordtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.passwordtxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.passwordtxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passwordtxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.passwordtxt.Location = new System.Drawing.Point(816, 356);
-            this.passwordtxt.Margin = new System.Windows.Forms.Padding(4);
-            this.passwordtxt.Name = "passwordtxt";
-            this.passwordtxt.PasswordChar = '*';
-            this.passwordtxt.Size = new System.Drawing.Size(255, 27);
-            this.passwordtxt.TabIndex = 28;
-            this.passwordtxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
+            this.txtPassword.Location = new System.Drawing.Point(816, 356);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(255, 27);
+            this.txtPassword.TabIndex = 28;
+            this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -146,18 +146,18 @@
             this.panel3.Size = new System.Drawing.Size(481, 12);
             this.panel3.TabIndex = 25;
             // 
-            // usertxt
+            // txtUser
             // 
-            this.usertxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.usertxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.usertxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usertxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.usertxt.Location = new System.Drawing.Point(770, 217);
-            this.usertxt.Margin = new System.Windows.Forms.Padding(4);
-            this.usertxt.Name = "usertxt";
-            this.usertxt.Size = new System.Drawing.Size(301, 27);
-            this.usertxt.TabIndex = 24;
-            this.usertxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
+            this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
+            this.txtUser.Location = new System.Drawing.Point(770, 217);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(4);
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(301, 27);
+            this.txtUser.TabIndex = 24;
+            this.txtUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
@@ -198,10 +198,10 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.passwordtxt);
+            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.usertxt);
+            this.Controls.Add(this.txtUser);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.loginbtn);
@@ -213,10 +213,10 @@
             this.Controls.SetChildIndex(this.loginbtn, 0);
             this.Controls.SetChildIndex(this.label4, 0);
             this.Controls.SetChildIndex(this.label2, 0);
-            this.Controls.SetChildIndex(this.usertxt, 0);
+            this.Controls.SetChildIndex(this.txtUser, 0);
             this.Controls.SetChildIndex(this.panel3, 0);
             this.Controls.SetChildIndex(this.label3, 0);
-            this.Controls.SetChildIndex(this.passwordtxt, 0);
+            this.Controls.SetChildIndex(this.txtPassword, 0);
             this.Controls.SetChildIndex(this.panel5, 0);
             this.Controls.SetChildIndex(this.pictureBox3, 0);
             this.Controls.SetChildIndex(this.pictureBox4, 0);
@@ -238,10 +238,10 @@
         public System.Windows.Forms.Button loginbtn;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.Panel panel5;
-        public System.Windows.Forms.TextBox passwordtxt;
+        public System.Windows.Forms.TextBox txtPassword;
         public System.Windows.Forms.Label label3;
         public System.Windows.Forms.Panel panel3;
-        public System.Windows.Forms.TextBox usertxt;
+        public System.Windows.Forms.TextBox txtUser;
         public System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
