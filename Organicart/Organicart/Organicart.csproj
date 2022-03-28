@@ -280,6 +280,12 @@
     <Compile Include="Views\Address.Designer.cs">
       <DependentUpon>Address.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\AdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdminMenu.Designer.cs">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Cart.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -344,6 +350,9 @@
     </Compile>
     <EmbeddedResource Include="Views\Address.resx">
       <DependentUpon>Address.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdminMenu.resx">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Cart.resx">
       <DependentUpon>Cart.cs</DependentUpon>

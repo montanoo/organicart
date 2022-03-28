@@ -1,5 +1,15 @@
 ﻿using System.Windows.Forms;
 using Organicart.Models;
+using Organicart.Views;
+
+/*
+Integrantes: 
+- Fernando Josué Montano González. MG210111 | 
+- Andrea Guadalupe Velásquez Joyar. VJ210576 |
+- Ivania María Lebrón Flores. LF212591 | 
+- Luciana María Munguía Villacorta. MV210941 |
+- Carlos Vicente Castillo Sayes. CS210003 |
+*/
 
 namespace Organicart.Controllers
 {
@@ -51,7 +61,7 @@ namespace Organicart.Controllers
                 }
                 currentUser = currentUser.Next;
             }
-
+            var currentForm = new Login();
             if (!found)
             {
                 MessageBox.Show(
@@ -61,14 +71,16 @@ namespace Organicart.Controllers
 
             if (userRole == 1)
             {
+                var joinAdmin = new AdminMenu();
+                joinAdmin.Show();
 
+                currentForm.Hide();
             }
             else
             {
                 var joinHomePage = new HomePage();
                 joinHomePage.Show();
 
-                var currentForm = new Login();
                 currentForm.Hide();
             }
         }
