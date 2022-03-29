@@ -73,11 +73,13 @@ namespace Organicart.Views
                     category_id = cmbCategories.SelectedIndex,
                     price = float.Parse(txtPrice.Text)
                 };
-                db.products.Add(product);
+                db.products.Add(product); // guardar los items con Entity Framework
                 db.SaveChanges();
             }   
         }
 
+        /* este metodo transforma la imagen a un array de bytes que nos permite
+         almacenarlo en SQL. */
         public byte[] ImageToInsert(Image image)
         {
             using (var memory = new MemoryStream())

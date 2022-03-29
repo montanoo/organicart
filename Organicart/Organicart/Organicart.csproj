@@ -288,6 +288,12 @@
     <Compile Include="Views\AdminAddProducts.Designer.cs">
       <DependentUpon>AdminAddProducts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\AdminEditProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdminEditProducts.Designer.cs">
+      <DependentUpon>AdminEditProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\AdminMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -361,6 +367,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\AdminAddProducts.resx">
       <DependentUpon>AdminAddProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdminEditProducts.resx">
+      <DependentUpon>AdminEditProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\AdminMenu.resx">
       <DependentUpon>AdminMenu.cs</DependentUpon>

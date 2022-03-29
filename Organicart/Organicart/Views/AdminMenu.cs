@@ -31,5 +31,12 @@ namespace Organicart.Views
             openAddProducts.Show();
             this.Hide();
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            var editProducts = new AdminEditProducts();
+            editProducts.Show();
+            this.Hide();
+        }
     }
 }

@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OrganicartModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="billing">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="client_id" Type="int" />
+    <Property Name="date" Type="date" />
+    <Property Name="product_id" Type="int" />
+    <Property Name="address_id" Type="int" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="store_id" Type="int" />
+  </EntityType>
+  <EntityType Name="categories">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="type" Type="varchar" MaxLength="255" />
+    <Property Name="description" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="dui" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="lastname" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="255" />
+    <Property Name="phone" Type="int" />
+    <Property Name="photo" Type="image" />
+  </EntityType>
+  <EntityType Name="client_address">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="client_id" Type="int" />
+    <Property Name="address" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="inventory">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="product_id" Type="int" />
+    <Property Name="stock" Type="int" />
+    <Property Name="store_id" Type="int" />
+  </EntityType>
+  <EntityType Name="products">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="255" />
+    <Property Name="photo" Type="image" />
+    <Property Name="category_id" Type="int" />
+    <Property Name="price" Type="float" />
+  </EntityType>
+  <EntityType Name="stores">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="255" />
+    <Property Name="store_address" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="role_id" Type="int" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_billing_client_id">
+    <End Role="client" Type="Self.client" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="billing" Type="Self.billing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="billing">
+        <PropertyRef Name="client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_billing_product_id">
+    <End Role="products" Type="Self.products" Multiplicity="0..1" />
+    <End Role="billing" Type="Self.billing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="products">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="billing">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_billing_store_id">
+    <End Role="stores" Type="Self.stores" Multiplicity="0..1" />
+    <End Role="billing" Type="Self.billing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stores">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="billing">
+        <PropertyRef Name="store_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_client_address_id">
+    <End Role="client" Type="Self.client" Multiplicity="0..1" />
+    <End Role="client_address" Type="Self.client_address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="client_address">
+        <PropertyRef Name="client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_clientuser_id">
+    <End Role="user" Type="Self.user" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="client" Type="Self.client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="client">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_inventory_product_id">
+    <End Role="products" Type="Self.products" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="inventory" Type="Self.inventory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="products">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="inventory">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_inventory_store_id">
+    <End Role="stores" Type="Self.stores" Multiplicity="0..1" />
+    <End Role="inventory" Type="Self.inventory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stores">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="inventory">
+        <PropertyRef Name="store_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_products_category_id">
+    <End Role="categories" Type="Self.categories" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="products" Type="Self.products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="categories">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="products">
+        <PropertyRef Name="category_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OrganicartModelStoreContainer">
+    <EntitySet Name="billing" EntityType="Self.billing" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="categories" EntityType="Self.categories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="client" EntityType="Self.client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="client_address" EntityType="Self.client_address" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="inventory" EntityType="Self.inventory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="products" EntityType="Self.products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="stores" EntityType="Self.stores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_billing_client_id" Association="Self.FK_billing_client_id">
+      <End Role="client" EntitySet="client" />
+      <End Role="billing" EntitySet="billing" />
+    </AssociationSet>
+    <AssociationSet Name="FK_billing_product_id" Association="Self.FK_billing_product_id">
+      <End Role="products" EntitySet="products" />
+      <End Role="billing" EntitySet="billing" />
+    </AssociationSet>
+    <AssociationSet Name="FK_billing_store_id" Association="Self.FK_billing_store_id">
+      <End Role="stores" EntitySet="stores" />
+      <End Role="billing" EntitySet="billing" />
+    </AssociationSet>
+    <AssociationSet Name="FK_client_address_id" Association="Self.FK_client_address_id">
+      <End Role="client" EntitySet="client" />
+      <End Role="client_address" EntitySet="client_address" />
+    </AssociationSet>
+    <AssociationSet Name="FK_clientuser_id" Association="Self.FK_clientuser_id">
+      <End Role="user" EntitySet="user" />
+      <End Role="client" EntitySet="client" />
+    </AssociationSet>
+    <AssociationSet Name="FK_inventory_product_id" Association="Self.FK_inventory_product_id">
+      <End Role="products" EntitySet="products" />
+      <End Role="inventory" EntitySet="inventory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_inventory_store_id" Association="Self.FK_inventory_store_id">
+      <End Role="stores" EntitySet="stores" />
+      <End Role="inventory" EntitySet="inventory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_products_category_id" Association="Self.FK_products_category_id">
+      <End Role="categories" EntitySet="categories" />
+      <End Role="products" EntitySet="products" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

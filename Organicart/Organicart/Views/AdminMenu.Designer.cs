@@ -64,6 +64,7 @@
             this.btnEdit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnEdit.TabIndex = 4;
             this.btnEdit.TabStop = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // label2
             // 
