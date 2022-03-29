@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Organicart.Models;
+using System.IO;
 
 namespace Organicart
 {
@@ -45,6 +46,15 @@ namespace Organicart
                 fotocliente.Image = Image.FromFile(foto.FileName);
             }
         }
+        public byte[] ImageToInsert(Image image)
+        {
+            using (var memory = new MemoryStream())
+            {
+                image.Save(memory, System.Drawing.Imaging.ImageFormat.Jpeg);
+
+                return memory.ToArray();
+            }
+        }
 
         private void loginbtn_Click(object sender, EventArgs e)
         {
@@ -66,6 +76,7 @@ namespace Organicart
                 dataclient.phone = Convert.ToInt32(phonetxt.Text);
                 dataclient.dui = duitxt.Text;
                 dataclient.email = emailtxt.Text;
+                dataclient.photo = ImageToInsert(fotocliente.Image);
                 var result = database.users.Where(b => b.username == usertxt.Text);
                 dataclient.user_id = id;
                 database.clients.Add(dataclient);
@@ -74,5 +85,6 @@ namespace Organicart
 
 
         }
+
     }
 }

@@ -77,6 +77,7 @@ namespace Organicart.Controllers
             }
             else
             {
+
                 var joinHomePage = new HomePage();
                 joinHomePage.Show();
 
