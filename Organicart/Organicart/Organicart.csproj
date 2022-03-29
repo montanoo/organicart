@@ -465,6 +465,7 @@
       <DependentUpon>OrganicartModel.edmx</DependentUpon>
       <LastGenOutput>OrganicartModel.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\delete.png" />
     <None Include="Resources\shopping-cart.png" />
   </ItemGroup>
   <ItemGroup>

@@ -91,13 +91,13 @@ namespace Organicart.Controllers
             if (Head != null)
             {
                 repetition = true;
-                /*comparamos cada puntero para saber si es diferente al carnet
+                /*comparamos cada puntero para saber si es diferente al nombre
                 si todos son diferentes se retorna false*/
                 while (pointer.Data.name != name)
                 {
                     pointer = pointer.Next;
 
-                    if (pointer == null)// si llega al final y no se ha encontrado un dui igual, no esta repetido
+                    if (pointer == null)// si llega al final y no se ha encontrado un nombre igual, no esta repetido
                     {
                         repetition = false;
                         break;
@@ -106,11 +106,94 @@ namespace Organicart.Controllers
             }
             else
             {
-                repetition = false;   
+                repetition = false;
             }
             return repetition;
         }
 
+        public void DeleteItem(string name)
+        {
+
+            /*creamos dos nodos: uno actual y otro anterior.
+             Igualmente creamos boleanos que nos indique si ya
+            hemos encontrado el nodo que deseamos eliminar*/
+            CartNode actual, last;
+            Boolean found = false;
+            actual = Head;
+            last = null;
+
+            //iteracion de búsqueda
+            while ((actual != null) && (!found))
+            {
+                found = (actual.Data.name == name);
+
+                //evalua si es verdadero toma el nodo actual y el siguiente
+                if (!found)
+                {
+                    last = actual;
+                    actual = actual.Next;
+                }
+            }
+
+            //iteracion de cambio de enlace entre nodos
+            if (actual != null)
+            {
+                if (actual == Head)
+                {
+                    //elimina el primer nodo de la lista
+                    Head = actual.Next;
+                }
+                else
+                {
+                    //intercambio entre enlaces de nodos
+                    last.Next = actual.Next;
+                }
+                //elimina el nodo
+                actual = null;
+            }
+
+        }
+
+        //public void Eliminar(int dui)
+        //{
+        //    /*creamos dos nodos: uno actual y otro anterior.
+        //     Igualmente creamos boleanos que nos indique si ya
+        //    hemos encontrado el nodo que deseamos eliminar*/
+        //    nodo1 actual, anterior;
+        //    Boolean encontrado = false;
+        //    actual = raiz;
+        //    anterior = null;
+
+        //    //iteracion de búsqueda
+        //    while ((actual != null) && (!encontrado))
+        //    {
+        //        encontrado = (actual.DUI == dui);
+
+        //        //evalua si es verdadero toma el nodo actual y el siguiente
+        //        if (!encontrado)
+        //        {
+        //            anterior = actual;
+        //            actual = actual.siguiente;
+        //        }
+        //    }
+
+        //    //iteracion de cambio de enlace entre nodos
+        //    if (actual != null)
+        //    {
+        //        if (actual == raiz)
+        //        {
+        //            //elimina el primer nodo de la lista
+        //            raiz = actual.siguiente;
+        //        }
+        //        else
+        //        {
+        //            //intercambio entre enlaces de nodos
+        //            anterior.siguiente = actual.siguiente;
+        //        }
+        //        //elimina el nodo
+        //        actual = null;
+        //    }
+        //}
 
     }
 }

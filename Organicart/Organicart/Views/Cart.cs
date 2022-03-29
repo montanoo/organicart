@@ -67,7 +67,9 @@ namespace Organicart
         }
         void UserControl_Click(Object sender, EventArgs e)
         {
-            MessageBox.Show(cartItems[CustomProductItem.Control.TabIndex].ProductNames);
+            MessageBox.Show(cartItems[CustomCartItem.Control.TabIndex].ProductName);
+            Products.Cart.DeleteItem(cartItems[CustomCartItem.Control.TabIndex].ProductNames);
+            GenerateDynamicUserControls();
             //hacer metodo de cart para delete
             //esto nooo Cart.InsertTail(productItems[CustomProductItem.Control.TabIndex].ProductNames);
         }

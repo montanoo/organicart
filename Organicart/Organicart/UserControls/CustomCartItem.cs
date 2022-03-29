@@ -6,6 +6,7 @@ namespace Organicart
 {
     public partial class CustomCartItem : UserControl
     {
+        public static Control Control;
         public CustomCartItem()
         {
             InitializeComponent();
@@ -47,5 +48,11 @@ namespace Organicart
         }
 
         #endregion
+
+        private void CustomCartItem_Click(object sender, System.EventArgs e)
+        {
+            Control = (Control)sender;   // Sender gives you which control is clicked.
+            MessageBox.Show(Control.TabIndex.ToString());
+        }
     }
 }
