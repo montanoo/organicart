@@ -27,8 +27,6 @@ namespace Organicart
 
             var check = new CheckDatabase();
             check.Check();
-
-
         }
 
         private void SignUp_Click(object sender, EventArgs e)
@@ -42,6 +40,7 @@ namespace Organicart
         {
             var login = new LoginUser();
             login.Login(txtUser.Text, txtPassword.Text);
+            this.Hide();
         }
     }
 }

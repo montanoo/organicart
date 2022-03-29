@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.SqlServer.Management.Dmf;
 using Organicart.Controllers;
 using Organicart.Models;
 
@@ -70,11 +71,21 @@ namespace Organicart.Views
                 {
                     name = txtName.Text,
                     photo = ImageToInsert(chosenImage.Image),
-                    category_id = cmbCategories.SelectedIndex,
+                    category_id = GetSelectedCategory(),
                     price = float.Parse(txtPrice.Text)
                 };
-                db.products.Add(product); // guardar los items con Entity Framework
-                db.SaveChanges();
+                try
+                {
+                    db.products.Add(product); // guardar los items con Entity Framework
+                    db.SaveChanges();
+
+                    MessageBox.Show("El producto ha sido añadido con éxito!");
+                    Clean();
+                }
+                catch
+                {
+                    MessageBox.Show("Ya existe un producto con ese nombre", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }   
         }
 
@@ -88,6 +99,38 @@ namespace Organicart.Views
 
                 return memory.ToArray();
             }
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            var enterAdmin = new AdminMenu();
+            enterAdmin.Show();
+            this.Hide();
+        }
+        private int GetSelectedCategory()
+        {
+            // string que retornaremos, incializamos en blanco.
+            var category = 0;
+            // usando el contexto del entity framework
+            using (var db = new OrganicartEntities())
+            {
+                // construimos una query similar a SQL server.
+                var id = (from c in db.categories
+                    where c.type == cmbCategories.Text
+                    select c).SingleOrDefault();
+                category = id.id;
+                // recorremos los resultados (1) y lo asignamos a la variable category.
+            }
+            // retornamos la categoría
+            return category;
+        }
+
+        private void Clean()
+        {
+            txtPrice.Text = "";
+            txtName.Text = "";
+            chosenImage.Image = null;
+            cmbCategories.Text = "";
         }
     }
 }

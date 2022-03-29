@@ -40,12 +40,13 @@ CREATE TABLE client (
 
 CREATE TABLE products (
     id int IDENTITY (1,1) NOT NULL, -- pk
-    [name] varchar(255),
+    [name] varchar(255) UNIQUE,
     photo image,
     category_id int,
     price float,
 
-    CONSTRAINT PK_products_id PRIMARY KEY (id)
+    CONSTRAINT PK_products_id PRIMARY KEY (id),
+	CONSTRAINT UNQ_products_name UNIQUE ([name])
 )
 
 CREATE TABLE inventory (
@@ -148,3 +149,7 @@ INSERT INTO categories VALUES
 	('Lacteos',''),
 	('Snacks','')
 GO
+
+SELECT * FROM products
+
+SELECT * FROM categories
