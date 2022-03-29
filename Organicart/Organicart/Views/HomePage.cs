@@ -56,9 +56,9 @@ Integrantes:
 
         private void btnFrutas_Click_1(object sender, EventArgs e)
         {
-            var enterProducts = new Products(1);
-            enterProducts.Show();
-            this.Hide();
+            //var enterProducts = new Products(1);
+            //enterProducts.Show();
+            //this.Hide();
         }
 
         private void aboutUsbtn_Click(object sender, EventArgs e)
@@ -70,37 +70,37 @@ Integrantes:
 
         private void btnBebidas_Click(object sender, EventArgs e)
         {
-            var enterProducts = new Products(2);
-            enterProducts.Show();
-            this.Hide();
+            //var enterProducts = new Products(2);
+            //enterProducts.Show();
+            //this.Hide();
         }
 
         private void btnVegetales_Click(object sender, EventArgs e)
         {
-            var enterProducts = new Products(3);
-            enterProducts.Show();
-            this.Hide();
+            //var enterProducts = new Products(3);
+            //enterProducts.Show();
+            //this.Hide();
         }
 
         private void btnGranos_Click(object sender, EventArgs e)
         {
-            var enterProducts = new Products(4);
-            enterProducts.Show();
-            this.Hide();
+            //var enterProducts = new Products(4);
+            //enterProducts.Show();
+            //this.Hide();
         }
 
         private void btnLacteos_Click(object sender, EventArgs e)
         {
-            var enterProducts = new Products(5);
-            enterProducts.Show();
-            this.Hide();
+            //var enterProducts = new Products(5);
+            //enterProducts.Show();
+            //this.Hide();
         }
 
         private void btnSnacks_Click(object sender, EventArgs e)
         {
-            var enterProducts = new Products(6);
-            enterProducts.Show();
-            this.Hide();
+            //var enterProducts = new Products(6);
+            //enterProducts.Show();
+            //this.Hide();
         }
     }
 }
