@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OrganicartModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="billing">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="client_id" Type="Int32" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="product_id" Type="Int32" />
+    <Property Name="address_id" Type="Int32" />
+    <Property Name="quantity" Type="Int32" />
+    <Property Name="store_id" Type="Int32" />
+    <NavigationProperty Name="client" Relationship="Self.FK_billing_client_id" FromRole="billing" ToRole="client" />
+    <NavigationProperty Name="product" Relationship="Self.FK_billing_product_id" FromRole="billing" ToRole="products" />
+    <NavigationProperty Name="store" Relationship="Self.FK_billing_store_id" FromRole="billing" ToRole="stores" />
+  </EntityType>
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="products" Relationship="Self.FK_products_category_id" FromRole="categories" ToRole="products" />
+  </EntityType>
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <Property Name="dui" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="lastname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="Int32" />
+    <Property Name="photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="billings" Relationship="Self.FK_billing_client_id" FromRole="client" ToRole="billing" />
+    <NavigationProperty Name="client_address" Relationship="Self.FK_client_address_id" FromRole="client" ToRole="client_address" />
+    <NavigationProperty Name="user" Relationship="Self.FK_clientuser_id" FromRole="client" ToRole="user" />
+  </EntityType>
+  <EntityType Name="client_address">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="client_id" Type="Int32" />
+    <Property Name="address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="client" Relationship="Self.FK_client_address_id" FromRole="client_address" ToRole="client" />
+  </EntityType>
+  <EntityType Name="inventory">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="product_id" Type="Int32" />
+    <Property Name="stock" Type="Int32" />
+    <Property Name="store_id" Type="Int32" />
+    <NavigationProperty Name="product" Relationship="Self.FK_inventory_product_id" FromRole="inventory" ToRole="products" />
+    <NavigationProperty Name="store" Relationship="Self.FK_inventory_store_id" FromRole="inventory" ToRole="stores" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="category_id" Type="Int32" />
+    <Property Name="price" Type="Double" />
+    <NavigationProperty Name="billings" Relationship="Self.FK_billing_product_id" FromRole="products" ToRole="billing" />
+    <NavigationProperty Name="category" Relationship="Self.FK_products_category_id" FromRole="products" ToRole="categories" />
+    <NavigationProperty Name="inventories" Relationship="Self.FK_inventory_product_id" FromRole="products" ToRole="inventory" />
+  </EntityType>
+  <EntityType Name="store">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="store_address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="billings" Relationship="Self.FK_billing_store_id" FromRole="stores" ToRole="billing" />
+    <NavigationProperty Name="inventories" Relationship="Self.FK_inventory_store_id" FromRole="stores" ToRole="inventory" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="role_id" Type="Int32" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="clients" Relationship="Self.FK_clientuser_id" FromRole="user" ToRole="client" />
+  </EntityType>
+  <Association Name="FK_billing_client_id">
+    <End Role="client" Type="Self.client" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="billing" Type="Self.billing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="billing">
+        <PropertyRef Name="client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_billing_product_id">
+    <End Role="products" Type="Self.product" Multiplicity="0..1" />
+    <End Role="billing" Type="Self.billing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="products">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="billing">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_billing_store_id">
+    <End Role="stores" Type="Self.store" Multiplicity="0..1" />
+    <End Role="billing" Type="Self.billing" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stores">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="billing">
+        <PropertyRef Name="store_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_products_category_id">
+    <End Role="categories" Type="Self.category" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="products" Type="Self.product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="categories">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="products">
+        <PropertyRef Name="category_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_client_address_id">
+    <End Role="client" Type="Self.client" Multiplicity="0..1" />
+    <End Role="client_address" Type="Self.client_address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="client">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="client_address">
+        <PropertyRef Name="client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_clientuser_id">
+    <End Role="user" Type="Self.user" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="client" Type="Self.client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="client">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_inventory_product_id">
+    <End Role="products" Type="Self.product" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="inventory" Type="Self.inventory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="products">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="inventory">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_inventory_store_id">
+    <End Role="stores" Type="Self.store" Multiplicity="0..1" />
+    <End Role="inventory" Type="Self.inventory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stores">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="inventory">
+        <PropertyRef Name="store_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OrganicartEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="billings" EntityType="Self.billing" />
+    <EntitySet Name="categories" EntityType="Self.category" />
+    <EntitySet Name="clients" EntityType="Self.client" />
+    <EntitySet Name="client_address" EntityType="Self.client_address" />
+    <EntitySet Name="inventories" EntityType="Self.inventory" />
+    <EntitySet Name="products" EntityType="Self.product" />
+    <EntitySet Name="stores" EntityType="Self.store" />
+    <EntitySet Name="users" EntityType="Self.user" />
+    <AssociationSet Name="FK_billing_client_id" Association="Self.FK_billing_client_id">
+      <End Role="client" EntitySet="clients" />
+      <End Role="billing" EntitySet="billings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_billing_product_id" Association="Self.FK_billing_product_id">
+      <End Role="products" EntitySet="products" />
+      <End Role="billing" EntitySet="billings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_billing_store_id" Association="Self.FK_billing_store_id">
+      <End Role="stores" EntitySet="stores" />
+      <End Role="billing" EntitySet="billings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_products_category_id" Association="Self.FK_products_category_id">
+      <End Role="categories" EntitySet="categories" />
+      <End Role="products" EntitySet="products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_client_address_id" Association="Self.FK_client_address_id">
+      <End Role="client" EntitySet="clients" />
+      <End Role="client_address" EntitySet="client_address" />
+    </AssociationSet>
+    <AssociationSet Name="FK_clientuser_id" Association="Self.FK_clientuser_id">
+      <End Role="user" EntitySet="users" />
+      <End Role="client" EntitySet="clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_inventory_product_id" Association="Self.FK_inventory_product_id">
+      <End Role="products" EntitySet="products" />
+      <End Role="inventory" EntitySet="inventories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_inventory_store_id" Association="Self.FK_inventory_store_id">
+      <End Role="stores" EntitySet="stores" />
+      <End Role="inventory" EntitySet="inventories" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
