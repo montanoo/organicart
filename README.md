@@ -24,6 +24,23 @@ Tener SQL Server / SQL es de las partes más importantes para nuestro proyecto y
 <h1 align="center"> ¿Cómo instalar? 💻 </h1>
 Existen dos formas para disfrutar de nuestro proyecto desde tu computadora, principalmente podrías hacer lo siguiente: <br>
 
+<details> 
+   <summary><b><u>Forma principal</u></b></summary>
+Para esta forma es necesario de tener instalado Git: https://git-scm.com/
+  
+1. Una vez instalado Git, abrimos una consola de Git Bash. <br>
+![Captura de pantalla 2022-03-29 165143](https://user-images.githubusercontent.com/73325232/160719671-fe42b532-7b1e-4d5c-b379-493e1ccafab0.png) <br>
+
+2. Escribimos en el bash el siguiente comando: 
+  `git clone https://github.com/fernandomontano/organicart.git`
+  
+3. En el proyecto que se nos acaba de crear, entramos al archivo "Organicart.sln".
+ 
+ </details>
+
+<details> 
+   <summary><b><u>Forma alternativa</u></b></summary>
+
 1. Hacer clic en "Code", en la siguiente imagen se representa donde se encuentra el botón, en la parte superior del repositorio.
 ![Captura de pantalla 2022-03-29 072615](https://user-images.githubusercontent.com/73325232/160621916-4096b60d-b52d-407b-9c83-a9273c9ec838.png) <br>
 2. Hacer clic en "Download ZIP", lo que descargará todo el proyecto a tu computadora en un archivo .zip.
@@ -31,3 +48,11 @@ Existen dos formas para disfrutar de nuestro proyecto desde tu computadora, prin
 3. Extraer el archivo .zip descargado en tu computadora. <br>
 4. Abrir la solución nombrada como "Organicart.sln". <br>
 ![Captura de pantalla 2022-03-29 073041](https://user-images.githubusercontent.com/73325232/160622626-4135641a-5710-4979-9e1a-d092e17a225c.png)
+  
+---
+⚠️ Hacerlo de esta forma puede llegar a causar pequeños errores dado que al descargar los archivos directamente como .zip de una página web, Windows puede protegerlos, para arreglar esto, sería necesario modificar cada uno de los archivos que tienen extensión .resx y hacer clic en "desbloquear". ⚠️
+  
+  ![Captura de pantalla 2022-03-29 165917](https://user-images.githubusercontent.com/73325232/160720248-fcf74d76-d573-4570-a501-5fcfe268f7a8.png)
+
+  
+</details>
