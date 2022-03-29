@@ -15,7 +15,7 @@ namespace Organicart
 
         private Image _product;
         private string _productName;
-        private float _price;
+        private double _price;
         private decimal _quantity;
 
         [Category("Custom Props")]
@@ -33,7 +33,7 @@ namespace Organicart
         }
 
         [Category("Custom Props")]
-        public float Price
+        public double Price
         {
             get { return _price; }
             set { _price = value; Pricelbl.Text = "$" + value; }

@@ -23,6 +23,8 @@ namespace Organicart
         - Luciana María Munguía Villacorta. MV210941 |
         - Carlos Vicente Castillo Sayes. CS210003 |
         */
+
+        CustomCartItem[] cartItems;
         public Cart()
         {
             InitializeComponent();
@@ -31,33 +33,43 @@ namespace Organicart
         }
         private void GenerateDynamicUserControls()
         {
-            var linkedProducts = new ProductsList();
+            //var linkedProducts = new CartList();
+            var linkedProducts = Products.Cart;
             //obtenemos los productos de la categoria seleccionada
-            var values = Products.Cart;
 
-            var head = values.Head;
+            var head = linkedProducts.Head;
             //limpiamos el flow layout panel
             flowLayoutPanel1.Controls.Clear();
             //establecemos la cantidad de product items que aparecerán en pantalla
-            var productItems = new CustomCartItem[CountItems()];
+            cartItems = new CustomCartItem[CountItems()];
             var i = 0;
 
             while (head != null)
             {
+                var values = linkedProducts.SearchCart(i);
                 //creating cart items
-                productItems[i] = new CustomCartItem();
+                cartItems[i] = new CustomCartItem();
 
                 //adding data to cart items
-                productItems[i].ProductNames = head.Data.name;
-                productItems[i].ProductImage = ByteToImage(head.Data.photo);
-                productItems[i].Price = (float) head.Data.price;
+                cartItems[i].ProductNames = head.Data.name;
+                cartItems[i].ProductImage = ByteToImage(head.Data.photo);
+                cartItems[i].Price = (double)head.Data.price;
 
                 //adding items to the flow layout panel
-                flowLayoutPanel1.Controls.Add(productItems[i]);
+                flowLayoutPanel1.Controls.Add(cartItems[i]);
 
+                cartItems[i].Click += this.UserControl_Click;
+                //IDProducto = productItems[i].ProductNames;
                 i++;
                 head = head.Next;
             }
+
+        }
+        void UserControl_Click(Object sender, EventArgs e)
+        {
+            MessageBox.Show(cartItems[CustomProductItem.Control.TabIndex].ProductNames);
+            //hacer metodo de cart para delete
+            //esto nooo Cart.InsertTail(productItems[CustomProductItem.Control.TabIndex].ProductNames);
         }
         public Image ByteToImage(byte[] byteArrayIn)
         {
@@ -71,7 +83,7 @@ namespace Organicart
         {
             int quantity = 0;
             var linkedCart = Products.Cart;
-            //obtenemos los productos de la categoria seleccionada
+            //obtenemos los productos del carrito
             
 
             var head = linkedCart.Head;

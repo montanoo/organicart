@@ -27,10 +27,10 @@ namespace Organicart.Views
         ProductsList products = new ProductsList();
         //recibimos la categoria que se quiere ver
         int selectedcategory;
-        string IDProducto;
 
         CustomProductItem[] productItems;
 
+        //creamos el carrito 
         public static CartList Cart = new CartList();
         public Products(int category)
         {
@@ -65,12 +65,10 @@ namespace Organicart.Views
                 flowLayoutPanel1.Controls.Add(productItems[i]);
 
                 productItems[i].Click += this.UserControl_Click;
-                IDProducto = productItems[i].ProductNames;
+                //IDProducto = productItems[i].ProductNames;
                 i++;
                 head = head.Next;
             }
-
-
 
         }
         //evento cuando se le da click a un item de producto
@@ -97,6 +95,7 @@ namespace Organicart.Views
             return quantity;
         }
 
+        //método para convertir de byte a imagen desde la bd
         public Image ByteToImage(byte[] byteArrayIn)
         {
             using (var ms = new MemoryStream(byteArrayIn))
