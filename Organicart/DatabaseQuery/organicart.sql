@@ -139,3 +139,12 @@ GO
 INSERT INTO [user] (username, password) VALUES 
 	('MG210111', 'password')
 GO
+
+INSERT INTO categories VALUES
+	('Frutas',''),
+	('Bebidas',''),
+	('Vegetales',''),
+	('Granos',''),
+	('Lacteos',''),
+	('Snacks','')
+GO

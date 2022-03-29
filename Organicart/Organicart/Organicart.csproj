@@ -233,8 +233,10 @@
   <ItemGroup>
     <Compile Include="Controllers\CheckDatabase.cs" />
     <Compile Include="Controllers\LoginUser.cs" />
+    <Compile Include="Controllers\ProductsList.cs" />
     <Compile Include="Controllers\UserList.cs" />
     <Compile Include="Controllers\UsersNode.cs" />
+    <Compile Include="Controllers\ProductsNode.cs" />
     <Compile Include="Models\billing.cs">
       <DependentUpon>OrganicartModel.tt</DependentUpon>
     </Compile>
@@ -279,6 +281,12 @@
     </Compile>
     <Compile Include="Views\Address.Designer.cs">
       <DependentUpon>Address.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdminAddProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdminAddProducts.Designer.cs">
+      <DependentUpon>AdminAddProducts.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\AdminMenu.cs">
       <SubType>Form</SubType>
@@ -350,6 +358,9 @@
     </Compile>
     <EmbeddedResource Include="Views\Address.resx">
       <DependentUpon>Address.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdminAddProducts.resx">
+      <DependentUpon>AdminAddProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\AdminMenu.resx">
       <DependentUpon>AdminMenu.cs</DependentUpon>
