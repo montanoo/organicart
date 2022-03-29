@@ -35,6 +35,7 @@ namespace Organicart.Views
             this.Cartbtn = new System.Windows.Forms.PictureBox();
             this.Productsbtn = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.profileButton = new System.Windows.Forms.PictureBox();
             this.cartBtn2 = new System.Windows.Forms.PictureBox();
             this.homePagebtn = new System.Windows.Forms.PictureBox();
@@ -47,18 +48,17 @@ namespace Organicart.Views
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profilebtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cartbtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Productsbtn)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profileButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cartBtn2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.homePagebtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.aboutBanner)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -128,6 +128,16 @@ namespace Organicart.Views
             this.panel3.Size = new System.Drawing.Size(98, 856);
             this.panel3.TabIndex = 49;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(12, 785);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(80, 71);
+            this.pictureBox5.TabIndex = 3;
+            this.pictureBox5.TabStop = false;
+            // 
             // profileButton
             // 
             this.profileButton.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -183,6 +193,7 @@ namespace Organicart.Views
             // 
             this.aboutBanner.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("aboutBanner.BackgroundImage")));
             this.aboutBanner.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.aboutBanner.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.aboutBanner.Location = new System.Drawing.Point(96, 118);
             this.aboutBanner.Name = "aboutBanner";
             this.aboutBanner.Size = new System.Drawing.Size(1417, 198);
@@ -192,6 +203,7 @@ namespace Organicart.Views
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Default;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label1.Location = new System.Drawing.Point(154, 352);
@@ -203,6 +215,7 @@ namespace Organicart.Views
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Default;
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
             this.label2.Location = new System.Drawing.Point(159, 453);
             this.label2.Name = "label2";
@@ -213,6 +226,7 @@ namespace Organicart.Views
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label3.Location = new System.Drawing.Point(964, 352);
@@ -232,6 +246,7 @@ namespace Organicart.Views
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
             this.label4.Location = new System.Drawing.Point(666, 432);
             this.label4.Name = "label4";
@@ -242,6 +257,7 @@ namespace Organicart.Views
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label5.Location = new System.Drawing.Point(977, 546);
@@ -253,6 +269,7 @@ namespace Organicart.Views
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
             this.label6.Location = new System.Drawing.Point(666, 639);
             this.label6.Name = "label6";
@@ -261,16 +278,6 @@ namespace Organicart.Views
             this.label6.Text = "Nuestra visión es ser la fuente más confiable de productos amigables con \r\nel med" +
     "io ambiente, proveer información para el consumidor y brindar la \r\nmás amena exp" +
     "eriencia de compra.";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(12, 785);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(80, 71);
-            this.pictureBox5.TabIndex = 3;
-            this.pictureBox5.TabStop = false;
             // 
             // AboutUs
             // 
@@ -309,11 +316,11 @@ namespace Organicart.Views
             ((System.ComponentModel.ISupportInitialize)(this.Cartbtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Productsbtn)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profileButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cartBtn2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.homePagebtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.aboutBanner)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

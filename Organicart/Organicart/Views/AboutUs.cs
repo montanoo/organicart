@@ -12,6 +12,14 @@ namespace Organicart.Views
 {
     public partial class AboutUs : Base
     {
+        
+//Integrantes: 
+//- Fernando Josué Montano González. MG210111 | 
+//- Andrea Guadalupe Velásquez Joyar. VJ210576 |
+//- Ivania María Lebrón Flores. LF212591 | 
+//- Luciana María Munguía Villacorta. MV210941 |
+//- Carlos Vicente Castillo Sayes. CS210003 |
+
         public AboutUs()
         {
             InitializeComponent();

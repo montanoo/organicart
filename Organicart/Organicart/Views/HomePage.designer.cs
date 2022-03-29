@@ -48,11 +48,11 @@ namespace Organicart
             this.btnSnacks = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.aboutUsbtn = new System.Windows.Forms.PictureBox();
             this.profilebtn = new System.Windows.Forms.PictureBox();
             this.Cartbtn = new System.Windows.Forms.PictureBox();
             this.Productsbtn = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.aboutUsbtn = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnFrutas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnBebidas)).BeginInit();
@@ -64,10 +64,10 @@ namespace Organicart
             ((System.ComponentModel.ISupportInitialize)(this.btnLacteos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSnacks)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.aboutUsbtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profilebtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cartbtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Productsbtn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aboutUsbtn)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -124,7 +124,7 @@ namespace Organicart
             this.btnBebidas.Size = new System.Drawing.Size(98, 104);
             this.btnBebidas.TabIndex = 3;
             this.btnBebidas.TabStop = false;
-            this.btnBebidas.Click += new System.EventHandler(this.btnFrutas_Click_1);
+            this.btnBebidas.Click += new System.EventHandler(this.btnBebidas_Click);
             // 
             // label2
             // 
@@ -161,7 +161,7 @@ namespace Organicart
             this.btnVegetales.Size = new System.Drawing.Size(100, 104);
             this.btnVegetales.TabIndex = 6;
             this.btnVegetales.TabStop = false;
-            this.btnVegetales.Click += new System.EventHandler(this.btnFrutas_Click_1);
+            this.btnVegetales.Click += new System.EventHandler(this.btnVegetales_Click);
             // 
             // label4
             // 
@@ -186,7 +186,7 @@ namespace Organicart
             this.btnGranos.Size = new System.Drawing.Size(100, 104);
             this.btnGranos.TabIndex = 8;
             this.btnGranos.TabStop = false;
-            this.btnGranos.Click += new System.EventHandler(this.btnFrutas_Click_1);
+            this.btnGranos.Click += new System.EventHandler(this.btnGranos_Click);
             // 
             // label5
             // 
@@ -244,7 +244,7 @@ namespace Organicart
             this.btnLacteos.Size = new System.Drawing.Size(100, 104);
             this.btnLacteos.TabIndex = 15;
             this.btnLacteos.TabStop = false;
-            this.btnLacteos.Click += new System.EventHandler(this.btnFrutas_Click_1);
+            this.btnLacteos.Click += new System.EventHandler(this.btnLacteos_Click);
             // 
             // label6
             // 
@@ -269,7 +269,7 @@ namespace Organicart
             this.btnSnacks.Size = new System.Drawing.Size(100, 118);
             this.btnSnacks.TabIndex = 17;
             this.btnSnacks.TabStop = false;
-            this.btnSnacks.Click += new System.EventHandler(this.btnFrutas_Click_1);
+            this.btnSnacks.Click += new System.EventHandler(this.btnSnacks_Click);
             // 
             // label7
             // 
@@ -295,6 +295,18 @@ namespace Organicart
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(98, 823);
             this.panel3.TabIndex = 50;
+            // 
+            // aboutUsbtn
+            // 
+            this.aboutUsbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("aboutUsbtn.BackgroundImage")));
+            this.aboutUsbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.aboutUsbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.aboutUsbtn.Location = new System.Drawing.Point(12, 752);
+            this.aboutUsbtn.Name = "aboutUsbtn";
+            this.aboutUsbtn.Size = new System.Drawing.Size(80, 71);
+            this.aboutUsbtn.TabIndex = 56;
+            this.aboutUsbtn.TabStop = false;
+            this.aboutUsbtn.Click += new System.EventHandler(this.aboutUsbtn_Click);
             // 
             // profilebtn
             // 
@@ -346,18 +358,6 @@ namespace Organicart
             this.label8.Size = new System.Drawing.Size(346, 61);
             this.label8.TabIndex = 55;
             this.label8.Text = "Menu principal";
-            // 
-            // aboutUsbtn
-            // 
-            this.aboutUsbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("aboutUsbtn.BackgroundImage")));
-            this.aboutUsbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.aboutUsbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.aboutUsbtn.Location = new System.Drawing.Point(12, 752);
-            this.aboutUsbtn.Name = "aboutUsbtn";
-            this.aboutUsbtn.Size = new System.Drawing.Size(80, 71);
-            this.aboutUsbtn.TabIndex = 56;
-            this.aboutUsbtn.TabStop = false;
-            this.aboutUsbtn.Click += new System.EventHandler(this.aboutUsbtn_Click);
             // 
             // HomePage
             // 
@@ -414,10 +414,10 @@ namespace Organicart
             ((System.ComponentModel.ISupportInitialize)(this.btnLacteos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSnacks)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.aboutUsbtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profilebtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cartbtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Productsbtn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aboutUsbtn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
