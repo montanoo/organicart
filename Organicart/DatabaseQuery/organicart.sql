@@ -132,7 +132,3 @@ INSERT INTO categories VALUES
 	('Lacteos',''),
 	('Snacks','')
 GO
-
-SELECT * FROM products
-
-SELECT * FROM categories

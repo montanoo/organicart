@@ -24,10 +24,12 @@ namespace Organicart
         public HomePage()
         {
             InitializeComponent();
+
         }
 
         private void Productsbtn_Click(object sender, EventArgs e)
         {
+            
             var enterHome = new HomePage();
             enterHome.Show();
             this.Hide();
