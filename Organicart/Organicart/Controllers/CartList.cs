@@ -80,6 +80,37 @@ namespace Organicart.Controllers
             return pointer;
         }
 
+        public bool Repeated(string name)
+        {
+            /*Tenemos un nuevo nodo auxiliar (puntero) que toma lo que tenga
+             el nodo raiz que es el listado completo*/
+
+            CartNode pointer = Head;
+            bool repetition;
+
+            if (Head != null)
+            {
+                repetition = true;
+                /*comparamos cada puntero para saber si es diferente al carnet
+                si todos son diferentes se retorna false*/
+                while (pointer.Data.name != name)
+                {
+                    pointer = pointer.Next;
+
+                    if (pointer == null)// si llega al final y no se ha encontrado un dui igual, no esta repetido
+                    {
+                        repetition = false;
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                repetition = false;   
+            }
+            return repetition;
+        }
+
 
     }
 }

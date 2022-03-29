@@ -75,7 +75,14 @@ namespace Organicart.Views
         void UserControl_Click(Object sender, EventArgs e)
         {
             MessageBox.Show(productItems[CustomProductItem.Control.TabIndex].ProductNames);
-            Cart.InsertTail(productItems[CustomProductItem.Control.TabIndex].ProductNames);
+            if (!Cart.Repeated(productItems[CustomProductItem.Control.TabIndex].ProductNames))
+            {
+                Cart.InsertTail(productItems[CustomProductItem.Control.TabIndex].ProductNames);
+            }
+            else
+            {
+                MessageBox.Show("Este producto ya se encuentra en tu carrito! puedes cambiar la cantidad en el carrito");
+            }
         }
 
         //cuenta los items que cumplen con la categoria seleccionada

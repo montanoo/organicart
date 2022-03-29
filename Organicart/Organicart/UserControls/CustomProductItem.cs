@@ -43,11 +43,6 @@ namespace Organicart
 
         #endregion
 
-        private void btnAddToCart_Click(object sender, System.EventArgs e)
-        {
-
-        }
-
         private void CustomProductItem_Click(object sender, System.EventArgs e)
         {
             Control = (Control)sender;   // Sender gives you which control is clicked.
