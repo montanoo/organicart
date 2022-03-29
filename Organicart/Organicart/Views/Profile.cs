@@ -79,7 +79,10 @@ namespace Organicart.Views
                 phonetxt.Text = Convert.ToString(dataclient.phone);
                 duitxt.Text = dataclient.dui;
                 emailtxt.Text = dataclient.email;
-                fotocliente.Image = ByteArrayToImage(dataclient.photo);
+                if (dataclient.photo != null)
+                {
+                    fotocliente.Image = ByteArrayToImage(dataclient.photo);
+                }
 
             }
         }
@@ -105,7 +108,7 @@ namespace Organicart.Views
                     {
                         user datauser_ = database.users.Where(d => d.username == auxusername).FirstOrDefault();
                         user datauser = database.users.Where(d => d.id == datauser_.id).FirstOrDefault();
-                        datauser.username = nametxt.Text;
+                        datauser.username = usertxt.Text;
                         datauser.password = passwordtxt.Text;
                         database.Entry(datauser).State = EntityState.Modified;
                         database.SaveChanges();
@@ -132,6 +135,7 @@ namespace Organicart.Views
                         database.Entry(dataclient).State = EntityState.Modified;
                         database.SaveChanges();
                     }
+                    MessageBox.Show("Se han guardado los cambios");
                 }
                 catch(Exception ex)
                 {

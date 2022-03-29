@@ -322,6 +322,7 @@
             this.usertxt.Location = new System.Drawing.Point(423, 178);
             this.usertxt.Margin = new System.Windows.Forms.Padding(4);
             this.usertxt.Name = "usertxt";
+            this.usertxt.ReadOnly = true;
             this.usertxt.Size = new System.Drawing.Size(304, 27);
             this.usertxt.TabIndex = 65;
             this.usertxt.Text = "MG210111";
