@@ -17,13 +17,13 @@ namespace Organicart.Views
     public partial class Profile : Base
     {
       
-        bool imagechange=false;
-        string auxusername;
+        bool imagechange=false; //servirá para saber si se ha cambiado la foto
+        string auxusername; //recibe el parámetro
         public Profile(string username)
         {
             InitializeComponent();
-            string username_ = username;
-            auxusername = username_;
+            
+            auxusername = username;
         }
 
         private void Cartbtn_Click(object sender, EventArgs e)
@@ -42,18 +42,13 @@ namespace Organicart.Views
 
         public Image ByteArrayToImage(byte[] byteArrayIn)
         {
+            //devuelve el byte a una imagen
             using (var ms = new MemoryStream(byteArrayIn))
             {
                 var returnImage = Image.FromStream(ms);
 
                 return returnImage;
             }
-        }
-        public byte[] ImageToByteArray(Image imageIn)
-        {
-            MemoryStream ms = new MemoryStream();
-            imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Gif);
-            return ms.ToArray();
         }
         public byte[] ImageToInsert(Image image)
         {
@@ -66,6 +61,7 @@ namespace Organicart.Views
         }
         private void Profile_Load(object sender, EventArgs e)
         {
+            //verifica el usuario que está en la sesión en ese momento y muestra sus datos
             using (OrganicartEntities database = new OrganicartEntities())
             {
                 user datauser_ = database.users.Where(d => d.username == auxusername).FirstOrDefault();
@@ -104,6 +100,7 @@ namespace Organicart.Views
 
                 try
                 {
+                    //hace la modificación en la base de datos
                     using (OrganicartEntities database = new OrganicartEntities())
                     {
                         user datauser_ = database.users.Where(d => d.username == auxusername).FirstOrDefault();
@@ -128,7 +125,7 @@ namespace Organicart.Views
                         {
                             dataclient.photo = null;
                         }
-                        else if (imagechange)
+                        else if (imagechange) //comprueba que la imagen cambió
                         {
                             dataclient.photo = ImageToInsert(fotocliente.Image);
                         }

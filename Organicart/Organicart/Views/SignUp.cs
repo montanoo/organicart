@@ -15,7 +15,7 @@ namespace Organicart
 {
     public partial class SignUp : Base
     {
-        int id;
+        int id; //guarda el id del nuevo registro
         public SignUp()
         {
             InitializeComponent();
@@ -41,6 +41,7 @@ namespace Organicart
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //permite seleccionar una imagen de los archivos
             OpenFileDialog foto = new OpenFileDialog();
             DialogResult fotore = foto.ShowDialog();
             if (fotore == DialogResult.OK)
@@ -50,7 +51,7 @@ namespace Organicart
         }
         public static bool validemail(string pemail)
         {
-
+            //validacion del formato del correo
             string expression = @"^([a-zA-Z0-9_\-])([a-zA-Z0-9_\-\.]*)@(\[((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}|((([a-zA-Z0-9\-]+)\.)+))([a-zA-Z]{2,}|(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\])$";
 
             if (Regex.IsMatch(pemail, expression))
@@ -71,6 +72,7 @@ namespace Organicart
         }
         public byte[] ImageToInsert(Image image)
         {
+            //convierte la imagen a byte para guardarla en la base de datos
             using (var memory = new MemoryStream())
             {
                 image.Save(memory, System.Drawing.Imaging.ImageFormat.Jpeg);
@@ -80,6 +82,7 @@ namespace Organicart
         }
         public Boolean WeakPassword(TextBox txtPassword)
         {
+            //evalua la contraseña
             int countnumbers = 0;
             for (int i = 0; i < txtPassword.TextLength; i++)
             {
@@ -114,6 +117,7 @@ namespace Organicart
                 {
                     using (OrganicartEntities database = new OrganicartEntities())
                     {
+                        //primero se guardan los registros en la tabla user
                         user datauser = new user();
                         datauser.username = usertxt.Text;
                         datauser.password = passwordtxt.Text;
@@ -124,17 +128,19 @@ namespace Organicart
 
                     using (OrganicartEntities database = new OrganicartEntities())
                     {
+                        //se guardan los registros en la tabla clients
                         client dataclient = new client();
                         dataclient.name = nametxt.Text;
                         dataclient.lastname = lastnametxt.Text;
                         dataclient.phone = Convert.ToInt32(phonetxt.Text);
                         dataclient.dui = duitxt.Text;
                         dataclient.email = emailtxt.Text;
-                        if (fotocliente.Image != null)
+                        if (fotocliente.Image != null) 
                         {
                             dataclient.photo = ImageToInsert(fotocliente.Image);
                         }
-                        var result = database.users.Where(b => b.username == usertxt.Text);
+                        //relaciona el id de la tabla user con la foreign key de la tabla client
+                        var result = database.users.Where(b => b.username == usertxt.Text); 
                         dataclient.user_id = id;
                         database.clients.Add(dataclient);
                         database.SaveChanges();
