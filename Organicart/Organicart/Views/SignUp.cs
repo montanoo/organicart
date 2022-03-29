@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Organicart.Models;
 
 namespace Organicart
 {
     public partial class SignUp : Base
     {
+        int id;
         public SignUp()
         {
             InitializeComponent();
@@ -22,6 +24,55 @@ namespace Organicart
             var login = new Login();
             login.Show();
             this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void SignUp_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog foto = new OpenFileDialog();
+            DialogResult fotore = foto.ShowDialog();
+            if (fotore == DialogResult.OK)
+            {
+                fotocliente.Image = Image.FromFile(foto.FileName);
+            }
+        }
+
+        private void loginbtn_Click(object sender, EventArgs e)
+        {
+            using (OrganicartEntities database=new OrganicartEntities())
+            {
+                user datauser = new user();
+                datauser.username = usertxt.Text;
+                datauser.password = passwordtxt.Text;
+                database.users.Add(datauser);
+                database.SaveChanges();
+                id = datauser.id;
+            }
+
+            using (OrganicartEntities database = new OrganicartEntities())
+            {
+                client dataclient = new client();
+                dataclient.name = nametxt.Text;
+                dataclient.lastname = lastnametxt.Text;
+                dataclient.phone = Convert.ToInt32(phonetxt.Text);
+                dataclient.dui = duitxt.Text;
+                dataclient.email = emailtxt.Text;
+                var result = database.users.Where(b => b.username == usertxt.Text);
+                dataclient.user_id = id;
+                database.clients.Add(dataclient);
+                database.SaveChanges();
+            }
+
+
         }
     }
 }

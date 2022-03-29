@@ -122,7 +122,7 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label9.Location = new System.Drawing.Point(496, 465);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(55, 31);
+            this.label9.Size = new System.Drawing.Size(58, 32);
             this.label9.TabIndex = 88;
             this.label9.Text = "DUI";
             // 
@@ -166,7 +166,7 @@
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label8.Location = new System.Drawing.Point(238, 358);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 31);
+            this.label8.Size = new System.Drawing.Size(77, 32);
             this.label8.TabIndex = 84;
             this.label8.Text = "Email";
             // 
@@ -208,7 +208,7 @@
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label6.Location = new System.Drawing.Point(687, 352);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(240, 31);
+            this.label6.Size = new System.Drawing.Size(256, 32);
             this.label6.TabIndex = 80;
             this.label6.Text = "Fecha de nacimiento:";
             // 
@@ -252,7 +252,7 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label5.Location = new System.Drawing.Point(687, 229);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 31);
+            this.label5.Size = new System.Drawing.Size(118, 32);
             this.label5.TabIndex = 76;
             this.label5.Text = "Apellido:";
             // 
@@ -296,7 +296,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label1.Location = new System.Drawing.Point(687, 139);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 31);
+            this.label1.Size = new System.Drawing.Size(116, 32);
             this.label1.TabIndex = 72;
             this.label1.Text = "Nombre:";
             // 
@@ -349,9 +349,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label3.Location = new System.Drawing.Point(238, 247);
+            this.label3.Location = new System.Drawing.Point(232, 246);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 31);
+            this.label3.Size = new System.Drawing.Size(151, 32);
             this.label3.TabIndex = 67;
             this.label3.Text = "Contraseña:";
             // 
@@ -383,9 +383,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label2.Location = new System.Drawing.Point(228, 139);
+            this.label2.Location = new System.Drawing.Point(238, 138);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 31);
+            this.label2.Size = new System.Drawing.Size(110, 32);
             this.label2.TabIndex = 64;
             this.label2.Text = "Usuario:";
             // 
@@ -460,7 +460,7 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(551, 38);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(230, 50);
+            this.label7.Size = new System.Drawing.Size(235, 51);
             this.label7.TabIndex = 93;
             this.label7.Text = "Editar perfil";
             // 
