@@ -68,11 +68,16 @@ namespace Organicart
         }
         void UserControl_Click(Object sender, EventArgs e)
         {
-            MessageBox.Show(cartItems[CustomCartItem.Control.TabIndex].ProductName);
-            Products.Cart.DeleteItem(cartItems[CustomCartItem.Control.TabIndex].ProductNames);
-            GenerateDynamicUserControls();
-            //hacer metodo de cart para delete
-            //esto nooo Cart.InsertTail(productItems[CustomProductItem.Control.TabIndex].ProductNames);
+            var dialog = MessageBox.Show("Estás seguro que deseas eliminar este elemento de tu carrito?", "Alerta",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+
+            // si el usuario aceptó la pregunta.
+            if (dialog == DialogResult.Yes)
+            {
+                Products.Cart.DeleteItem(cartItems[CustomCartItem.Control.TabIndex].ProductNames);
+                GenerateDynamicUserControls();
+                MessageBox.Show("Se ha eliminado con éxito tu producto", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
         public Image ByteToImage(byte[] byteArrayIn)
         {
@@ -114,9 +119,10 @@ namespace Organicart
 
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            var enterAddress = new Address(username);
-            enterAddress.Show();
-            this.Hide();
+            MessageBox.Show("Esta funcionalidad estará disponible en la entrega final", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //var enterAddress = new Address(username);
+            //enterAddress.Show();
+            //this.Hide();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
