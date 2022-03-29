@@ -7,7 +7,7 @@ using Organicart.Models;
 
 namespace Organicart.Controllers
 {
-    internal class CartList
+    public class CartList
     {
         /*
        Integrantes: 
@@ -24,34 +24,34 @@ namespace Organicart.Controllers
             Head = null;
         }
 
-        public void InsertTail(int ID)
+        public void InsertTail(string name)
         {
-            using (var db = new OrganicartEntities())
-            {
-                /* en la variable products están todos los productos de la base,
-                   guardados como clase product.*/
-                //buscamos el producto con el id deseado
-                var products = db.products.Where(d => d.id == ID).First();
-                // creamos un nodo auxiliar del tipo nodo carrito.
-                var helper = new CartNode()
-                {
-                    Data = products,
-                    Next = null
-                };
-                // si el primer valor es null, creamos un nuevo primer valor.
-                if (Head == null)
-                    Head = helper;
-                // si no, lo insertamos al final.
-                else
-                {
-                    var pointer = Head;
-                    while (pointer.Next != null)
-                    {
-                        pointer = pointer.Next;
-                    }
-                    pointer.Next = helper;
-                }
-            }
+            //using (var db = new OrganicartEntities())
+            //{
+            //    /* en la variable products están todos los productos de la base,
+            //       guardados como clase product.*/
+            //    //buscamos el producto con el id deseado
+            //    var products = db.products.Where(d => d.id == ID).SingleOrDefault();
+            //    // creamos un nodo auxiliar del tipo nodo carrito.
+            //    var helper = new CartNode()
+            //    {
+            //        Data = products,
+            //        Next = null
+            //    };
+            //    // si el primer valor es null, creamos un nuevo primer valor.
+            //    if (Head == null)
+            //        Head = helper;
+            //    // si no, lo insertamos al final.
+            //    else
+            //    {
+            //        var pointer = Head;
+            //        while (pointer.Next != null)
+            //        {
+            //            pointer = pointer.Next;
+            //        }
+            //        pointer.Next = helper;
+            //    }
+            //}
         }
         //método de busqueda por posiciones del carrito, asi lo recorremos uno a uno
         public CartNode SearchCart(int position)

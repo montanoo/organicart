@@ -46,7 +46,8 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Size = new System.Drawing.Size(1047, 121);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Size = new System.Drawing.Size(1280, 161);
             this.panel1.Controls.SetChildIndex(this.label1, 0);
             // 
             // panel2
@@ -55,20 +56,20 @@
             this.panel2.Controls.Add(this.profilebtn);
             this.panel2.Controls.Add(this.Cartbtn);
             this.panel2.Controls.Add(this.Productsbtn);
-            this.panel2.Location = new System.Drawing.Point(0, 2);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Location = new System.Drawing.Point(0, 3);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(68, 538);
+            this.panel2.Size = new System.Drawing.Size(83, 717);
             this.panel2.TabIndex = 48;
             // 
             // profilebtn
             // 
             this.profilebtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.profilebtn.Image = ((System.Drawing.Image)(resources.GetObject("profilebtn.Image")));
-            this.profilebtn.Location = new System.Drawing.Point(11, 218);
-            this.profilebtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.profilebtn.Location = new System.Drawing.Point(13, 291);
+            this.profilebtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.profilebtn.Name = "profilebtn";
-            this.profilebtn.Size = new System.Drawing.Size(43, 40);
+            this.profilebtn.Size = new System.Drawing.Size(53, 53);
             this.profilebtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.profilebtn.TabIndex = 2;
             this.profilebtn.TabStop = false;
@@ -78,10 +79,10 @@
             // 
             this.Cartbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Cartbtn.Image = ((System.Drawing.Image)(resources.GetObject("Cartbtn.Image")));
-            this.Cartbtn.Location = new System.Drawing.Point(10, 160);
-            this.Cartbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Cartbtn.Location = new System.Drawing.Point(12, 213);
+            this.Cartbtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Cartbtn.Name = "Cartbtn";
-            this.Cartbtn.Size = new System.Drawing.Size(43, 38);
+            this.Cartbtn.Size = new System.Drawing.Size(53, 51);
             this.Cartbtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Cartbtn.TabIndex = 1;
             this.Cartbtn.TabStop = false;
@@ -90,10 +91,10 @@
             // 
             this.Productsbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Productsbtn.Image = ((System.Drawing.Image)(resources.GetObject("Productsbtn.Image")));
-            this.Productsbtn.Location = new System.Drawing.Point(11, 103);
-            this.Productsbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Productsbtn.Location = new System.Drawing.Point(13, 137);
+            this.Productsbtn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Productsbtn.Name = "Productsbtn";
-            this.Productsbtn.Size = new System.Drawing.Size(43, 39);
+            this.Productsbtn.Size = new System.Drawing.Size(53, 52);
             this.Productsbtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Productsbtn.TabIndex = 0;
             this.Productsbtn.TabStop = false;
@@ -102,9 +103,10 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(134, 96);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(120, 169);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(722, 424);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(963, 524);
             this.flowLayoutPanel1.TabIndex = 49;
             // 
             // label1
@@ -112,10 +114,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(460, 28);
+            this.label1.Location = new System.Drawing.Point(562, 37);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(153, 41);
+            this.label1.Size = new System.Drawing.Size(189, 50);
             this.label1.TabIndex = 24;
             this.label1.Text = "Tu carrito";
             // 
@@ -126,9 +128,10 @@
             this.loginbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loginbtn.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginbtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.loginbtn.Location = new System.Drawing.Point(905, 422);
+            this.loginbtn.Location = new System.Drawing.Point(1106, 563);
+            this.loginbtn.Margin = new System.Windows.Forms.Padding(4);
             this.loginbtn.Name = "loginbtn";
-            this.loginbtn.Size = new System.Drawing.Size(110, 70);
+            this.loginbtn.Size = new System.Drawing.Size(134, 93);
             this.loginbtn.TabIndex = 22;
             this.loginbtn.Text = "Realizar pago";
             this.loginbtn.UseVisualStyleBackColor = false;
@@ -136,13 +139,12 @@
             // 
             // Cart
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1047, 540);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.loginbtn);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Cart";
             this.Text = "Cart";
             this.Controls.SetChildIndex(this.panel1, 0);

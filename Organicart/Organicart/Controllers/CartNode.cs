@@ -8,7 +8,7 @@ using Organicart.Models;
 
 namespace Organicart.Controllers
 {
-    internal class CartNode
+    public class CartNode
     {
         /*
        Integrantes: 

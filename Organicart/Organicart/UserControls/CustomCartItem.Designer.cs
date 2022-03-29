@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Productimg = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Productlbl = new System.Windows.Forms.Label();
             this.Pricelbl = new System.Windows.Forms.Label();
             this.Quantitynum = new System.Windows.Forms.NumericUpDown();
             this.Trashbtn = new System.Windows.Forms.PictureBox();
-            this.Productimg = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Productimg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Quantitynum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Trashbtn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Productimg)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -50,6 +50,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(145, 129);
             this.panel1.TabIndex = 0;
+            // 
+            // Productimg
+            // 
+            this.Productimg.Location = new System.Drawing.Point(20, 15);
+            this.Productimg.Margin = new System.Windows.Forms.Padding(4);
+            this.Productimg.Name = "Productimg";
+            this.Productimg.Size = new System.Drawing.Size(106, 98);
+            this.Productimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Productimg.TabIndex = 0;
+            this.Productimg.TabStop = false;
             // 
             // panel2
             // 
@@ -86,7 +96,7 @@
             // Quantitynum
             // 
             this.Quantitynum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Quantitynum.Location = new System.Drawing.Point(223, 112);
+            this.Quantitynum.Location = new System.Drawing.Point(356, 60);
             this.Quantitynum.Margin = new System.Windows.Forms.Padding(4);
             this.Quantitynum.Name = "Quantitynum";
             this.Quantitynum.Size = new System.Drawing.Size(209, 30);
@@ -94,23 +104,13 @@
             // 
             // Trashbtn
             // 
-            this.Trashbtn.Location = new System.Drawing.Point(691, 38);
+            this.Trashbtn.Location = new System.Drawing.Point(704, 15);
             this.Trashbtn.Margin = new System.Windows.Forms.Padding(4);
             this.Trashbtn.Name = "Trashbtn";
-            this.Trashbtn.Size = new System.Drawing.Size(51, 75);
+            this.Trashbtn.Size = new System.Drawing.Size(71, 75);
             this.Trashbtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Trashbtn.TabIndex = 3;
             this.Trashbtn.TabStop = false;
-            // 
-            // Productimg
-            // 
-            this.Productimg.Location = new System.Drawing.Point(20, 15);
-            this.Productimg.Margin = new System.Windows.Forms.Padding(4);
-            this.Productimg.Name = "Productimg";
-            this.Productimg.Size = new System.Drawing.Size(106, 98);
-            this.Productimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Productimg.TabIndex = 0;
-            this.Productimg.TabStop = false;
             // 
             // CustomCartItem
             // 
@@ -124,11 +124,11 @@
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CustomCartItem";
-            this.Size = new System.Drawing.Size(764, 167);
+            this.Size = new System.Drawing.Size(804, 119);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Productimg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Quantitynum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Trashbtn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Productimg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

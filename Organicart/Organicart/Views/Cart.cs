@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Organicart.Controllers;
 using Organicart.Views;
 
 namespace Organicart
@@ -29,35 +31,56 @@ namespace Organicart
         }
         private void GenerateDynamicUserControls()
         {
+            var linkedProducts = new ProductsList();
+            //obtenemos los productos de la categoria seleccionada
+            var values = Products.Cart;
+
+            var head = values.Head;
+            //limpiamos el flow layout panel
             flowLayoutPanel1.Controls.Clear();
-            CustomCartItem[] cartItems = new CustomCartItem[2];
+            //establecemos la cantidad de product items que aparecerán en pantalla
+            var productItems = new CustomCartItem[CountItems()];
+            var i = 0;
 
-            //sample product names
-            string[] title = new string[2] { "Pan de Barra Bimbo - 530 grs", "Papel Higiénico Scott - 18 Rollos" };
-
-            //sample prices
-            float[] price = new float[2] { 2, 7 };
-
-            //sample images
-            Image[] product = new Image[2] { Properties.Resources.bread, Properties.Resources.toiletpaper };
-
-            //sample quantity
-            decimal[] quantity = new decimal[2] { 1, 1 };
-
-            for (int i = 0; i < cartItems.Length; i++)
+            while (head != null)
             {
                 //creating cart items
-                cartItems[i] = new CustomCartItem();
+                productItems[i] = new CustomCartItem();
 
                 //adding data to cart items
-                cartItems[i].ProductNames = title[i];
-                cartItems[i].ProductImage = product[i];
-                cartItems[i].Price = price[i];
-                cartItems[i].Quantity = quantity[i];
+                productItems[i].ProductNames = head.Data.name;
+                productItems[i].ProductImage = ByteToImage(head.Data.photo);
+                productItems[i].Price = (float) head.Data.price;
 
                 //adding items to the flow layout panel
-                flowLayoutPanel1.Controls.Add(cartItems[i]);
+                flowLayoutPanel1.Controls.Add(productItems[i]);
+
+                i++;
+                head = head.Next;
             }
+        }
+        public Image ByteToImage(byte[] byteArrayIn)
+        {
+            using (var ms = new MemoryStream(byteArrayIn))
+            {
+                var returnImage = Image.FromStream(ms);
+                return returnImage;
+            }
+        }
+        public int CountItems()
+        {
+            int quantity = 0;
+            var linkedCart = Products.Cart;
+            //obtenemos los productos de la categoria seleccionada
+            
+
+            var head = linkedCart.Head;
+            while (head != null)
+            {
+                quantity++;
+                head = head.Next;
+            }
+            return quantity;
         }
 
         private void profilebtn_Click(object sender, EventArgs e)
