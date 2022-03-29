@@ -27,7 +27,7 @@ namespace Organicart.Views
 
         private void Productsbtn_Click(object sender, EventArgs e)
         {
-            var enterProducts = new Products();
+            var enterProducts = new Products(1);
             enterProducts.Show();
             this.Hide();
         }

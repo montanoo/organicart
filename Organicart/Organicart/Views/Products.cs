@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Organicart.Views
 {
@@ -20,45 +21,83 @@ namespace Organicart.Views
         - Luciana María Munguía Villacorta. MV210941 |
         - Carlos Vicente Castillo Sayes. CS210003 |
         */
-        public Products()
+
+        // creamos un objeto de clase productslist
+        Controllers.ProductsList products = new Controllers.ProductsList();
+        //recibimos la categoria que se quiere ver
+        int selectedcategory;
+        int IDProducto;
+        public Products(int category)
         {
+            selectedcategory = category;
             InitializeComponent();
-            GenerateDynamicUserControls();
+            GenerateDynamicUserControls();        
         }
         private void GenerateDynamicUserControls()
         {
+            var linkedProducts = new Controllers.ProductsList();
+            //obtenemos los productos de la categoria seleccionada
+            var values = linkedProducts.GetProductsByCategory(selectedcategory);
+
+            var head = values.Head;
+            //limpiamos el flow layout panel
             flowLayoutPanel1.Controls.Clear();
-            CustomProductItem[] productitem = new CustomProductItem[5];
+            //establecemos la cantidad de product items que aparecerán en pantalla
+            CustomProductItem[] productitem = new CustomProductItem[CountItems()];
+            int i = 0;
 
-            //sample product names
-            string[] title = new string[5] { "Semita Alta", "Aceite Orisol 875ml", "2 Pack Arroz Precocido 1LB", "Pan de Barra Bimbo - 530 grs", "Papel Higiénico Scott - 18 Rollos" };
-
-            //sample prices
-            double[] price = new double[5] { 0.45, 5.60, 1.55, 2.00, 7.00 };
-
-            //sample images
-            Image[] product = new Image[5] { Properties.Resources.semita, Properties.Resources.oil, Properties.Resources.rice, Properties.Resources.bread, Properties.Resources.toiletpaper };
-
-            //sample quantity
-            //    decimal[] quantity = new decimal[2] { 1, 1 };
-
-            for (int i = 0; i < productitem.Length; i++)
+            while (head != null)
             {
                 //creating cart items
                 productitem[i] = new CustomProductItem();
 
                 //adding data to cart items
-                productitem[i].ProductNames = title[i];
-                productitem[i].ProductImage = product[i];
-                productitem[i].Price = price[i];
-                //    cartitem[i].Quantity = quantity[i];
+                productitem[i].ProductNames = head.Data.name;
+                productitem[i].ProductImage = ByteToImage(head.Data.photo);
+                productitem[i].Price = (double)head.Data.price;
 
                 //adding items to the flow layout panel
                 flowLayoutPanel1.Controls.Add(productitem[i]);
 
+                productitem[i].Click += new System.EventHandler(this.UserControl_Click);
+                IDProducto = head.Data.id;
+                i++;
+                head = head.Next;
             }
         }
+        //evento cuando se le da click a un item de producto
+        void UserControl_Click(Object sender, EventArgs e)
+        {
+            //guardar en lista CartList
+            Controllers.CartList cart = new Controllers.CartList();
+            cart.InsertTail(IDProducto);
+        }
 
+        //cuenta los items que cumplen con la categoria seleccionada
+        public int CountItems()
+        {
+            int quantity = 0;
+            var linkedProducts = new Controllers.ProductsList();
+            //obtenemos los productos de la categoria seleccionada
+            var values = linkedProducts.GetProductsByCategory(selectedcategory);
+
+            var head = values.Head;
+            while (head != null)
+            {
+                quantity++;
+                head = head.Next;
+            }
+            return quantity;
+        }
+
+        public Image ByteToImage(byte[] byteArrayIn)
+        {
+            using (var ms = new MemoryStream(byteArrayIn))
+            {
+                var returnImage = Image.FromStream(ms);
+                return returnImage;
+            }
+        }
         private void Cartbtn_Click(object sender, EventArgs e)
         {
             Cart enterCart = new Cart();
