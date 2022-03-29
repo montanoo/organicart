@@ -275,7 +275,9 @@
             // 
             // stockQuantity
             // 
+            this.stockQuantity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
             this.stockQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stockQuantity.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
             this.stockQuantity.Location = new System.Drawing.Point(325, 523);
             this.stockQuantity.Margin = new System.Windows.Forms.Padding(4);
             this.stockQuantity.Name = "stockQuantity";

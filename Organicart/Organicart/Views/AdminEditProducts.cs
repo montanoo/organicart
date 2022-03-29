@@ -162,6 +162,7 @@ namespace Organicart.Views
             chosenImage.Image = null;
             cmbCategories.Text = "";
             cmbNames.Items.Clear();
+            stockQuantity.Text = "0";
             GetNames();
         }
 
@@ -178,6 +179,7 @@ namespace Organicart.Views
                 btnConfirm.Visible = true;
                 btnCancel.Visible = true;
                 btnLoadImage.Enabled = true;
+                stockQuantity.Enabled = true;
 
                 cmbNames.Enabled = false;
                 cmbCategories.Enabled = true;
@@ -238,7 +240,7 @@ namespace Organicart.Views
             btnConfirm.Visible = false;
             btnCancel.Visible = false;
             btnLoadImage.Enabled = false;
-
+            stockQuantity.Enabled = false;
             cmbNames.Enabled = true;
             cmbCategories.Enabled = false;
             txtPrice.Enabled = false;
@@ -280,10 +282,13 @@ namespace Organicart.Views
             btnConfirm.Visible = false;
             btnCancel.Visible = false;
             btnLoadImage.Enabled = false;
+            stockQuantity.Enabled = false;
 
             cmbNames.Enabled = true;
             cmbCategories.Enabled = false;
             txtPrice.Enabled = false;
+
+            Clean();
         }
     }
 }
