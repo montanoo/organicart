@@ -123,7 +123,7 @@ namespace Organicart
 
                 try
                 {
-                    using (OrganicartEntities database = new OrganicartEntities())
+                    using (var database = new OrganicartEntities())
                     {
                         //primero se guardan los registros en la tabla user
                         user datauser = new user();

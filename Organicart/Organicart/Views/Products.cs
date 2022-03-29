@@ -30,13 +30,15 @@ namespace Organicart.Views
 
         CustomProductItem[] productItems;
 
+        private string username;
         //creamos el carrito 
         public static CartList Cart = new CartList();
-        public Products(int category)
+        public Products(int category, string pUsername)
         {
             selectedcategory = category;
             InitializeComponent();
-            GenerateDynamicUserControls();        
+            GenerateDynamicUserControls();
+            username = pUsername;
         }
         private void GenerateDynamicUserControls()
         {
@@ -112,21 +114,21 @@ namespace Organicart.Views
         }
         private void Cartbtn_Click(object sender, EventArgs e)
         {
-            var enterCart = new Cart();
+            var enterCart = new Cart(username);
             enterCart.Show();
             this.Hide();
         }
 
         private void profilebtn_Click(object sender, EventArgs e)
         {
-            var enterProfile = new Profile();
+            var enterProfile = new Profile(username);
             enterProfile.Show();
             this.Hide();
         }
 
         private void Productsbtn_Click(object sender, EventArgs e)
         {
-            var enterHome = new HomePage();
+            var enterHome = new HomePage(username);
             enterHome.Show();
             this.Hide();
         }

@@ -24,12 +24,14 @@ namespace Organicart
         - Carlos Vicente Castillo Sayes. CS210003 |
         */
 
+        private string username;
         CustomCartItem[] cartItems;
-        public Cart()
+        public Cart(string pUsername)
         {
             InitializeComponent();
             GenerateDynamicUserControls();
 
+            username = pUsername;
         }
         private void GenerateDynamicUserControls()
         {
@@ -99,21 +101,21 @@ namespace Organicart
 
         private void profilebtn_Click(object sender, EventArgs e)
         {
-            var enterProfile = new Profile();
+            var enterProfile = new Profile(username);
             enterProfile.Show();
             this.Hide();
         }
 
         private void Productsbtn_Click(object sender, EventArgs e)
         {
-            var enterHome = new HomePage();
+            var enterHome = new HomePage(username);
             enterHome.Show();
             this.Hide();
         }
 
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            var enterAddress = new Address();
+            var enterAddress = new Address(username);
             enterAddress.Show();
             this.Hide();
         }

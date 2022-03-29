@@ -21,72 +21,73 @@ namespace Organicart
         - Luciana María Munguía Villacorta. MV210941 |
         - Carlos Vicente Castillo Sayes. CS210003 |
         */
-        public HomePage()
+        private string username;
+        public HomePage(string pUsername)
         {
             InitializeComponent();
-
+            username = pUsername;
         }
 
         private void Productsbtn_Click(object sender, EventArgs e)
         {
             
-            var enterHome = new HomePage();
+            var enterHome = new HomePage(username);
             enterHome.Show();
             this.Hide();
         }
 
         private void Cartbtn_Click(object sender, EventArgs e)
         {
-            var enterCart = new Cart();
+            var enterCart = new Cart(username);
             enterCart.Show();
             this.Hide();
         }
 
         private void profilebtn_Click(object sender, EventArgs e)
         {
-            var enterProfile = new Profile();
+            var enterProfile = new Profile(username);
             enterProfile.Show();
             this.Hide();
         }
 
         private void btnFrutas_Click_1(object sender, EventArgs e)
         {
-            var enterProducts = new Products(1);
+            var enterProducts = new Products(1, username);
             enterProducts.Show();
             this.Hide();
         }
 
         private void btnBebidas_Click(object sender, EventArgs e)
         {
-            var enterProducts = new Products(2);
+            var enterProducts = new Products(2, username);
             enterProducts.Show();
             this.Hide();
         }
 
         private void btnVegetales_Click(object sender, EventArgs e)
         {
-            var enterProducts = new Products(3);
+            var enterProducts = new Products(3, username);
             enterProducts.Show();
             this.Hide();
         }
 
         private void btnGranos_Click(object sender, EventArgs e)
         {
-            var enterProducts = new Products(4);
+            var enterProducts = new Products(4, username);
             enterProducts.Show();
             this.Hide();
         }
 
         private void btnLacteos_Click(object sender, EventArgs e)
         {
-            var enterProducts = new Products(5);
+            var enterProducts = new Products(5, username);
             enterProducts.Show();
             this.Hide();
         }
 
         private void btnSnacks_Click(object sender, EventArgs e)
         {
-            var enterProducts = new Products(6);
+            var enterProducts = new Products(6, username);
             enterProducts.Show();
             this.Hide();
         }

@@ -40,12 +40,12 @@ namespace Organicart.Controllers
             return linkedUsers;
         }
 
-        public void Login(string pUsername, string pPassword)
+        public bool Login(string pUsername, string pPassword)
         {
             // leemos los datos con el método anterior.
             var valuesToWork = GetInfo();
             int userRole = 2; // para saber en que categoría entra.
-            bool found = false; // bandera que me indicará si se encuentra un usuario que cumpla con las características.
+            var found = false; // bandera que me indicará si se encuentra un usuario que cumpla con las características.
 
             var currentUser = valuesToWork.Head;
 
@@ -65,23 +65,27 @@ namespace Organicart.Controllers
             {
                 MessageBox.Show(
                     "No hemos encontrado tu usuario, asegurate de haber escrito tu usuario y contraseña correctamente");
-                return;
             }
 
-            if (userRole == 1)
+            if (found)
             {
-                var joinAdmin = new AdminMenu();
-                joinAdmin.Show();
+                if (userRole == 1)
+                {
+                    var joinAdmin = new AdminMenu();
+                    joinAdmin.Show();
 
-                currentForm.Hide();
-            }
-            else
-            {
-                var joinHomePage = new HomePage();
-                joinHomePage.Show();
+                    currentForm.Hide();
+                }
+                else
+                {
+                    var joinHomePage = new HomePage(pUsername);
+                    joinHomePage.Show();
 
-                currentForm.Hide();
+                    currentForm.Hide();
+                }
             }
+
+            return found;
         }
     }
 }

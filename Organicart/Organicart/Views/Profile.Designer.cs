@@ -112,7 +112,7 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label9.Location = new System.Drawing.Point(423, 466);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 32);
+            this.label9.Size = new System.Drawing.Size(55, 31);
             this.label9.TabIndex = 88;
             this.label9.Text = "DUI";
             // 
@@ -138,13 +138,13 @@
             // emailtxt
             // 
             this.emailtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.emailtxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.emailtxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.emailtxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emailtxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
             this.emailtxt.Location = new System.Drawing.Point(429, 392);
             this.emailtxt.Margin = new System.Windows.Forms.Padding(4);
             this.emailtxt.Name = "emailtxt";
-            this.emailtxt.Size = new System.Drawing.Size(298, 27);
+            this.emailtxt.Size = new System.Drawing.Size(298, 34);
             this.emailtxt.TabIndex = 85;
             this.emailtxt.Text = "john.doe@company.com";
             this.emailtxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -157,7 +157,7 @@
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label8.Location = new System.Drawing.Point(423, 357);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(77, 32);
+            this.label8.Size = new System.Drawing.Size(73, 31);
             this.label8.TabIndex = 84;
             this.label8.Text = "Email";
             // 
@@ -183,13 +183,13 @@
             // lastnametxt
             // 
             this.lastnametxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.lastnametxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lastnametxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lastnametxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lastnametxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
             this.lastnametxt.Location = new System.Drawing.Point(878, 281);
             this.lastnametxt.Margin = new System.Windows.Forms.Padding(4);
             this.lastnametxt.Name = "lastnametxt";
-            this.lastnametxt.Size = new System.Drawing.Size(319, 27);
+            this.lastnametxt.Size = new System.Drawing.Size(319, 34);
             this.lastnametxt.TabIndex = 77;
             this.lastnametxt.Text = "Doe";
             this.lastnametxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -201,7 +201,7 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label5.Location = new System.Drawing.Point(872, 228);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(118, 32);
+            this.label5.Size = new System.Drawing.Size(111, 31);
             this.label5.TabIndex = 76;
             this.label5.Text = "Apellido:";
             // 
@@ -227,13 +227,13 @@
             // nametxt
             // 
             this.nametxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.nametxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.nametxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.nametxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nametxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
             this.nametxt.Location = new System.Drawing.Point(878, 174);
             this.nametxt.Margin = new System.Windows.Forms.Padding(4);
             this.nametxt.Name = "nametxt";
-            this.nametxt.Size = new System.Drawing.Size(319, 27);
+            this.nametxt.Size = new System.Drawing.Size(319, 34);
             this.nametxt.TabIndex = 73;
             this.nametxt.Text = "John";
             this.nametxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -245,7 +245,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label1.Location = new System.Drawing.Point(872, 138);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 32);
+            this.label1.Size = new System.Drawing.Size(108, 31);
             this.label1.TabIndex = 72;
             this.label1.Text = "Nombre:";
             // 
@@ -281,13 +281,13 @@
             // passwordtxt
             // 
             this.passwordtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.passwordtxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.passwordtxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.passwordtxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordtxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
             this.passwordtxt.Location = new System.Drawing.Point(429, 281);
             this.passwordtxt.Margin = new System.Windows.Forms.Padding(4);
             this.passwordtxt.Name = "passwordtxt";
-            this.passwordtxt.Size = new System.Drawing.Size(298, 27);
+            this.passwordtxt.Size = new System.Drawing.Size(298, 34);
             this.passwordtxt.TabIndex = 68;
             this.passwordtxt.Text = "contraseña";
             this.passwordtxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -300,7 +300,7 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label3.Location = new System.Drawing.Point(417, 245);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(151, 32);
+            this.label3.Size = new System.Drawing.Size(140, 31);
             this.label3.TabIndex = 67;
             this.label3.Text = "Contraseña:";
             // 
@@ -316,13 +316,13 @@
             // usertxt
             // 
             this.usertxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.usertxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.usertxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.usertxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usertxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
             this.usertxt.Location = new System.Drawing.Point(423, 178);
             this.usertxt.Margin = new System.Windows.Forms.Padding(4);
             this.usertxt.Name = "usertxt";
-            this.usertxt.Size = new System.Drawing.Size(304, 27);
+            this.usertxt.Size = new System.Drawing.Size(304, 34);
             this.usertxt.TabIndex = 65;
             this.usertxt.Text = "MG210111";
             this.usertxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -334,7 +334,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label2.Location = new System.Drawing.Point(423, 137);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 32);
+            this.label2.Size = new System.Drawing.Size(103, 31);
             this.label2.TabIndex = 64;
             this.label2.Text = "Usuario:";
             // 
@@ -410,7 +410,7 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(551, 38);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(235, 51);
+            this.label7.Size = new System.Drawing.Size(230, 50);
             this.label7.TabIndex = 93;
             this.label7.Text = "Editar perfil";
             // 
@@ -440,7 +440,7 @@
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.label10.Location = new System.Drawing.Point(872, 347);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(114, 32);
+            this.label10.Size = new System.Drawing.Size(107, 31);
             this.label10.TabIndex = 68;
             this.label10.Text = "Teléfono";
             // 
@@ -486,23 +486,23 @@
             // duitxt
             // 
             this.duitxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.duitxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.duitxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.duitxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.duitxt.Location = new System.Drawing.Point(544, 505);
+            this.duitxt.Location = new System.Drawing.Point(429, 501);
             this.duitxt.Mask = "00000000-0";
             this.duitxt.Name = "duitxt";
-            this.duitxt.Size = new System.Drawing.Size(100, 27);
+            this.duitxt.Size = new System.Drawing.Size(298, 34);
             this.duitxt.TabIndex = 96;
             // 
             // phonetxt
             // 
             this.phonetxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.phonetxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.phonetxt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.phonetxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.phonetxt.Location = new System.Drawing.Point(1011, 386);
+            this.phonetxt.Location = new System.Drawing.Point(882, 379);
             this.phonetxt.Mask = "00000000";
             this.phonetxt.Name = "phonetxt";
-            this.phonetxt.Size = new System.Drawing.Size(100, 27);
+            this.phonetxt.Size = new System.Drawing.Size(315, 34);
             this.phonetxt.TabIndex = 97;
             // 
             // Profile

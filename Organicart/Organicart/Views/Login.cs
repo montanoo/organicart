@@ -39,8 +39,9 @@ namespace Organicart
         private void loginbtn_Click(object sender, EventArgs e)
         {
             var login = new LoginUser();
-            login.Login(txtUser.Text, txtPassword.Text);
-            this.Hide();
+            var canEnter = login.Login(txtUser.Text, txtPassword.Text);
+            if (canEnter)
+                this.Hide();
         }
     }
 }
