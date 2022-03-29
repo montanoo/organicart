@@ -6,6 +6,7 @@ namespace Organicart
 {
     public partial class CustomProductItem : UserControl
     {
+        public static Control Control;
         public CustomProductItem()
         {
             InitializeComponent();
@@ -41,5 +42,10 @@ namespace Organicart
 
 
         #endregion
+
+        private void CustomProductItem_Click(object sender, System.EventArgs e)
+        {
+            Control = (Control)sender;   // Sender gives you which control is clicked.
+        }
     }
 }

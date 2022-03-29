@@ -50,17 +50,21 @@
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.profilebtn = new System.Windows.Forms.PictureBox();
             this.Cartbtn = new System.Windows.Forms.PictureBox();
             this.Productsbtn = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profilebtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cartbtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Productsbtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -299,6 +303,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
+            this.panel2.Controls.Add(this.pictureBox5);
             this.panel2.Controls.Add(this.profilebtn);
             this.panel2.Controls.Add(this.Cartbtn);
             this.panel2.Controls.Add(this.Productsbtn);
@@ -307,6 +312,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(83, 720);
             this.panel2.TabIndex = 49;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(6, 635);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(68, 62);
+            this.pictureBox5.TabIndex = 50;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // profilebtn
             // 
@@ -358,11 +374,22 @@
             this.label1.TabIndex = 55;
             this.label1.Text = "Datos de entrega";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(991, 134);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(200, 200);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 50;
+            this.pictureBox2.TabStop = false;
+            // 
             // Address
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label3);
@@ -390,6 +417,7 @@
             this.Controls.SetChildIndex(this.label3, 0);
             this.Controls.SetChildIndex(this.dateTimePicker1, 0);
             this.Controls.SetChildIndex(this.panel2, 0);
+            this.Controls.SetChildIndex(this.pictureBox2, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -397,9 +425,11 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profilebtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cartbtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Productsbtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -432,5 +462,7 @@
         public System.Windows.Forms.PictureBox Cartbtn;
         public System.Windows.Forms.PictureBox Productsbtn;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

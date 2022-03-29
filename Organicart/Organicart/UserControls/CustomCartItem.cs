@@ -6,6 +6,7 @@ namespace Organicart
 {
     public partial class CustomCartItem : UserControl
     {
+        public static Control Control;
         public CustomCartItem()
         {
             InitializeComponent();
@@ -15,7 +16,7 @@ namespace Organicart
 
         private Image _product;
         private string _productName;
-        private float _price;
+        private double _price;
         private decimal _quantity;
 
         [Category("Custom Props")]
@@ -33,7 +34,7 @@ namespace Organicart
         }
 
         [Category("Custom Props")]
-        public float Price
+        public double Price
         {
             get { return _price; }
             set { _price = value; Pricelbl.Text = "$" + value; }
@@ -47,5 +48,11 @@ namespace Organicart
         }
 
         #endregion
+
+        private void CustomCartItem_Click(object sender, System.EventArgs e)
+        {
+            Control = (Control)sender;   // Sender gives you which control is clicked.
+            MessageBox.Show(Control.TabIndex.ToString());
+        }
     }
 }
