@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Organicart.Models;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace Organicart
 {
@@ -18,6 +19,7 @@ namespace Organicart
         public SignUp()
         {
             InitializeComponent();
+            usertxt.Focus();
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -46,6 +48,27 @@ namespace Organicart
                 fotocliente.Image = Image.FromFile(foto.FileName);
             }
         }
+        public static bool validemail(string pemail)
+        {
+
+            string expression = @"^([a-zA-Z0-9_\-])([a-zA-Z0-9_\-\.]*)@(\[((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}|((([a-zA-Z0-9\-]+)\.)+))([a-zA-Z]{2,}|(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\])$";
+
+            if (Regex.IsMatch(pemail, expression))
+            {
+                if (Regex.Replace(pemail, expression, string.Empty).Length == 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
         public byte[] ImageToInsert(Image image)
         {
             using (var memory = new MemoryStream())
@@ -55,36 +78,90 @@ namespace Organicart
                 return memory.ToArray();
             }
         }
+        public Boolean WeakPassword(TextBox txtPassword)
+        {
+            int countnumbers = 0;
+            for (int i = 0; i < txtPassword.TextLength; i++)
+            {
+                countnumbers += 1;
+            }
+            if (countnumbers < 8)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            using (OrganicartEntities database=new OrganicartEntities())
+            
+            if (usertxt.Text == "" || nametxt.Text == "" || lastnametxt.Text == "" ||
+                passwordtxt.Text == "" || phonetxt.Text == "" || duitxt.Text == "" || emailtxt.Text == "")
             {
-                user datauser = new user();
-                datauser.username = usertxt.Text;
-                datauser.password = passwordtxt.Text;
-                database.users.Add(datauser);
-                database.SaveChanges();
-                id = datauser.id;
+                MessageBox.Show("Faltan campos por completar");
             }
-
-            using (OrganicartEntities database = new OrganicartEntities())
+            else if (WeakPassword(passwordtxt))
             {
-                client dataclient = new client();
-                dataclient.name = nametxt.Text;
-                dataclient.lastname = lastnametxt.Text;
-                dataclient.phone = Convert.ToInt32(phonetxt.Text);
-                dataclient.dui = duitxt.Text;
-                dataclient.email = emailtxt.Text;
-                dataclient.photo = ImageToInsert(fotocliente.Image);
-                var result = database.users.Where(b => b.username == usertxt.Text);
-                dataclient.user_id = id;
-                database.clients.Add(dataclient);
-                database.SaveChanges();
+                MessageBox.Show("La contraseña debe tener más de 8 carácteres");
             }
+            else
+            {
 
+                try
+                {
+                    using (OrganicartEntities database = new OrganicartEntities())
+                    {
+                        user datauser = new user();
+                        datauser.username = usertxt.Text;
+                        datauser.password = passwordtxt.Text;
+                        database.users.Add(datauser);
+                        database.SaveChanges();
+                        id = datauser.id;
+                    }
 
+                    using (OrganicartEntities database = new OrganicartEntities())
+                    {
+                        client dataclient = new client();
+                        dataclient.name = nametxt.Text;
+                        dataclient.lastname = lastnametxt.Text;
+                        dataclient.phone = Convert.ToInt32(phonetxt.Text);
+                        dataclient.dui = duitxt.Text;
+                        dataclient.email = emailtxt.Text;
+                        if (fotocliente.Image != null)
+                        {
+                            dataclient.photo = ImageToInsert(fotocliente.Image);
+                        }
+                        var result = database.users.Where(b => b.username == usertxt.Text);
+                        dataclient.user_id = id;
+                        database.clients.Add(dataclient);
+                        database.SaveChanges();
+                    }
+                    Login gotologin = new Login();
+                    gotologin.Show();
+                    this.Close();
+                }catch
+                {
+                    MessageBox.Show("El nombre de usuario, DUI o correo electrónico ya ha sido registrado");
+                }
+
+            }
         }
 
+        private void emailtxt_Leave(object sender, EventArgs e)
+        {
+            if (validemail(emailtxt.Text))
+            {
+
+            }
+            else
+            {
+                MessageBox.Show("Correo inválido");
+                emailtxt.SelectAll();
+                emailtxt.Focus();
+            }
+        }
     }
 }

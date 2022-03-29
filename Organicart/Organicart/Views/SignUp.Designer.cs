@@ -54,14 +54,14 @@
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.duitxt = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.fotocliente = new System.Windows.Forms.PictureBox();
             this.btnfoto = new System.Windows.Forms.Button();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.phonetxt = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.duitxt = new System.Windows.Forms.MaskedTextBox();
+            this.phonetxt = new System.Windows.Forms.MaskedTextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -119,7 +119,6 @@
             this.passwordtxt.Name = "passwordtxt";
             this.passwordtxt.Size = new System.Drawing.Size(298, 27);
             this.passwordtxt.TabIndex = 38;
-            this.passwordtxt.Text = "contraseña";
             this.passwordtxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.passwordtxt.UseSystemPasswordChar = true;
             // 
@@ -154,7 +153,6 @@
             this.usertxt.Name = "usertxt";
             this.usertxt.Size = new System.Drawing.Size(304, 27);
             this.usertxt.TabIndex = 35;
-            this.usertxt.Text = "Usuario";
             this.usertxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
@@ -216,7 +214,6 @@
             this.nametxt.Name = "nametxt";
             this.nametxt.Size = new System.Drawing.Size(319, 27);
             this.nametxt.TabIndex = 43;
-            this.nametxt.Text = "Nombre";
             this.nametxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
@@ -250,7 +247,6 @@
             this.lastnametxt.Name = "lastnametxt";
             this.lastnametxt.Size = new System.Drawing.Size(319, 27);
             this.lastnametxt.TabIndex = 47;
-            this.lastnametxt.Text = "Apellido";
             this.lastnametxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label5
@@ -325,8 +321,8 @@
             this.emailtxt.Name = "emailtxt";
             this.emailtxt.Size = new System.Drawing.Size(298, 27);
             this.emailtxt.TabIndex = 55;
-            this.emailtxt.Text = "Correo";
             this.emailtxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.emailtxt.Leave += new System.EventHandler(this.emailtxt_Leave);
             // 
             // label8
             // 
@@ -358,26 +354,12 @@
             this.panel8.Size = new System.Drawing.Size(372, 12);
             this.panel8.TabIndex = 60;
             // 
-            // duitxt
-            // 
-            this.duitxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.duitxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.duitxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.duitxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.duitxt.Location = new System.Drawing.Point(357, 507);
-            this.duitxt.Margin = new System.Windows.Forms.Padding(4);
-            this.duitxt.Name = "duitxt";
-            this.duitxt.Size = new System.Drawing.Size(298, 27);
-            this.duitxt.TabIndex = 59;
-            this.duitxt.Text = "DUI";
-            this.duitxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label9.Location = new System.Drawing.Point(351, 472);
+            this.label9.Location = new System.Drawing.Point(351, 465);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(58, 32);
             this.label9.TabIndex = 58;
@@ -426,20 +408,6 @@
             this.panel9.Size = new System.Drawing.Size(382, 12);
             this.panel9.TabIndex = 66;
             // 
-            // phonetxt
-            // 
-            this.phonetxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.phonetxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.phonetxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phonetxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.phonetxt.Location = new System.Drawing.Point(806, 400);
-            this.phonetxt.Margin = new System.Windows.Forms.Padding(4);
-            this.phonetxt.Name = "phonetxt";
-            this.phonetxt.Size = new System.Drawing.Size(298, 27);
-            this.phonetxt.TabIndex = 65;
-            this.phonetxt.Text = "Número telefónico";
-            this.phonetxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -451,20 +419,42 @@
             this.label10.TabIndex = 64;
             this.label10.Text = "Teléfono";
             // 
+            // duitxt
+            // 
+            this.duitxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
+            this.duitxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.duitxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
+            this.duitxt.Location = new System.Drawing.Point(479, 511);
+            this.duitxt.Mask = "00000000-0";
+            this.duitxt.Name = "duitxt";
+            this.duitxt.Size = new System.Drawing.Size(100, 27);
+            this.duitxt.TabIndex = 68;
+            // 
+            // phonetxt
+            // 
+            this.phonetxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
+            this.phonetxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.phonetxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
+            this.phonetxt.Location = new System.Drawing.Point(953, 404);
+            this.phonetxt.Mask = "00000000";
+            this.phonetxt.Name = "phonetxt";
+            this.phonetxt.Size = new System.Drawing.Size(100, 27);
+            this.phonetxt.TabIndex = 69;
+            // 
             // SignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.phonetxt);
+            this.Controls.Add(this.duitxt);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.panel9);
-            this.Controls.Add(this.phonetxt);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.btnfoto);
             this.Controls.Add(this.fotocliente);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.panel8);
-            this.Controls.Add(this.duitxt);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.panel7);
@@ -516,15 +506,15 @@
             this.Controls.SetChildIndex(this.panel7, 0);
             this.Controls.SetChildIndex(this.pictureBox7, 0);
             this.Controls.SetChildIndex(this.label9, 0);
-            this.Controls.SetChildIndex(this.duitxt, 0);
             this.Controls.SetChildIndex(this.panel8, 0);
             this.Controls.SetChildIndex(this.pictureBox8, 0);
             this.Controls.SetChildIndex(this.fotocliente, 0);
             this.Controls.SetChildIndex(this.btnfoto, 0);
             this.Controls.SetChildIndex(this.label10, 0);
-            this.Controls.SetChildIndex(this.phonetxt, 0);
             this.Controls.SetChildIndex(this.panel9, 0);
             this.Controls.SetChildIndex(this.pictureBox9, 0);
+            this.Controls.SetChildIndex(this.duitxt, 0);
+            this.Controls.SetChildIndex(this.phonetxt, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -567,13 +557,13 @@
         public System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox8;
         public System.Windows.Forms.Panel panel8;
-        public System.Windows.Forms.TextBox duitxt;
         public System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox fotocliente;
         public System.Windows.Forms.Button btnfoto;
         private System.Windows.Forms.PictureBox pictureBox9;
         public System.Windows.Forms.Panel panel9;
-        public System.Windows.Forms.TextBox phonetxt;
         public System.Windows.Forms.Label label10;
+        private System.Windows.Forms.MaskedTextBox duitxt;
+        private System.Windows.Forms.MaskedTextBox phonetxt;
     }
 }
