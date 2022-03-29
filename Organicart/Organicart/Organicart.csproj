@@ -277,6 +277,11 @@
     </Compile>
     <Compile Include="Models\user.cs">
       <DependentUpon>OrganicartModel.tt</DependentUpon>
+    <Compile Include="Views\AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Address.cs">
       <SubType>Form</SubType>
@@ -364,6 +369,9 @@
     <Compile Include="Views\SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Address.resx">
       <DependentUpon>Address.cs</DependentUpon>
     </EmbeddedResource>
