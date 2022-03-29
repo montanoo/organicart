@@ -63,6 +63,7 @@
             this.Cartbtn = new System.Windows.Forms.PictureBox();
             this.Productsbtn = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.aboutUsbtn = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -75,19 +76,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.profilebtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cartbtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Productsbtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aboutUsbtn)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.label7);
+            this.panel1.Size = new System.Drawing.Size(1513, 121);
             this.panel1.Controls.SetChildIndex(this.label7, 0);
             // 
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(818, 481);
+            this.pictureBox8.Location = new System.Drawing.Point(967, 550);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox8.Size = new System.Drawing.Size(59, 57);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 91;
             this.pictureBox8.TabStop = false;
@@ -95,10 +99,10 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.panel8.Location = new System.Drawing.Point(496, 538);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4);
+            this.panel8.Location = new System.Drawing.Point(586, 615);
+            this.panel8.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(372, 12);
+            this.panel8.Size = new System.Drawing.Size(440, 14);
             this.panel8.TabIndex = 90;
             // 
             // textBox4
@@ -107,10 +111,10 @@
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.textBox4.Location = new System.Drawing.Point(502, 500);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox4.Location = new System.Drawing.Point(593, 571);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(298, 27);
+            this.textBox4.Size = new System.Drawing.Size(352, 32);
             this.textBox4.TabIndex = 89;
             this.textBox4.Text = "1234567-0";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -120,18 +124,20 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label9.Location = new System.Drawing.Point(496, 465);
+            this.label9.Location = new System.Drawing.Point(586, 531);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(55, 31);
+            this.label9.Size = new System.Drawing.Size(67, 38);
             this.label9.TabIndex = 88;
             this.label9.Text = "DUI";
             // 
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(560, 374);
+            this.pictureBox7.Location = new System.Drawing.Point(662, 427);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox7.Size = new System.Drawing.Size(59, 57);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 87;
             this.pictureBox7.TabStop = false;
@@ -139,10 +145,10 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.panel7.Location = new System.Drawing.Point(238, 431);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4);
+            this.panel7.Location = new System.Drawing.Point(281, 493);
+            this.panel7.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(372, 12);
+            this.panel7.Size = new System.Drawing.Size(440, 14);
             this.panel7.TabIndex = 86;
             // 
             // textBox3
@@ -151,10 +157,10 @@
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.textBox3.Location = new System.Drawing.Point(244, 393);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox3.Location = new System.Drawing.Point(288, 449);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(298, 27);
+            this.textBox3.Size = new System.Drawing.Size(352, 32);
             this.textBox3.TabIndex = 85;
             this.textBox3.Text = "john.doe@company.com";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -164,18 +170,20 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label8.Location = new System.Drawing.Point(238, 358);
+            this.label8.Location = new System.Drawing.Point(281, 409);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 31);
+            this.label8.Size = new System.Drawing.Size(89, 38);
             this.label8.TabIndex = 84;
             this.label8.Text = "Email";
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(1019, 374);
+            this.pictureBox6.Location = new System.Drawing.Point(1204, 427);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox6.Size = new System.Drawing.Size(59, 57);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 83;
             this.pictureBox6.TabStop = false;
@@ -186,19 +194,19 @@
             this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
             this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(737, 387);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker1.Location = new System.Drawing.Point(871, 442);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(212, 34);
+            this.dateTimePicker1.Size = new System.Drawing.Size(250, 39);
             this.dateTimePicker1.TabIndex = 82;
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.panel6.Location = new System.Drawing.Point(683, 431);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4);
+            this.panel6.Location = new System.Drawing.Point(807, 493);
+            this.panel6.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(386, 12);
+            this.panel6.Size = new System.Drawing.Size(456, 14);
             this.panel6.TabIndex = 81;
             // 
             // label6
@@ -206,18 +214,20 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label6.Location = new System.Drawing.Point(687, 352);
+            this.label6.Location = new System.Drawing.Point(812, 402);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(240, 31);
+            this.label6.Size = new System.Drawing.Size(295, 38);
             this.label6.TabIndex = 80;
             this.label6.Text = "Fecha de nacimiento:";
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(1019, 263);
+            this.pictureBox5.Location = new System.Drawing.Point(1204, 301);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox5.Size = new System.Drawing.Size(59, 57);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 79;
             this.pictureBox5.TabStop = false;
@@ -225,10 +235,10 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.panel4.Location = new System.Drawing.Point(683, 320);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4);
+            this.panel4.Location = new System.Drawing.Point(807, 366);
+            this.panel4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(386, 12);
+            this.panel4.Size = new System.Drawing.Size(456, 14);
             this.panel4.TabIndex = 78;
             // 
             // textBox2
@@ -237,10 +247,10 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.textBox2.Location = new System.Drawing.Point(693, 282);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Location = new System.Drawing.Point(819, 322);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(319, 27);
+            this.textBox2.Size = new System.Drawing.Size(377, 32);
             this.textBox2.TabIndex = 77;
             this.textBox2.Text = "Doe";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -250,18 +260,20 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label5.Location = new System.Drawing.Point(687, 229);
+            this.label5.Location = new System.Drawing.Point(812, 262);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 31);
+            this.label5.Size = new System.Drawing.Size(135, 38);
             this.label5.TabIndex = 76;
             this.label5.Text = "Apellido:";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1019, 156);
+            this.pictureBox2.Location = new System.Drawing.Point(1204, 178);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox2.Size = new System.Drawing.Size(59, 57);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 75;
             this.pictureBox2.TabStop = false;
@@ -269,10 +281,10 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.panel2.Location = new System.Drawing.Point(697, 210);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Location = new System.Drawing.Point(824, 240);
+            this.panel2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(372, 12);
+            this.panel2.Size = new System.Drawing.Size(440, 14);
             this.panel2.TabIndex = 74;
             // 
             // textBox1
@@ -281,10 +293,10 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.textBox1.Location = new System.Drawing.Point(693, 175);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Location = new System.Drawing.Point(819, 200);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(319, 27);
+            this.textBox1.Size = new System.Drawing.Size(377, 32);
             this.textBox1.TabIndex = 73;
             this.textBox1.Text = "John";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -294,18 +306,20 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label1.Location = new System.Drawing.Point(687, 139);
+            this.label1.Location = new System.Drawing.Point(812, 159);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 31);
+            this.label1.Size = new System.Drawing.Size(133, 38);
             this.label1.TabIndex = 72;
             this.label1.Text = "Nombre:";
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(560, 263);
+            this.pictureBox4.Location = new System.Drawing.Point(662, 301);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox4.Size = new System.Drawing.Size(59, 57);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 71;
             this.pictureBox4.TabStop = false;
@@ -313,9 +327,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(560, 156);
+            this.pictureBox3.Location = new System.Drawing.Point(662, 178);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(59, 50);
+            this.pictureBox3.Size = new System.Drawing.Size(70, 57);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 70;
             this.pictureBox3.TabStop = false;
@@ -323,10 +338,10 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.panel5.Location = new System.Drawing.Point(238, 320);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4);
+            this.panel5.Location = new System.Drawing.Point(281, 366);
+            this.panel5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(372, 12);
+            this.panel5.Size = new System.Drawing.Size(440, 14);
             this.panel5.TabIndex = 69;
             // 
             // passwordtxt
@@ -335,10 +350,10 @@
             this.passwordtxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.passwordtxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordtxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.passwordtxt.Location = new System.Drawing.Point(244, 282);
-            this.passwordtxt.Margin = new System.Windows.Forms.Padding(4);
+            this.passwordtxt.Location = new System.Drawing.Point(288, 322);
+            this.passwordtxt.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.passwordtxt.Name = "passwordtxt";
-            this.passwordtxt.Size = new System.Drawing.Size(298, 27);
+            this.passwordtxt.Size = new System.Drawing.Size(352, 32);
             this.passwordtxt.TabIndex = 68;
             this.passwordtxt.Text = "Ingresa tu contraseña";
             this.passwordtxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -349,19 +364,20 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label3.Location = new System.Drawing.Point(238, 247);
+            this.label3.Location = new System.Drawing.Point(281, 282);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 31);
+            this.label3.Size = new System.Drawing.Size(172, 38);
             this.label3.TabIndex = 67;
             this.label3.Text = "Contraseña:";
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.panel3.Location = new System.Drawing.Point(238, 214);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Location = new System.Drawing.Point(281, 245);
+            this.panel3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(372, 12);
+            this.panel3.Size = new System.Drawing.Size(440, 14);
             this.panel3.TabIndex = 66;
             // 
             // usertxt
@@ -370,10 +386,10 @@
             this.usertxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.usertxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usertxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
-            this.usertxt.Location = new System.Drawing.Point(238, 179);
-            this.usertxt.Margin = new System.Windows.Forms.Padding(4);
+            this.usertxt.Location = new System.Drawing.Point(281, 205);
+            this.usertxt.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.usertxt.Name = "usertxt";
-            this.usertxt.Size = new System.Drawing.Size(304, 27);
+            this.usertxt.Size = new System.Drawing.Size(359, 32);
             this.usertxt.TabIndex = 65;
             this.usertxt.Text = "MG210111";
             this.usertxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -383,9 +399,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label2.Location = new System.Drawing.Point(228, 139);
+            this.label2.Location = new System.Drawing.Point(269, 159);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 31);
+            this.label2.Size = new System.Drawing.Size(125, 38);
             this.label2.TabIndex = 64;
             this.label2.Text = "Usuario:";
             // 
@@ -395,10 +412,10 @@
             this.loginbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loginbtn.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginbtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
-            this.loginbtn.Location = new System.Drawing.Point(541, 585);
-            this.loginbtn.Margin = new System.Windows.Forms.Padding(4);
+            this.loginbtn.Location = new System.Drawing.Point(639, 669);
+            this.loginbtn.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.loginbtn.Name = "loginbtn";
-            this.loginbtn.Size = new System.Drawing.Size(289, 100);
+            this.loginbtn.Size = new System.Drawing.Size(342, 114);
             this.loginbtn.TabIndex = 62;
             this.loginbtn.Text = "Entrar en modo edición";
             this.loginbtn.UseVisualStyleBackColor = false;
@@ -406,23 +423,24 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
+            this.panel9.Controls.Add(this.aboutUsbtn);
             this.panel9.Controls.Add(this.profilebtn);
             this.panel9.Controls.Add(this.Cartbtn);
             this.panel9.Controls.Add(this.Productsbtn);
             this.panel9.Location = new System.Drawing.Point(-1, 1);
-            this.panel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(83, 719);
+            this.panel9.Size = new System.Drawing.Size(98, 822);
             this.panel9.TabIndex = 92;
             // 
             // profilebtn
             // 
             this.profilebtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.profilebtn.Image = ((System.Drawing.Image)(resources.GetObject("profilebtn.Image")));
-            this.profilebtn.Location = new System.Drawing.Point(14, 291);
-            this.profilebtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.profilebtn.Location = new System.Drawing.Point(17, 333);
+            this.profilebtn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.profilebtn.Name = "profilebtn";
-            this.profilebtn.Size = new System.Drawing.Size(53, 54);
+            this.profilebtn.Size = new System.Drawing.Size(63, 62);
             this.profilebtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.profilebtn.TabIndex = 2;
             this.profilebtn.TabStop = false;
@@ -431,10 +449,10 @@
             // 
             this.Cartbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Cartbtn.Image = ((System.Drawing.Image)(resources.GetObject("Cartbtn.Image")));
-            this.Cartbtn.Location = new System.Drawing.Point(12, 213);
-            this.Cartbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Cartbtn.Location = new System.Drawing.Point(14, 243);
+            this.Cartbtn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Cartbtn.Name = "Cartbtn";
-            this.Cartbtn.Size = new System.Drawing.Size(53, 50);
+            this.Cartbtn.Size = new System.Drawing.Size(63, 57);
             this.Cartbtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Cartbtn.TabIndex = 1;
             this.Cartbtn.TabStop = false;
@@ -444,10 +462,10 @@
             // 
             this.Productsbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Productsbtn.Image = ((System.Drawing.Image)(resources.GetObject("Productsbtn.Image")));
-            this.Productsbtn.Location = new System.Drawing.Point(14, 137);
-            this.Productsbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Productsbtn.Location = new System.Drawing.Point(17, 157);
+            this.Productsbtn.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Productsbtn.Name = "Productsbtn";
-            this.Productsbtn.Size = new System.Drawing.Size(53, 52);
+            this.Productsbtn.Size = new System.Drawing.Size(63, 59);
             this.Productsbtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Productsbtn.TabIndex = 0;
             this.Productsbtn.TabStop = false;
@@ -458,17 +476,30 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(551, 38);
+            this.label7.Location = new System.Drawing.Point(651, 43);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(230, 50);
+            this.label7.Size = new System.Drawing.Size(278, 61);
             this.label7.TabIndex = 93;
             this.label7.Text = "Editar perfil";
             // 
+            // aboutUsbtn
+            // 
+            this.aboutUsbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("aboutUsbtn.BackgroundImage")));
+            this.aboutUsbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.aboutUsbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.aboutUsbtn.Location = new System.Drawing.Point(13, 751);
+            this.aboutUsbtn.Name = "aboutUsbtn";
+            this.aboutUsbtn.Size = new System.Drawing.Size(80, 71);
+            this.aboutUsbtn.TabIndex = 93;
+            this.aboutUsbtn.TabStop = false;
+            this.aboutUsbtn.Click += new System.EventHandler(this.aboutUsbtn_Click);
+            // 
             // Profile
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.ClientSize = new System.Drawing.Size(1513, 823);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.panel8);
@@ -499,6 +530,7 @@
             this.Controls.Add(this.usertxt);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.loginbtn);
+            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "Profile";
             this.Text = "Profile";
             this.Controls.SetChildIndex(this.loginbtn, 0);
@@ -545,6 +577,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.profilebtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cartbtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Productsbtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aboutUsbtn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -586,5 +619,6 @@
         public System.Windows.Forms.PictureBox Cartbtn;
         public System.Windows.Forms.PictureBox Productsbtn;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox aboutUsbtn;
     }
 }

@@ -44,5 +44,12 @@ namespace Organicart.Views
             enterPayment.Show();
             this.Hide();
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            AboutUs enterAboutUs = new AboutUs();
+            enterAboutUs.Show();
+            this.Hide();
+        }
     }
 }

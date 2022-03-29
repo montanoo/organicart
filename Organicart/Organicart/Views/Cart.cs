@@ -72,5 +72,12 @@ namespace Organicart
             enterAddress.Show();
             this.Hide();
         }
+
+        private void aboutUsbtn_Click(object sender, EventArgs e)
+        {
+            AboutUs enterAboutUs = new AboutUs();
+            enterAboutUs.Show();
+            this.Hide();
+        }
     }
 }
