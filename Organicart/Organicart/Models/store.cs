@@ -17,7 +17,6 @@ namespace Organicart.Models
         public store()
         {
             this.billings = new HashSet<billing>();
-            this.inventories = new HashSet<inventory>();
         }
     
         public int id { get; set; }
@@ -25,6 +24,5 @@ namespace Organicart.Models
         public string store_address { get; set; }
     
         public virtual ICollection<billing> billings { get; set; }
-        public virtual ICollection<inventory> inventories { get; set; }
     }
 }

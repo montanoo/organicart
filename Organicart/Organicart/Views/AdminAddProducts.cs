@@ -63,7 +63,7 @@ namespace Organicart.Views
         // añadir el producto a la base de datos.
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (txtName.Text == "" || txtPrice.Text == "" || chosenImage.Image == null || cmbCategories.Text == "")
+            if (txtName.Text == "" || txtPrice.Text == "" || chosenImage.Image == null || cmbCategories.Text == "" || stockQuantity.Text == "0")
                 return;
             using (var db = new OrganicartEntities())
             {
@@ -72,6 +72,7 @@ namespace Organicart.Views
                     name = txtName.Text,
                     photo = ImageToInsert(chosenImage.Image),
                     category_id = GetSelectedCategory(),
+                    stock = int.Parse(stockQuantity.Text),
                     price = float.Parse(txtPrice.Text)
                 };
                 try

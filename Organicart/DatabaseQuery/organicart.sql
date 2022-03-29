@@ -42,6 +42,7 @@ CREATE TABLE products (
     id int IDENTITY (1,1) NOT NULL, -- pk
     [name] varchar(255) UNIQUE,
     photo image,
+	stock int NOT NULL,
     category_id int,
     price float,
 
@@ -49,14 +50,6 @@ CREATE TABLE products (
 	CONSTRAINT UNQ_products_name UNIQUE ([name])
 )
 
-CREATE TABLE inventory (
-    id int IDENTITY (1,1) NOT NULL, -- pk
-    product_id int,
-    stock int,
-    store_id int,
-
-    CONSTRAINT PK_inventory_id PRIMARY KEY (id)
-)
 
 CREATE TABLE client_address (
     id int IDENTITY (1,1) NOT NULL, --pk,
@@ -104,16 +97,6 @@ ALTER TABLE [products]
 ADD CONSTRAINT FK_products_category_id FOREIGN KEY ([category_id]) REFERENCES categories([id])
 ON DELETE CASCADE
 ON UPDATE CASCADE
-GO
-
-ALTER TABLE [inventory]
-ADD CONSTRAINT FK_inventory_product_id FOREIGN KEY ([product_id]) REFERENCES products([id])
-ON DELETE CASCADE
-ON UPDATE CASCADE 
-GO
-
-ALTER TABLE [inventory]
-ADD CONSTRAINT FK_inventory_store_id FOREIGN KEY ([store_id]) REFERENCES stores([id])
 GO
 
 ALTER TABLE [billing]

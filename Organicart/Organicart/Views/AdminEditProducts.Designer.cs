@@ -50,10 +50,14 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.openImage = new System.Windows.Forms.OpenFileDialog();
+            this.stockQuantity = new System.Windows.Forms.NumericUpDown();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chosenImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockQuantity)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -146,7 +150,7 @@
             this.cmbCategories.FormattingEnabled = true;
             this.cmbCategories.Location = new System.Drawing.Point(649, 511);
             this.cmbCategories.Name = "cmbCategories";
-            this.cmbCategories.Size = new System.Drawing.Size(391, 36);
+            this.cmbCategories.Size = new System.Drawing.Size(164, 36);
             this.cmbCategories.TabIndex = 63;
             // 
             // panel4
@@ -155,7 +159,7 @@
             this.panel4.Location = new System.Drawing.Point(645, 554);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(410, 12);
+            this.panel4.Size = new System.Drawing.Size(182, 12);
             this.panel4.TabIndex = 62;
             // 
             // label4
@@ -293,11 +297,43 @@
             // 
             this.openImage.FileName = "openFileDialog1";
             // 
+            // stockQuantity
+            // 
+            this.stockQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stockQuantity.Location = new System.Drawing.Point(866, 517);
+            this.stockQuantity.Margin = new System.Windows.Forms.Padding(4);
+            this.stockQuantity.Name = "stockQuantity";
+            this.stockQuantity.Size = new System.Drawing.Size(201, 30);
+            this.stockQuantity.TabIndex = 72;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
+            this.panel6.Location = new System.Drawing.Point(866, 554);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(194, 12);
+            this.panel6.TabIndex = 74;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
+            this.label6.Location = new System.Drawing.Point(860, 475);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(80, 31);
+            this.label6.TabIndex = 73;
+            this.label6.Text = "Stock:";
+            // 
             // AdminEditProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.stockQuantity);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnConfirm);
             this.Controls.Add(this.btnDelete);
@@ -337,11 +373,15 @@
             this.Controls.SetChildIndex(this.btnConfirm, 0);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.btnCancel, 0);
+            this.Controls.SetChildIndex(this.label6, 0);
+            this.Controls.SetChildIndex(this.panel6, 0);
+            this.Controls.SetChildIndex(this.stockQuantity, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chosenImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockQuantity)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -370,5 +410,8 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.OpenFileDialog openImage;
+        private System.Windows.Forms.NumericUpDown stockQuantity;
+        public System.Windows.Forms.Panel panel6;
+        public System.Windows.Forms.Label label6;
     }
 }

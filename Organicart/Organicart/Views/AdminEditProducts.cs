@@ -55,6 +55,7 @@ namespace Organicart.Views
                     chosenImage.Image = ByteToImage(head.Data.photo);
                     cmbCategories.Text = GetSelectedCategory();
                     txtPrice.Text = head.Data.price.ToString();
+                    stockQuantity.Text = head.Data.stock.ToString();
                 }
                 head = head.Next;
             }
@@ -215,19 +216,20 @@ namespace Organicart.Views
                 product.photo = ImageToInsert(chosenImage.Image);
                 product.category_id = GetCategoryId();
                 product.price = float.Parse(txtPrice.Text);
+                product.stock = int.Parse(stockQuantity.Text);
 
                 db.SaveChanges();
 
-                //try
-                //{
+                try
+                {
 
-                MessageBox.Show("El producto ha sido modificado con éxito!");
+                    MessageBox.Show("El producto ha sido modificado con éxito!");
                     Clean();
-                //}
-                //catch (Exception err)
-                //{
-                //    MessageBox.Show($"Hubo un error {err.Message}", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                //}
+                }
+                catch (Exception err)
+                {
+                    MessageBox.Show($"Hubo un error {err.Message}", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
 
             Clean();

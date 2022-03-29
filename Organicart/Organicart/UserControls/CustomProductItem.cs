@@ -46,7 +46,6 @@ namespace Organicart
         private void CustomProductItem_Click(object sender, System.EventArgs e)
         {
             Control = (Control)sender;   // Sender gives you which control is clicked.
-            MessageBox.Show(Control.TabIndex.ToString());
         }
     }
 }

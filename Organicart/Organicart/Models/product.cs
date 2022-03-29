@@ -17,7 +17,6 @@ namespace Organicart.Models
         public product()
         {
             this.billings = new HashSet<billing>();
-            this.inventories = new HashSet<inventory>();
         }
     
         public int id { get; set; }
@@ -25,9 +24,9 @@ namespace Organicart.Models
         public byte[] photo { get; set; }
         public Nullable<int> category_id { get; set; }
         public Nullable<double> price { get; set; }
+        public Nullable<int> stock { get; set; }
     
         public virtual ICollection<billing> billings { get; set; }
         public virtual category category { get; set; }
-        public virtual ICollection<inventory> inventories { get; set; }
     }
 }

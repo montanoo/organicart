@@ -29,7 +29,6 @@ namespace Organicart.Models
         public DbSet<category> categories { get; set; }
         public DbSet<client> clients { get; set; }
         public DbSet<client_address> client_address { get; set; }
-        public DbSet<inventory> inventories { get; set; }
         public DbSet<product> products { get; set; }
         public DbSet<store> stores { get; set; }
         public DbSet<user> users { get; set; }

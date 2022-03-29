@@ -251,9 +251,6 @@
     <Compile Include="Models\client_address.cs">
       <DependentUpon>OrganicartModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\inventory.cs">
-      <DependentUpon>OrganicartModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\OrganicartModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

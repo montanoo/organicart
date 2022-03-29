@@ -74,7 +74,6 @@ namespace Organicart.Views
         //evento cuando se le da click a un item de producto
         void UserControl_Click(Object sender, EventArgs e)
         {
-            MessageBox.Show(productItems[CustomProductItem.Control.TabIndex].ProductNames);
             if (!Cart.Repeated(productItems[CustomProductItem.Control.TabIndex].ProductNames))
             {
                 Cart.InsertTail(productItems[CustomProductItem.Control.TabIndex].ProductNames);

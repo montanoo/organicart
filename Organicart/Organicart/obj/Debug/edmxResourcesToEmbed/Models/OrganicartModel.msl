@@ -46,19 +46,10 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="inventories">
-      <EntityTypeMapping TypeName="OrganicartModel.inventory">
-        <MappingFragment StoreEntitySet="inventory">
-          <ScalarProperty Name="id" ColumnName="id" />
-          <ScalarProperty Name="product_id" ColumnName="product_id" />
-          <ScalarProperty Name="stock" ColumnName="stock" />
-          <ScalarProperty Name="store_id" ColumnName="store_id" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="products">
       <EntityTypeMapping TypeName="OrganicartModel.product">
         <MappingFragment StoreEntitySet="products">
+          <ScalarProperty Name="stock" ColumnName="stock" />
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="photo" ColumnName="photo" />

@@ -34,7 +34,6 @@
             this.profilebtn = new System.Windows.Forms.PictureBox();
             this.Cartbtn = new System.Windows.Forms.PictureBox();
             this.Productsbtn = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -46,10 +45,8 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.comboBox1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Size = new System.Drawing.Size(1280, 161);
-            this.panel1.Controls.SetChildIndex(this.comboBox1, 0);
             this.panel1.Controls.SetChildIndex(this.label7, 0);
             // 
             // flowLayoutPanel1
@@ -112,16 +109,6 @@
             this.Productsbtn.TabStop = false;
             this.Productsbtn.Click += new System.EventHandler(this.Productsbtn_Click);
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(123, 72);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(193, 36);
-            this.comboBox1.TabIndex = 1;
-            this.comboBox1.Text = "Sucursales";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -163,7 +150,6 @@
         public System.Windows.Forms.PictureBox profilebtn;
         public System.Windows.Forms.PictureBox Cartbtn;
         public System.Windows.Forms.PictureBox Productsbtn;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label7;
     }
 }

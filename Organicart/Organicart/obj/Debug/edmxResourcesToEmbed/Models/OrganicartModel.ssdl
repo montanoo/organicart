@@ -41,15 +41,6 @@
     <Property Name="client_id" Type="int" />
     <Property Name="address" Type="varchar(max)" />
   </EntityType>
-  <EntityType Name="inventory">
-    <Key>
-      <PropertyRef Name="id" />
-    </Key>
-    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="product_id" Type="int" />
-    <Property Name="stock" Type="int" />
-    <Property Name="store_id" Type="int" />
-  </EntityType>
   <EntityType Name="products">
     <Key>
       <PropertyRef Name="id" />
@@ -57,6 +48,7 @@
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="name" Type="varchar" MaxLength="255" />
     <Property Name="photo" Type="image" />
+    <Property Name="stock" Type="int" />
     <Property Name="category_id" Type="int" />
     <Property Name="price" Type="float" />
   </EntityType>
@@ -141,32 +133,6 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_inventory_product_id">
-    <End Role="products" Type="Self.products" Multiplicity="0..1">
-      <OnDelete Action="Cascade" />
-    </End>
-    <End Role="inventory" Type="Self.inventory" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="products">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="inventory">
-        <PropertyRef Name="product_id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_inventory_store_id">
-    <End Role="stores" Type="Self.stores" Multiplicity="0..1" />
-    <End Role="inventory" Type="Self.inventory" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="stores">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="inventory">
-        <PropertyRef Name="store_id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
   <Association Name="FK_products_category_id">
     <End Role="categories" Type="Self.categories" Multiplicity="0..1">
       <OnDelete Action="Cascade" />
@@ -186,7 +152,6 @@
     <EntitySet Name="categories" EntityType="Self.categories" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="client" EntityType="Self.client" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="client_address" EntityType="Self.client_address" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="inventory" EntityType="Self.inventory" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="products" EntityType="Self.products" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="stores" EntityType="Self.stores" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
@@ -209,14 +174,6 @@
     <AssociationSet Name="FK_clientuser_id" Association="Self.FK_clientuser_id">
       <End Role="user" EntitySet="user" />
       <End Role="client" EntitySet="client" />
-    </AssociationSet>
-    <AssociationSet Name="FK_inventory_product_id" Association="Self.FK_inventory_product_id">
-      <End Role="products" EntitySet="products" />
-      <End Role="inventory" EntitySet="inventory" />
-    </AssociationSet>
-    <AssociationSet Name="FK_inventory_store_id" Association="Self.FK_inventory_store_id">
-      <End Role="stores" EntitySet="stores" />
-      <End Role="inventory" EntitySet="inventory" />
     </AssociationSet>
     <AssociationSet Name="FK_products_category_id" Association="Self.FK_products_category_id">
       <End Role="categories" EntitySet="categories" />

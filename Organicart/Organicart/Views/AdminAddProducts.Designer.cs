@@ -47,10 +47,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.stockQuantity = new System.Windows.Forms.NumericUpDown();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chosenImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockQuantity)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -166,7 +170,7 @@
             this.panel4.Location = new System.Drawing.Point(95, 560);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(410, 12);
+            this.panel4.Size = new System.Drawing.Size(194, 12);
             this.panel4.TabIndex = 51;
             // 
             // label4
@@ -188,7 +192,7 @@
             this.cmbCategories.FormattingEnabled = true;
             this.cmbCategories.Location = new System.Drawing.Point(99, 517);
             this.cmbCategories.Name = "cmbCategories";
-            this.cmbCategories.Size = new System.Drawing.Size(391, 36);
+            this.cmbCategories.Size = new System.Drawing.Size(176, 36);
             this.cmbCategories.TabIndex = 52;
             // 
             // panel5
@@ -249,11 +253,43 @@
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
+            this.panel6.Location = new System.Drawing.Point(325, 560);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(194, 12);
+            this.panel6.TabIndex = 58;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
+            this.label6.Location = new System.Drawing.Point(319, 481);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(80, 31);
+            this.label6.TabIndex = 57;
+            this.label6.Text = "Stock:";
+            // 
+            // stockQuantity
+            // 
+            this.stockQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stockQuantity.Location = new System.Drawing.Point(325, 523);
+            this.stockQuantity.Margin = new System.Windows.Forms.Padding(4);
+            this.stockQuantity.Name = "stockQuantity";
+            this.stockQuantity.Size = new System.Drawing.Size(201, 30);
+            this.stockQuantity.TabIndex = 6;
+            // 
             // AdminAddProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.stockQuantity);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.txtPrice);
@@ -288,11 +324,15 @@
             this.Controls.SetChildIndex(this.txtPrice, 0);
             this.Controls.SetChildIndex(this.panel5, 0);
             this.Controls.SetChildIndex(this.btnAdd, 0);
+            this.Controls.SetChildIndex(this.label6, 0);
+            this.Controls.SetChildIndex(this.panel6, 0);
+            this.Controls.SetChildIndex(this.stockQuantity, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chosenImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockQuantity)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -318,5 +358,8 @@
         public System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.PictureBox pictureBox3;
+        public System.Windows.Forms.Panel panel6;
+        public System.Windows.Forms.Label label6;
+        private System.Windows.Forms.NumericUpDown stockQuantity;
     }
 }
