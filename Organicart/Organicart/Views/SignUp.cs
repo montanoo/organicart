@@ -65,19 +65,15 @@ namespace Organicart
             if (Regex.IsMatch(pemail, expression))
             {
                 if (Regex.Replace(pemail, expression, string.Empty).Length == 0)
-                {
                     return true;
-                }
                 else
-                {
                     return false;
-                }
             }
             else
-            {
                 return false;
-            }
         }
+
+        // permite cambiar una imagen a un arreglo de bytes.
         public byte[] ImageToInsert(Image image)
         {
             //convierte la imagen a byte para guardarla en la base de datos
@@ -88,7 +84,7 @@ namespace Organicart
                 return memory.ToArray();
             }
         }
-        public Boolean WeakPassword(TextBox txtPassword)
+        public bool WeakPassword(TextBox txtPassword)
         {
             //evalua la contraseña
             int countnumbers = 0;
@@ -97,18 +93,13 @@ namespace Organicart
                 countnumbers += 1;
             }
             if (countnumbers < 8)
-            {
                 return true;
-            }
             else
-            {
                 return false;
-            }
         }
 
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            
             if (usertxt.Text == "" || nametxt.Text == "" || lastnametxt.Text == "" ||
                 passwordtxt.Text == "" || phonetxt.Text == "" || duitxt.Text == "" || emailtxt.Text == "")
             {
@@ -120,7 +111,6 @@ namespace Organicart
             }
             else
             {
-
                 try
                 {
                     using (OrganicartEntities database = new OrganicartEntities())
@@ -164,6 +154,7 @@ namespace Organicart
             }
         }
 
+        // si el usuario se va del campo email.
         private void emailtxt_Leave(object sender, EventArgs e)
         {
             if (validemail(emailtxt.Text))

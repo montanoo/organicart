@@ -115,6 +115,8 @@ namespace Organicart.Views
                 return returnImage;
             }
         }
+
+        // lo siguiente nos permite movilizarnos en los formularios
         private void Cartbtn_Click(object sender, EventArgs e)
         {
             var enterCart = new Cart(username);

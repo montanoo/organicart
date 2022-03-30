@@ -21,6 +21,8 @@ namespace Organicart
         - Luciana María Munguía Villacorta. MV210941 |
         - Carlos Vicente Castillo Sayes. CS210003 |
         */
+
+        // este formulario es esencialmente la base, eliminar los iconos básicos de Windows y añadir un botón rojo para eliminar.
         public Base()
         {
             InitializeComponent();

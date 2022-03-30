@@ -31,6 +31,7 @@ namespace Organicart.Views
             FillCategories();
         }
 
+        // Acá se permitirá al usuario cargar la imagen
         private void btnLoadImage_Click(object sender, EventArgs e)
         {
             try
@@ -65,9 +66,9 @@ namespace Organicart.Views
         {
             if (txtName.Text == "" || txtPrice.Text == "" || chosenImage.Image == null || cmbCategories.Text == "" || stockQuantity.Text == "0")
                 return;
-            using (var db = new OrganicartEntities())
+            using (var db = new OrganicartEntities()) // accedemos a la base de datos por medio de EF.
             {
-                var product = new product
+                var product = new product // creamos un objecto de tipo product y llenamos los campos
                 {
                     name = txtName.Text,
                     photo = ImageToInsert(chosenImage.Image),
@@ -104,6 +105,7 @@ namespace Organicart.Views
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            // regresar al menu de admin
             var enterAdmin = new AdminMenu();
             enterAdmin.Show();
             this.Hide();
@@ -126,17 +128,13 @@ namespace Organicart.Views
             return category;
         }
 
+        // limpiamos los txtbox
         private void Clean()
         {
             txtPrice.Text = "";
             txtName.Text = "";
             chosenImage.Image = null;
             cmbCategories.Text = "";
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

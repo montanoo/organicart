@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -57,11 +58,12 @@ namespace Organicart.Views
 				return returnImage;
 			}
 		}
+		// nos permite retornar un arreglo de bytes a partir de una imagen
 		public byte[] ImageToInsert(Image image)
 		{
 			using (var memory = new MemoryStream())
 			{
-				image.Save(memory, System.Drawing.Imaging.ImageFormat.Jpeg);
+				image.Save(memory, ImageFormat.Jpeg);
 
 				return memory.ToArray();
 			}
@@ -77,6 +79,7 @@ namespace Organicart.Views
 				passwordtxt.Text = datauser.password;
 			}
 
+			// realizamos los cambios respectivos.
 			using (OrganicartEntities database = new OrganicartEntities())
 			{
 				user datauser_ = database.users.Where(d => d.username == auxusername).FirstOrDefault();
@@ -90,12 +93,12 @@ namespace Organicart.Views
 				{
 					fotocliente.Image = ByteArrayToImage(dataclient.photo);
 				}
-
 			}
 		}
 
 		private void savebtn_Click(object sender, EventArgs e)
 		{
+			// en caso que existan campos vacíos.
 			if (usertxt.Text == "" || nametxt.Text == "" || lastnametxt.Text == "" ||
 			   passwordtxt.Text == "" || phonetxt.Text == "" || duitxt.Text == "" || emailtxt.Text == "")
 			{
@@ -151,6 +154,7 @@ namespace Organicart.Views
 			}
 		}
 
+		// añadir la foto deseada del cliente.
 		private void btnfoto_Click(object sender, EventArgs e)
 		{
 			OpenFileDialog foto = new OpenFileDialog();
@@ -162,35 +166,31 @@ namespace Organicart.Views
 			}
 		}
 
+		// eliminar la foto.
 		private void descartarbtn_Click(object sender, EventArgs e)
 		{
 			fotocliente.Image = null;
 		}
+
+		// nos permite saber si el email es válido.
 		public static bool validemail(string pemail)
 		{
-
 			string expression = @"^([a-zA-Z0-9_\-])([a-zA-Z0-9_\-\.]*)@(\[((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}|((([a-zA-Z0-9\-]+)\.)+))([a-zA-Z]{2,}|(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\])$";
 
 			if (Regex.IsMatch(pemail, expression))
 			{
 				if (Regex.Replace(pemail, expression, string.Empty).Length == 0)
-				{
 					return true;
-				}
 				else
-				{
 					return false;
-				}
 			}
 			else
-			{
 				return false;
-			}
 		}
 
 		private void emailtxt_Leave(object sender, EventArgs e)
 		{
-			if (validemail(emailtxt.Text))
+			if (validemail(emailtxt.Text)) 
 			{
 
 			}
@@ -201,7 +201,7 @@ namespace Organicart.Views
 				emailtxt.Focus();
 			}
 		}
-		public Boolean WeakPassword(TextBox txtPassword)
+		public bool WeakPassword(TextBox txtPassword)
 		{
 			int countnumbers = 0;
 			for (int i = 0; i < txtPassword.TextLength; i++)
@@ -209,15 +209,12 @@ namespace Organicart.Views
 				countnumbers += 1;
 			}
 			if (countnumbers < 8)
-			{
 				return true;
-			}
 			else
-			{
 				return false;
-			}
 		}
 
+		// movernos en el programa.
 		private void pictureBox6_Click(object sender, EventArgs e)
 		{
 			var enterAbout = new About(auxusername);

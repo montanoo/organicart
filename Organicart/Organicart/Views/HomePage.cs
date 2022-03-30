@@ -28,6 +28,7 @@ namespace Organicart
             username = pUsername;
         }
 
+        // los siguientes botones nos permiten movilizarnos en nuestro programa.
         private void Productsbtn_Click(object sender, EventArgs e)
         {
             var enterHome = new HomePage(username);

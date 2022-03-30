@@ -79,6 +79,8 @@ namespace Organicart
                 MessageBox.Show("Se ha eliminado con éxito tu producto", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        // este metodo nos permite cambiar de un array de bytes a un tipo Image.
         public Image ByteToImage(byte[] byteArrayIn)
         {
             using (var ms = new MemoryStream(byteArrayIn))
@@ -92,7 +94,6 @@ namespace Organicart
             int quantity = 0;
             var linkedCart = Products.Cart;
             //obtenemos los productos del carrito
-            
 
             var head = linkedCart.Head;
             while (head != null)
@@ -103,6 +104,7 @@ namespace Organicart
             return quantity;
         }
 
+        // si se desea ir al perfil.
         private void profilebtn_Click(object sender, EventArgs e)
         {
             var enterProfile = new Profile(username);
@@ -120,9 +122,6 @@ namespace Organicart
         private void loginbtn_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Esta funcionalidad estará disponible en la entrega final", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //var enterAddress = new Address(username);
-            //enterAddress.Show();
-            //this.Hide();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
