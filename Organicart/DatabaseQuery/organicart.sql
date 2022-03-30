@@ -120,9 +120,6 @@ GO
 INSERT INTO [user] VALUES 
 	('admin', 1, 'password')
 GO
-INSERT INTO [user] (username, password) VALUES 
-	('MG210111', 'password')
-GO
 
 INSERT INTO categories VALUES
 	('Frutas',''),
