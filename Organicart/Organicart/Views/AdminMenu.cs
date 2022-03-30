@@ -38,5 +38,12 @@ namespace Organicart.Views
             editProducts.Show();
             this.Hide();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            var enterLogin = new Login();
+            enterLogin.Show();
+            this.Hide();
+        }
     }
 }
