@@ -64,6 +64,7 @@ namespace Organicart.Views
             // panel1
             // 
             this.panel1.Controls.Add(this.label8);
+            this.panel1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.panel1.Size = new System.Drawing.Size(1280, 114);
             this.panel1.Controls.SetChildIndex(this.label8, 0);
             // 
