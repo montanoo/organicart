@@ -50,7 +50,7 @@ Para esta forma es necesario de tener instalado Git: https://git-scm.com/
 ![Captura de pantalla 2022-03-29 073041](https://user-images.githubusercontent.com/73325232/160622626-4135641a-5710-4979-9e1a-d092e17a225c.png)
   
 ---
-⚠️ Hacerlo de esta forma puede llegar a causar pequeños errores dado que al descargar los archivos directamente como .zip de una página web, Windows puede protegerlos, para arreglar esto, sería necesario modificar cada uno de los archivos que tienen extensión .resx y hacer clic en "desbloquear". ⚠️
+⚠️ Hacerlo de esta forma puede llegar a causar pequeños errores dado que al descargar los archivos directamente como .zip de una página web, Windows puede protegerlos, para arreglar esto, sería necesario modificar cada uno de los archivos que tienen extensión .resx y hacer clic en "desbloquear" dentro de las propiedades de Windows. ⚠️
   
   ![Captura de pantalla 2022-03-29 165917](https://user-images.githubusercontent.com/73325232/160720248-fcf74d76-d573-4570-a501-5fcfe268f7a8.png)
 
