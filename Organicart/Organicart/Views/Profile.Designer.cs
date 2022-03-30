@@ -67,6 +67,7 @@
             this.descartarbtn = new System.Windows.Forms.Button();
             this.duitxt = new System.Windows.Forms.MaskedTextBox();
             this.phonetxt = new System.Windows.Forms.MaskedTextBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -81,6 +82,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Productsbtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fotocliente)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -360,6 +362,7 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
+            this.panel9.Controls.Add(this.pictureBox10);
             this.panel9.Controls.Add(this.pictureBox6);
             this.panel9.Controls.Add(this.profilebtn);
             this.panel9.Controls.Add(this.Cartbtn);
@@ -367,7 +370,7 @@
             this.panel9.Location = new System.Drawing.Point(-1, 1);
             this.panel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(83, 719);
+            this.panel9.Size = new System.Drawing.Size(98, 719);
             this.panel9.TabIndex = 92;
             // 
             // pictureBox6
@@ -522,6 +525,16 @@
             this.phonetxt.Size = new System.Drawing.Size(299, 34);
             this.phonetxt.TabIndex = 6;
             // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(0, -1);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 96;
+            this.pictureBox10.TabStop = false;
+            // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
@@ -612,6 +625,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Productsbtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fotocliente)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -657,5 +671,6 @@
         private System.Windows.Forms.MaskedTextBox duitxt;
         private System.Windows.Forms.MaskedTextBox phonetxt;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox10;
     }
 }

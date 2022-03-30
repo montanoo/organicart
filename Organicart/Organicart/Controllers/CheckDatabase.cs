@@ -48,8 +48,8 @@ namespace Organicart.Controllers
 
         private void CreateDatabase()
         {
-            //try
-            //{
+            try
+            {
                 string fromMaster = sqlConnection.Replace("Initial Catalog=Organicart", "Initial Catalog=master");
                 SqlConnection connectionString = new SqlConnection(fromMaster);
 
@@ -62,11 +62,11 @@ namespace Organicart.Controllers
                 server.ConnectionContext.ExecuteNonQuery(data);
 
                 InsertProducts();
-            //}
-            //catch (Exception errorFound)
-            //{
-            //    MessageBox.Show($"There was an error: {errorFound.Message}");
-            //}
+            }
+            catch (Exception errorFound)
+            {
+                MessageBox.Show($"There was an error: {errorFound.Message}");
+            }
         }
 
         #region AddProducts
@@ -74,11 +74,11 @@ namespace Organicart.Controllers
             "\\DatabaseQuery");
         private void InsertProducts()
         {
-            MessageBox.Show($"{desiredPath}\\.jpg");
             using (var db = new OrganicartEntities())
             {
+                // obtenemos la imagen de la ruta especificada, en este caso, agua.
                 var image = Image.FromFile($"{desiredPath}\\agua.jpg");
-                var agua = new product
+                var agua = new product // hacemos un elemento de tipo product y llenamos sus atributos.
                 {
                     name = "Agua",
                     photo = ImageToInsert(image),
@@ -255,7 +255,7 @@ namespace Organicart.Controllers
                     db.products.Add(zanahoria); // guardar los items con Entity Framework
                     db.products.Add(zucaritas); // guardar los items con Entity Framework
 
-                    db.SaveChanges();
+                    db.SaveChanges(); // aplicar los cambios en la base de datos
                 }
                 catch
                 {

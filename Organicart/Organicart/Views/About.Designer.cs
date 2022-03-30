@@ -64,7 +64,7 @@ namespace Organicart.Views
             // panel1
             // 
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Size = new System.Drawing.Size(1280, 116);
+            this.panel1.Size = new System.Drawing.Size(1280, 114);
             this.panel1.Controls.SetChildIndex(this.label8, 0);
             // 
             // panel2
@@ -173,9 +173,9 @@ namespace Organicart.Views
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(537, 24);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(178, 50);
+            this.label8.Size = new System.Drawing.Size(286, 50);
             this.label8.TabIndex = 56;
-            this.label8.Text = "About us";
+            this.label8.Text = "Sobre nosotros";
             // 
             // aboutBanner
             // 
@@ -280,6 +280,7 @@ namespace Organicart.Views
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -289,16 +290,12 @@ namespace Organicart.Views
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.aboutBanner);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "About";
             this.Text = "AboutUs";
-            this.Load += new System.EventHandler(this.AboutUs_Load);
             this.Controls.SetChildIndex(this.panel2, 0);
-            this.Controls.SetChildIndex(this.panel1, 0);
-            this.Controls.SetChildIndex(this.panel3, 0);
             this.Controls.SetChildIndex(this.aboutBanner, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.label2, 0);
@@ -308,6 +305,8 @@ namespace Organicart.Views
             this.Controls.SetChildIndex(this.label5, 0);
             this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.pictureBox2, 0);
+            this.Controls.SetChildIndex(this.panel1, 0);
+            this.Controls.SetChildIndex(this.panel3, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

@@ -76,23 +76,17 @@ namespace Organicart.Views
         //evento cuando se le da click a un item de producto
         void UserControl_Click(Object sender, EventArgs e)
         {
-            var dialog = MessageBox.Show("Estás seguro que deseas añadir este elemento a tu compra?", "Alerta",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
-
-            // si el usuario aceptó la pregunta.
-            if (dialog == DialogResult.Yes)
+            // si el producto NO está repetido
+            if (!Cart.Repeated(productItems[CustomProductItem.Control.TabIndex].ProductNames))
             {
-                if (!Cart.Repeated(productItems[CustomProductItem.Control.TabIndex].ProductNames))
-                {
-                    Cart.InsertTail(productItems[CustomProductItem.Control.TabIndex].ProductNames);
-                    MessageBox.Show("Hemos añadido con éxito tu producto!", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("Este producto ya se encuentra en tu carrito! puedes cambiar la cantidad en el carrito");
-                }
+                // lo añade a una lista enlazada.
+                Cart.InsertTail(productItems[CustomProductItem.Control.TabIndex].ProductNames);
+                MessageBox.Show("Hemos añadido con éxito tu producto!", "Información", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
             }
-            
+            else // caso contrario, muestra error.
+                    MessageBox.Show(
+                        "Este producto ya se encuentra en tu carrito! puedes cambiar la cantidad en el apartado de carro.", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         //cuenta los items que cumplen con la categoria seleccionada

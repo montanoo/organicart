@@ -142,7 +142,7 @@ namespace Organicart.Views
 						database.Entry(dataclient).State = EntityState.Modified;
 						database.SaveChanges();
 					}
-					MessageBox.Show("Se han guardado los cambios");
+					MessageBox.Show("Se han guardado los cambios con éxito!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 				}
 				catch(Exception ex)
 				{

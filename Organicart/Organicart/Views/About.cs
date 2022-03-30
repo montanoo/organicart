@@ -20,11 +20,6 @@ namespace Organicart.Views
             username = pUsername;
         }
 
-        private void AboutUs_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void homePagebtn_Click(object sender, EventArgs e)
         {
             HomePage enterHomePage = new HomePage(username);
