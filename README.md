@@ -39,7 +39,7 @@ Para esta forma es necesario de tener instalado Git: https://git-scm.com/
  </details>
 
 <details> 
-   <summary><b><u>Segunda forma (no recomendada)</u></b></summary>
+   <summary><b><u>Segunda forma ⚠️ no recomendada ⚠️</u></b></summary>
 
 1. Hacer clic en "Code", en la siguiente imagen se representa donde se encuentra el botón, en la parte superior del repositorio.
 ![Captura de pantalla 2022-03-29 072615](https://user-images.githubusercontent.com/73325232/160621916-4096b60d-b52d-407b-9c83-a9273c9ec838.png) <br>
@@ -61,6 +61,13 @@ La alternativa principal es abrir una vista cualquiera, y compilar el proyecto, 
 En el siguiente enlace mostramos un pequeño fragmento sobre como solucionarlo: <a href="https://drive.google.com/file/d/1p1-RSFOOGrs4LHql-oCYukq1Yh-ZMhAP/view?usp=sharing"> Google Drive </a>
 También funciona hacer clic en lo siguiente:
 ![image](https://user-images.githubusercontent.com/73325232/160750413-d9d47dd0-72d1-43b2-8647-bb8b321162ed.png)
+
+  
+</details>
+
+<details> 
+   <summary><b><u>Tercera forma</u></b></summary>
+Descargarlo por Google Drive a través del siguiente enlace: <a href="https://drive.google.com/file/d/1caXYKBtrG4QaQHtwUXsMdSmfrBbGQeqj/view?usp=sharing"> Organicart </a>
 
   
 </details>
