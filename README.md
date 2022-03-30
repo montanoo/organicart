@@ -59,5 +59,8 @@ Otro error conocido es que ocurre lo siguiente:
 
 La alternativa principal es abrir una vista cualquiera, y compilar el proyecto, esto debería descargar todas las dependencias, a pesar de este error, el proyecto y el código deberían funcionar de maravilla, son pequeños detalles que genera Visual Studio los cuales complican nuestra entrega pero se salen de nuestras manos. 
 En el siguiente enlace mostramos un pequeño fragmento sobre como solucionarlo: <a href="https://drive.google.com/file/d/1p1-RSFOOGrs4LHql-oCYukq1Yh-ZMhAP/view?usp=sharing"> Google Drive </a>
+También funciona hacer clic en lo siguiente:
+![image](https://user-images.githubusercontent.com/73325232/160750413-d9d47dd0-72d1-43b2-8647-bb8b321162ed.png)
+
   
 </details>
