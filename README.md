@@ -22,7 +22,7 @@ Tener SQL Server / SQL es de las partes más importantes para nuestro proyecto y
 
 
 <h1 align="center"> ¿Cómo instalar? 💻 </h1>
-Existen dos formas para disfrutar de nuestro proyecto desde tu computadora, principalmente podrías hacer lo siguiente: <br>
+Existen distintas formas para disfrutar de nuestro proyecto desde tu computadora, principalmente podrías hacer lo siguiente: <br>
 
 <details> 
    <summary><b><u>Forma principal</u></b></summary>
@@ -39,7 +39,7 @@ Para esta forma es necesario de tener instalado Git: https://git-scm.com/
  </details>
 
 <details> 
-   <summary><b><u>Forma alternativa</u></b></summary>
+   <summary><b><u>Segunda forma (no recomendada)</u></b></summary>
 
 1. Hacer clic en "Code", en la siguiente imagen se representa donde se encuentra el botón, en la parte superior del repositorio.
 ![Captura de pantalla 2022-03-29 072615](https://user-images.githubusercontent.com/73325232/160621916-4096b60d-b52d-407b-9c83-a9273c9ec838.png) <br>
@@ -54,5 +54,10 @@ Para esta forma es necesario de tener instalado Git: https://git-scm.com/
   
   ![Captura de pantalla 2022-03-29 165917](https://user-images.githubusercontent.com/73325232/160720248-fcf74d76-d573-4570-a501-5fcfe268f7a8.png)
 
+Otro error conocido es que ocurre lo siguiente:
+![image](https://user-images.githubusercontent.com/73325232/160748753-21420b37-d103-4c48-9578-88752d615187.png)
+
+La alternativa principal es abrir una vista cualquiera, y compilar el proyecto, esto debería descargar todas las dependencias, a pesar de este error, el proyecto y el código deberían funcionar de maravilla, son pequeños detalles que genera Visual Studio los cuales complican nuestra entrega pero se salen de nuestras manos. 
+En el siguiente enlace mostramos un pequeño fragmento sobre como solucionarlo: <a href="https://drive.google.com/file/d/1p1-RSFOOGrs4LHql-oCYukq1Yh-ZMhAP/view?usp=sharing"> Google Drive </a>
   
 </details>
