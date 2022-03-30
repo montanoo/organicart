@@ -38,7 +38,6 @@ namespace Organicart.Views
             this.profileButton = new System.Windows.Forms.PictureBox();
             this.cartBtn2 = new System.Windows.Forms.PictureBox();
             this.homePagebtn = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.aboutBanner = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,6 +47,7 @@ namespace Organicart.Views
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profilebtn)).BeginInit();
@@ -63,10 +63,10 @@ namespace Organicart.Views
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.label7);
             this.panel1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.panel1.Size = new System.Drawing.Size(1280, 114);
-            this.panel1.Controls.SetChildIndex(this.label8, 0);
+            this.panel1.Controls.SetChildIndex(this.label7, 0);
             // 
             // panel2
             // 
@@ -167,17 +167,6 @@ namespace Organicart.Views
             this.homePagebtn.TabStop = false;
             this.homePagebtn.Click += new System.EventHandler(this.homePagebtn_Click);
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(537, 24);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(286, 50);
-            this.label8.TabIndex = 56;
-            this.label8.Text = "Sobre nosotros";
-            // 
             // aboutBanner
             // 
             this.aboutBanner.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("aboutBanner.BackgroundImage")));
@@ -276,6 +265,17 @@ namespace Organicart.Views
             this.pictureBox2.TabIndex = 59;
             this.pictureBox2.TabStop = false;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(547, 42);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(274, 46);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Sobre nosotros!";
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
@@ -335,7 +335,6 @@ namespace Organicart.Views
         public System.Windows.Forms.PictureBox profileButton;
         public System.Windows.Forms.PictureBox cartBtn2;
         public System.Windows.Forms.PictureBox homePagebtn;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox aboutBanner;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -345,5 +344,6 @@ namespace Organicart.Views
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label7;
     }
 }
