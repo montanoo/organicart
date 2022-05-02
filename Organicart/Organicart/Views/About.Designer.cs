@@ -184,7 +184,7 @@ namespace Organicart.Views
             this.label1.Cursor = System.Windows.Forms.Cursors.Default;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label1.Location = new System.Drawing.Point(130, 308);
+            this.label1.Location = new System.Drawing.Point(151, 309);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(332, 54);
             this.label1.TabIndex = 52;
@@ -192,21 +192,23 @@ namespace Organicart.Views
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
             this.label2.Cursor = System.Windows.Forms.Cursors.Default;
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
-            this.label2.Location = new System.Drawing.Point(135, 396);
+            this.label2.Location = new System.Drawing.Point(104, 372);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(346, 280);
+            this.label2.Size = new System.Drawing.Size(414, 124);
             this.label2.TabIndex = 53;
-            this.label2.Text = resources.GetString("label2.Text");
+            this.label2.Text = "Somos un grupo de programadores, actualmente cursando nuestro segundo año de carr" +
+    "era en la Universidad Don Bosco.";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label3.Location = new System.Drawing.Point(584, 288);
+            this.label3.Location = new System.Drawing.Point(686, 372);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(199, 54);
             this.label3.TabIndex = 54;
@@ -225,7 +227,7 @@ namespace Organicart.Views
             this.label4.AutoSize = true;
             this.label4.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
-            this.label4.Location = new System.Drawing.Point(588, 342);
+            this.label4.Location = new System.Drawing.Point(594, 426);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(430, 140);
             this.label4.TabIndex = 56;
@@ -237,7 +239,7 @@ namespace Organicart.Views
             this.label5.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.label5.Location = new System.Drawing.Point(584, 489);
+            this.label5.Location = new System.Drawing.Point(197, 496);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(214, 54);
             this.label5.TabIndex = 57;
@@ -248,12 +250,13 @@ namespace Organicart.Views
             this.label6.AutoSize = true;
             this.label6.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
-            this.label6.Location = new System.Drawing.Point(588, 554);
+            this.label6.Location = new System.Drawing.Point(155, 550);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(307, 140);
             this.label6.TabIndex = 58;
             this.label6.Text = "andreagvj@gmail.com\r\nivanialebron4.180@gmail.com\r\nfernando.montano41@gmail.com\r\nl" +
     "ucianamunguia@gmail.com\r\nvicente468@outlook.com";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox2
             // 
@@ -272,7 +275,7 @@ namespace Organicart.Views
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(547, 42);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(274, 46);
+            this.label7.Size = new System.Drawing.Size(266, 45);
             this.label7.TabIndex = 1;
             this.label7.Text = "Sobre nosotros!";
             // 

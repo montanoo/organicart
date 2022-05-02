@@ -23,11 +23,13 @@ namespace Organicart
         - Luciana María Munguía Villacorta. MV210941 |
         - Carlos Vicente Castillo Sayes. CS210003 |
         */
-
+        public static double SessionPrice;
         private string username;
-        CustomCartItem[] cartItems;
+        public static CustomCartItem[] cartItems;
+        public static int TotalItems = 0;
         public Cart(string pUsername)
         {
+            SessionPrice = 0;
             InitializeComponent();
             GenerateDynamicUserControls();
             username = pUsername;
@@ -44,7 +46,6 @@ namespace Organicart
             //establecemos la cantidad de product items que aparecerán en pantalla
             cartItems = new CustomCartItem[CountItems()];
             var i = 0;
-
             while (head != null)
             {
                 var values = linkedProducts.SearchCart(i);
@@ -55,7 +56,6 @@ namespace Organicart
                 cartItems[i].ProductNames = head.Data.name;
                 cartItems[i].ProductImage = ByteToImage(head.Data.photo);
                 cartItems[i].Price = (double)head.Data.price;
-
                 //adding items to the flow layout panel
                 flowLayoutPanel1.Controls.Add(cartItems[i]);
 
@@ -63,21 +63,20 @@ namespace Organicart
                 //IDProducto = productItems[i].ProductNames;
                 i++;
                 head = head.Next;
+                TotalItems++;
             }
-
         }
         void UserControl_Click(Object sender, EventArgs e)
         {
             var dialog = MessageBox.Show("Estás seguro que deseas eliminar este elemento de tu carrito?", "Alerta",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
-
+            
             // si el usuario aceptó la pregunta.
-            if (dialog == DialogResult.Yes)
-            {
-                Products.Cart.DeleteItem(cartItems[CustomCartItem.Control.TabIndex].ProductNames);
-                GenerateDynamicUserControls();
-                MessageBox.Show("Se ha eliminado con éxito tu producto", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            if (dialog != DialogResult.Yes) return;
+            Products.Cart.DeleteItem(cartItems[CustomCartItem.Control.TabIndex].ProductNames);
+            GenerateDynamicUserControls();
+            MessageBox.Show("Se ha eliminado con éxito tu producto", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            TotalItems--;
         }
 
         // este metodo nos permite cambiar de un array de bytes a un tipo Image.
@@ -121,7 +120,17 @@ namespace Organicart
 
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Esta funcionalidad estará disponible en la entrega final", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (TotalItems == 0)
+            {
+                MessageBox.Show("Debes meter aunque sea algún producto a tu carrito antes de pagar.");
+                return;
+            }
+
+            Price();
+            var enterCheckout = new Address(username);
+            enterCheckout.Show();
+            this.Hide();
+
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -130,5 +139,14 @@ namespace Organicart
             enterAbout.Show();
             this.Hide();
         }
+
+        private void Price()
+        {
+            foreach (var t in cartItems)
+            {
+                SessionPrice += t.Price * (double) t.Quantity;
+            }
+        }
+
     }
 }

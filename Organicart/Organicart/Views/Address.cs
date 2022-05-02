@@ -24,6 +24,9 @@ namespace Organicart.Views
         public Address(string pUsername)
         {
             InitializeComponent();
+            comboBox2.Items.Add("San Salvador");
+            comboBox2.Items.Add("San Miguel");
+            comboBox2.Items.Add("Santa Ana");
             username = pUsername;
         }
 
@@ -50,8 +53,13 @@ namespace Organicart.Views
 
         private void btnsiguiente_Click(object sender, EventArgs e)
         {
-            var enterPayment = new Payment(username);
-            enterPayment.Show();
+            if (textBox2.Text == "" || textBox1.Text == "" || textBox3.Text == "" || textBox4.Text == "" || comboBox2.SelectedIndex == -1 || textBox5.Text == "")
+            {
+                MessageBox.Show("Debes completar los datos solicitados", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            var enterCheckout = new Payment(username);
+            enterCheckout.Show();
             this.Hide();
         }
 
@@ -60,6 +68,39 @@ namespace Organicart.Views
             var enterAbout = new About(username);
             enterAbout.Show();
             this.Hide();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "Nombre y apellido")
+                textBox1.Text = "";
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox2.Text == "Correo")
+                textBox2.Text = "";
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox3.Text == "Número")
+                textBox3.Text = "";
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //condicion para solo números
+            if (char.IsDigit(e.KeyChar))
+                e.Handled = false;
+            //para tecla backspace
+            else if (char.IsControl(e.KeyChar))
+                e.Handled = false;
+            //si no se cumple nada de lo anterior entonces que no lo deje pasar
+            else
+            {
+                e.Handled = true;
+            }
         }
     }
 }

@@ -83,11 +83,15 @@
             this.Quantitynum.Name = "Quantitynum";
             this.Quantitynum.Size = new System.Drawing.Size(139, 30);
             this.Quantitynum.TabIndex = 5;
+            this.Quantitynum.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // Trashbtn
             // 
             this.Trashbtn.Enabled = false;
-            this.Trashbtn.Image = global::Organicart.Properties.Resources.delete;
             this.Trashbtn.Location = new System.Drawing.Point(688, 28);
             this.Trashbtn.Margin = new System.Windows.Forms.Padding(4);
             this.Trashbtn.Name = "Trashbtn";
