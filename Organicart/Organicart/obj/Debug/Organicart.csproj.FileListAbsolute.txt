@@ -1,0 +1,873 @@
+D:\Documents\programming\Ciclo 01 - 2022\PED01T\Organicart\Organicart\Organicart\bin\Debug\Organicart.exe.config
+D:\Documents\programming\Ciclo 01 - 2022\PED01T\Organicart\Organicart\Organicart\bin\Debug\Organicart.exe
+D:\Documents\programming\Ciclo 01 - 2022\PED01T\Organicart\Organicart\Organicart\bin\Debug\Organicart.pdb
+D:\Documents\programming\Ciclo 01 - 2022\PED01T\Organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.AssemblyReference.cache
+D:\Documents\programming\Ciclo 01 - 2022\PED01T\Organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.SuggestedBindingRedirects.cache
+D:\Documents\programming\Ciclo 01 - 2022\PED01T\Organicart\Organicart\Organicart\obj\Debug\Organicart.Form1.resources
+D:\Documents\programming\Ciclo 01 - 2022\PED01T\Organicart\Organicart\Organicart\obj\Debug\Organicart.Properties.Resources.resources
+D:\Documents\programming\Ciclo 01 - 2022\PED01T\Organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.GenerateResource.cache
+D:\Documents\programming\Ciclo 01 - 2022\PED01T\Organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.CoreCompileInputs.cache
+D:\Documents\programming\Ciclo 01 - 2022\PED01T\Organicart\Organicart\Organicart\obj\Debug\Organicart.exe
+D:\Documents\programming\Ciclo 01 - 2022\PED01T\Organicart\Organicart\Organicart\obj\Debug\Organicart.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Organicart.exe.config
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Organicart.exe
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Organicart.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.AssemblyReference.cache
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.SuggestedBindingRedirects.cache
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Properties.Resources.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.GenerateResource.cache
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.exe
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Base.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Login.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.SignUp.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Payment.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.CustomCartItem.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.CustomProductItem.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Cart.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.Profile.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.Products.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.Address.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.HomePage.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Organicart.exe.config
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Organicart.exe
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Organicart.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Azure.Core.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Azure.Identity.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\EntityFramework.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Buffers.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Memory.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Numerics.Vectors.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Security.AccessControl.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Security.Permissions.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Security.Principal.Windows.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Text.Encodings.Web.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Text.Json.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.ValueTuple.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Azure.Core.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Azure.Identity.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\EntityFramework.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlClrProvider.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Buffers.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Memory.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Numerics.Vectors.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Security.AccessControl.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Security.Permissions.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Security.Principal.Windows.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Text.Encodings.Web.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Text.Json.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\System.ValueTuple.xml
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.csproj.AssemblyReference.cache
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.csproj.SuggestedBindingRedirects.cache
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.Views.Address.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.Cart.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.Base.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.CustomCartItem.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.CustomProductItem.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.HomePage.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.Login.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.Payment.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.Properties.Resources.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.Views.Products.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.Views.Profile.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.SignUp.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.csproj.GenerateResource.cache
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.csproj.CopyComplete
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.exe
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.pdb
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.Views.AdminMenu.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.Views.AdminAddProducts.resources
+D:\Documents\GitHub\organicarts\Organicart\Organicart\obj\Debug\Organicart.Views.AdminEditProducts.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Organicart.exe.config
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Organicart.exe
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Organicart.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Azure.Core.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Azure.Identity.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\EntityFramework.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Buffers.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Memory.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Security.AccessControl.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Security.Permissions.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Text.Json.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.ValueTuple.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Azure.Core.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Azure.Identity.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\EntityFramework.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlClrProvider.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.pdb
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Buffers.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Memory.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Security.AccessControl.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Security.Permissions.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Text.Json.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\System.ValueTuple.xml
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.AssemblyReference.cache
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.SuggestedBindingRedirects.cache
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.Address.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.AdminAddProducts.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.AdminEditProducts.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.AdminMenu.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Cart.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Base.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.CustomCartItem.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.CustomProductItem.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.HomePage.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Login.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Payment.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Properties.Resources.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.Products.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.Profile.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.SignUp.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.GenerateResource.cache
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.CoreCompileInputs.cache
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.CopyComplete
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.exe
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Organicart.exe.config
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Organicart.exe
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Organicart.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Azure.Core.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Azure.Identity.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\EntityFramework.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Buffers.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Memory.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Numerics.Vectors.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Security.AccessControl.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Security.Permissions.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Security.Principal.Windows.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Text.Encodings.Web.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Text.Json.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.ValueTuple.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Azure.Core.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Azure.Identity.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\EntityFramework.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlClrProvider.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.pdb
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Buffers.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Memory.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Numerics.Vectors.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Security.AccessControl.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Security.Permissions.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Security.Principal.Windows.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Text.Encodings.Web.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Text.Json.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\System.ValueTuple.xml
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.csproj.AssemblyReference.cache
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.csproj.SuggestedBindingRedirects.cache
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.Views.Address.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.Views.AdminAddProducts.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.Views.AdminEditProducts.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.Views.AdminMenu.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.Cart.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.Base.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.CustomCartItem.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.CustomProductItem.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.HomePage.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.Login.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.Payment.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.Properties.Resources.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.Views.Products.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.Views.Profile.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.SignUp.resources
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.csproj.GenerateResource.cache
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.csproj.CopyComplete
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.exe
+D:\Documents\GitHub\organicart-test\Organicart\Organicart\obj\Debug\Organicart.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.csproj.AssemblyReference.cache
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.csproj.SuggestedBindingRedirects.cache
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.exe
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.Views.Address.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.Views.AdminAddProducts.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.Views.AdminEditProducts.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.Views.AdminMenu.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.Cart.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.Base.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.CustomCartItem.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.CustomProductItem.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.HomePage.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.Login.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.Payment.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.Properties.Resources.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.Views.Products.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.Views.Profile.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.SignUp.resources
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.csproj.GenerateResource.cache
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.csproj.CoreCompileInputs.cache
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Organicart.exe.config
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Organicart.exe
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Organicart.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Azure.Core.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Azure.Identity.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\EntityFramework.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Newtonsoft.Json.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Buffers.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Memory.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Numerics.Vectors.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Security.AccessControl.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Security.Permissions.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Security.Principal.Windows.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Text.Encodings.Web.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Text.Json.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.ValueTuple.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Azure.Core.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Azure.Identity.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\EntityFramework.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlClrProvider.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\Newtonsoft.Json.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Buffers.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Memory.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Numerics.Vectors.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Security.AccessControl.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Security.Permissions.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Security.Principal.Windows.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Text.Encodings.Web.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Text.Json.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\System.ValueTuple.xml
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.csproj.CopyComplete
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.pdb
+D:\Downloads\organicart-Andreaa\organicart-Andreaa\Organicart\Organicart\obj\Debug\Organicart.Views.About.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Azure.Core.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Azure.Identity.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\EntityFramework.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Buffers.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Memory.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Numerics.Vectors.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Security.AccessControl.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Security.Permissions.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Security.Principal.Windows.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Text.Encodings.Web.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Text.Json.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.ValueTuple.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Azure.Core.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Azure.Identity.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\EntityFramework.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Assessment.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrData.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.HadrModel.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.Smo.Notebook.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlClrProvider.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.pdb
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Buffers.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Memory.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Numerics.Vectors.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Security.AccessControl.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Security.Permissions.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Security.Principal.Windows.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Text.Encodings.Web.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Text.Json.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\System.ValueTuple.xml
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.About.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.AdminAddProducts.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.AdminEditProducts.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.AdminMenu.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.csproj.CopyComplete
