@@ -62,7 +62,7 @@ CREATE TABLE client_address (
 CREATE TABLE billing (
     id int IDENTITY (1,1) NOT NULL,
     [client_id] int,
-    [date] date,
+    [date] datetime,
     [product_id] int,
     [address_id] int,
     quantity int,
