@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Organicart.Views;
+using Organicart.Models;
+using System.IO;
 
 namespace Organicart
 {
@@ -22,7 +24,9 @@ namespace Organicart
         - Carlos Vicente Castillo Sayes. CS210003 |
         */
         private string username;
-        public Payment(string pUsername)
+        private int Adressid_;
+       // public static CustomCartItem[] cartItems= new CustomCartItem();
+        public Payment(string pUsername, int Adressid)
         {
             InitializeComponent();
             label6.Text = $"Total a pagar $: {Cart.SessionPrice}";
@@ -30,6 +34,7 @@ namespace Organicart
             dateTimePicker1.MinDate = DateTime.Now;
 
             username = pUsername;
+            Adressid_ = Adressid;
         }
 
         private void Cartbtn_Click(object sender, EventArgs e)
@@ -101,10 +106,34 @@ namespace Organicart
                     MessageBox.Show("Debe ingresar los 3 dígitos del CVV de su tarjeta.", "CVV inválido.", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
+                else
+                {
+                    using (OrganicartEntities database = new OrganicartEntities())
+                    {
 
+                        
 
-                //Mensaje si paga con tarjeta
-                MessageBox.Show("Tu pago con tarjeta ha sido recibido.\nFecha: " + DateTime.Now.ToLongDateString() + "\nHora: " + DateTime.Now.ToShortTimeString(), "¡PAGO EXITOSO!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        for (int i = 0; i < Cart.cartItems.Length; i++)
+                        {
+                            billing databilling = new billing();
+                            user gettingid = database.users.Where(a => a.username == username).FirstOrDefault();
+                            client refid = database.clients.Where(a => a.user_id == gettingid.id).FirstOrDefault();
+                            databilling.client_id = refid.id;
+                            databilling.date = DateTime.Now; 
+                            string pname = Cart.cartItems[i].ProductNames.ToString();
+                            product productid = database.products.Where(a => a.name == pname).FirstOrDefault();
+                            databilling.product_id = productid.id;
+                            databilling.address_id = Adressid_;
+                            databilling.quantity = Convert.ToInt32(Cart.cartItems[i].Quantity);
+                            database.billings.Add(databilling);
+                            database.SaveChanges();
+
+                        }
+                    }
+
+                    //Mensaje si paga con tarjeta
+                    MessageBox.Show("Tu pago con tarjeta ha sido recibido.\nFecha: " + DateTime.Now.ToLongDateString() + "\nHora: " + DateTime.Now.ToShortTimeString(), "¡PAGO EXITOSO!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
 
             //Si selecciona pago en efectivo           

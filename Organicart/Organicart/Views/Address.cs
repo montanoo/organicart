@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Organicart.Models;
+using System.IO;
 
 namespace Organicart.Views
 {
@@ -21,6 +23,7 @@ namespace Organicart.Views
         - Carlos Vicente Castillo Sayes. CS210003 |
         */
         private string username;
+        private int adressid;
         public Address(string pUsername)
         {
             InitializeComponent();
@@ -58,7 +61,23 @@ namespace Organicart.Views
                 MessageBox.Show("Debes completar los datos solicitados", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            var enterCheckout = new Payment(username);
+            else
+            {
+                using (OrganicartEntities database = new OrganicartEntities())
+                {
+                    user datauser = new user();
+                    client dataclient = new client();
+                    client_address dataadress = new client_address();
+                    user gettingid = database.users.Where(a => a.username == username).FirstOrDefault();
+                    client refid = database.clients.Where(a => a.user_id == gettingid.id).FirstOrDefault();
+                    dataadress.client_id = refid.id;
+                    dataadress.address = comboBox2.Text +" "+textBox5.Text + " "+textBox4.Text;
+                    database.client_address.Add(dataadress);
+                    database.SaveChanges();
+                    adressid = dataadress.id;
+                }
+            }
+            var enterCheckout = new Payment(username, adressid);
             enterCheckout.Show();
             this.Hide();
         }
