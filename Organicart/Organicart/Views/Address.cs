@@ -27,9 +27,7 @@ namespace Organicart.Views
         public Address(string pUsername)
         {
             InitializeComponent();
-            comboBox2.Items.Add("San Salvador");
-            comboBox2.Items.Add("San Miguel");
-            comboBox2.Items.Add("Santa Ana");
+            FillStores();
             username = pUsername;
         }
 
@@ -61,21 +59,18 @@ namespace Organicart.Views
                 MessageBox.Show("Debes completar los datos solicitados", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            else
+            using (OrganicartEntities database = new OrganicartEntities())
             {
-                using (OrganicartEntities database = new OrganicartEntities())
-                {
-                    user datauser = new user();
-                    client dataclient = new client();
-                    client_address dataadress = new client_address();
-                    user gettingid = database.users.Where(a => a.username == username).FirstOrDefault();
-                    client refid = database.clients.Where(a => a.user_id == gettingid.id).FirstOrDefault();
-                    dataadress.client_id = refid.id;
-                    dataadress.address = comboBox2.Text +" "+textBox5.Text + " "+textBox4.Text;
-                    database.client_address.Add(dataadress);
-                    database.SaveChanges();
-                    adressid = dataadress.id;
-                }
+                user datauser = new user();
+                client dataclient = new client();
+                client_address dataadress = new client_address();
+                user gettingid = database.users.Where(a => a.username == username).FirstOrDefault();
+                client refid = database.clients.Where(a => a.user_id == gettingid.id).FirstOrDefault();
+                dataadress.client_id = refid.id;
+                dataadress.address = comboBox2.Text +" "+textBox5.Text + " "+textBox4.Text;
+                database.client_address.Add(dataadress);
+                database.SaveChanges();
+                adressid = dataadress.id;
             }
             var enterCheckout = new Payment(username, adressid);
             enterCheckout.Show();
@@ -119,6 +114,15 @@ namespace Organicart.Views
             else
             {
                 e.Handled = true;
+            }
+        }
+
+        private void FillStores()
+        {
+            using (var db = new OrganicartEntities())
+            {
+                foreach (var variable in db.stores)
+                    comboBox2.Items.Add(variable.name);
             }
         }
     }

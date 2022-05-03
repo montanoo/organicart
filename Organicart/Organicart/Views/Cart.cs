@@ -127,6 +127,9 @@ namespace Organicart
             }
 
             Price();
+            var getAddress = new GetAddress();
+            var values = getAddress.GetUserInfo(username);
+            var amountOfAddress = values.CountQuantity(values.Head);
             var enterCheckout = new Address(username);
             enterCheckout.Show();
             this.Hide();
