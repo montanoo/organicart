@@ -129,6 +129,8 @@ namespace Organicart
                             database.SaveChanges();
 
                         }
+
+                        Cart.cartItems = null;
                     }
 
                     //Mensaje si paga con tarjeta

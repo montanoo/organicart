@@ -6,7 +6,7 @@
     </Key>
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="client_id" Type="int" />
-    <Property Name="date" Type="date" />
+    <Property Name="date" Type="datetime" />
     <Property Name="product_id" Type="int" />
     <Property Name="address_id" Type="int" />
     <Property Name="quantity" Type="int" />
@@ -48,7 +48,7 @@
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="name" Type="varchar" MaxLength="255" />
     <Property Name="photo" Type="image" />
-    <Property Name="stock" Type="int" />
+    <Property Name="stock" Type="int" Nullable="false" />
     <Property Name="category_id" Type="int" />
     <Property Name="price" Type="float" />
   </EntityType>
