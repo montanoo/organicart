@@ -11,7 +11,7 @@
           </Key>
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="client_id" Type="int" />
-          <Property Name="date" Type="date" />
+          <Property Name="date" Type="datetime" />
           <Property Name="product_id" Type="int" />
           <Property Name="address_id" Type="int" />
           <Property Name="quantity" Type="int" />
@@ -53,7 +53,7 @@
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="name" Type="varchar" MaxLength="255" />
           <Property Name="photo" Type="image" />
-          <Property Name="stock" Type="int" />
+          <Property Name="stock" Type="int" Nullable="false" />
           <Property Name="category_id" Type="int" />
           <Property Name="price" Type="float" />
         </EntityType>
@@ -195,7 +195,7 @@
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="client_id" Type="Int32" />
-          <Property Name="date" Type="DateTime" Precision="0" />
+          <Property Name="date" Type="DateTime" Precision="3" />
           <Property Name="product_id" Type="Int32" />
           <Property Name="address_id" Type="Int32" />
           <Property Name="quantity" Type="Int32" />
@@ -249,7 +249,7 @@
           <Property Name="price" Type="Double" />
           <NavigationProperty Name="billings" Relationship="Self.FK_billing_product_id" FromRole="products" ToRole="billing" />
           <NavigationProperty Name="category" Relationship="Self.FK_products_category_id" FromRole="products" ToRole="categories" />
-          <Property Name="stock" Type="Int32" />
+          <Property Name="stock" Type="Int32" Nullable="false" />
         </EntityType>
         <EntityType Name="store">
           <Key>
