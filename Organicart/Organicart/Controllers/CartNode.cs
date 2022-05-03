@@ -18,7 +18,7 @@ namespace Organicart.Controllers
        - Luciana María Munguía Villacorta. MV210941 |
        - Carlos Vicente Castillo Sayes. CS210003 |
        */
-        // valores de tipo user son los que recibirá (user -> base de datos tabla user)
+        // valores de tipo product son los que recibirá (product -> base de datos tabla product)
         public product Data { get; set; }
         public CartNode Next { get; set; }
     }

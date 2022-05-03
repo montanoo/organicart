@@ -25,6 +25,7 @@ namespace Organicart.Views
             InitializeComponent();
         }
 
+        // si hace click en añadir, entra al menu respectivo.
         private void btnAdd_Click(object sender, EventArgs e)
         {
             var openAddProducts = new AdminAddProducts();
@@ -32,10 +33,18 @@ namespace Organicart.Views
             this.Hide();
         }
 
+        // si hace click en editar, entra al menu respectivo.
         private void btnEdit_Click(object sender, EventArgs e)
         {
             var editProducts = new AdminEditProducts();
             editProducts.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            var enterLogin = new Login();
+            enterLogin.Show();
             this.Hide();
         }
     }

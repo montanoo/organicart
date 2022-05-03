@@ -35,6 +35,7 @@ namespace Organicart
             this.Productlbl = new System.Windows.Forms.Label();
             this.btnAddToCart = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Productimg)).BeginInit();
@@ -43,20 +44,22 @@ namespace Organicart
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(204)))), ((int)(((byte)(184)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(92)))), ((int)(((byte)(53)))));
             this.panel1.Controls.Add(this.Productimg);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(117, 98);
+            this.panel1.Size = new System.Drawing.Size(156, 121);
             this.panel1.TabIndex = 3;
             // 
             // Productimg
             // 
-            this.Productimg.Location = new System.Drawing.Point(24, 11);
+            this.Productimg.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Productimg.Location = new System.Drawing.Point(0, 0);
+            this.Productimg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Productimg.Name = "Productimg";
-            this.Productimg.Size = new System.Drawing.Size(74, 72);
-            this.Productimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Productimg.Size = new System.Drawing.Size(156, 121);
+            this.Productimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Productimg.TabIndex = 4;
             this.Productimg.TabStop = false;
             // 
@@ -65,9 +68,10 @@ namespace Organicart
             this.Pricelbl.AutoSize = true;
             this.Pricelbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Pricelbl.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Pricelbl.Location = new System.Drawing.Point(251, 43);
+            this.Pricelbl.Location = new System.Drawing.Point(352, 67);
+            this.Pricelbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pricelbl.Name = "Pricelbl";
-            this.Pricelbl.Size = new System.Drawing.Size(61, 25);
+            this.Pricelbl.Size = new System.Drawing.Size(77, 32);
             this.Pricelbl.TabIndex = 7;
             this.Pricelbl.Text = "$0.00";
             // 
@@ -75,9 +79,10 @@ namespace Organicart
             // 
             this.Productlbl.AutoSize = true;
             this.Productlbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Productlbl.Location = new System.Drawing.Point(176, 11);
+            this.Productlbl.Location = new System.Drawing.Point(252, 28);
+            this.Productlbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Productlbl.Name = "Productlbl";
-            this.Productlbl.Size = new System.Drawing.Size(273, 25);
+            this.Productlbl.Size = new System.Drawing.Size(349, 32);
             this.Productlbl.TabIndex = 5;
             this.Productlbl.Text = "Pan de Barra Bimbo - 530 grs";
             // 
@@ -86,9 +91,10 @@ namespace Organicart
             this.btnAddToCart.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAddToCart.Enabled = false;
             this.btnAddToCart.Image = global::Organicart.Properties.Resources.shopping_cart;
-            this.btnAddToCart.Location = new System.Drawing.Point(512, 11);
+            this.btnAddToCart.Location = new System.Drawing.Point(683, 14);
+            this.btnAddToCart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddToCart.Name = "btnAddToCart";
-            this.btnAddToCart.Size = new System.Drawing.Size(70, 72);
+            this.btnAddToCart.Size = new System.Drawing.Size(93, 89);
             this.btnAddToCart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnAddToCart.TabIndex = 6;
             this.btnAddToCart.TabStop = false;
@@ -97,34 +103,46 @@ namespace Organicart
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(176, 43);
+            this.label1.Location = new System.Drawing.Point(252, 67);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 25);
+            this.label1.Size = new System.Drawing.Size(93, 32);
             this.label1.TabIndex = 8;
             this.label1.Text = "Precio:";
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
+            this.panel3.Location = new System.Drawing.Point(-5, -2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(815, 10);
+            this.panel3.TabIndex = 10;
+            // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel2.Location = new System.Drawing.Point(0, 103);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
+            this.panel2.Location = new System.Drawing.Point(-1, 116);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(611, 9);
-            this.panel2.TabIndex = 9;
+            this.panel2.Size = new System.Drawing.Size(815, 10);
+            this.panel2.TabIndex = 11;
             // 
             // CustomProductItem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Pricelbl);
             this.Controls.Add(this.btnAddToCart);
             this.Controls.Add(this.Productlbl);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "CustomProductItem";
-            this.Size = new System.Drawing.Size(603, 113);
+            this.Size = new System.Drawing.Size(804, 124);
             this.Click += new System.EventHandler(this.CustomProductItem_Click);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Productimg)).EndInit();
@@ -141,6 +159,7 @@ namespace Organicart
         private System.Windows.Forms.PictureBox btnAddToCart;
         private System.Windows.Forms.Label Productlbl;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
     }
 }

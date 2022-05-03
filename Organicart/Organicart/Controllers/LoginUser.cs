@@ -2,17 +2,16 @@
 using Organicart.Models;
 using Organicart.Views;
 
-/*
-Integrantes: 
-- Fernando Josué Montano González. MG210111 | 
-- Andrea Guadalupe Velásquez Joyar. VJ210576 |
-- Ivania María Lebrón Flores. LF212591 | 
-- Luciana María Munguía Villacorta. MV210941 |
-- Carlos Vicente Castillo Sayes. CS210003 |
-*/
-
 namespace Organicart.Controllers
 {
+    /*
+    Integrantes: 
+    - Fernando Josué Montano González. MG210111 | 
+    - Andrea Guadalupe Velásquez Joyar. VJ210576 |
+    - Ivania María Lebrón Flores. LF212591 | 
+    - Luciana María Munguía Villacorta. MV210941 |
+    - Carlos Vicente Castillo Sayes. CS210003 |
+    */
     class LoginUser
     {
         /* para darle uso a las estructuras de datos, añadiremos los usuarios a 
@@ -40,7 +39,7 @@ namespace Organicart.Controllers
             return linkedUsers;
         }
 
-        public void Login(string pUsername, string pPassword)
+        public bool Login(string pUsername, string pPassword)
         {
             // leemos los datos con el método anterior.
             var valuesToWork = GetInfo();
@@ -65,23 +64,27 @@ namespace Organicart.Controllers
             {
                 MessageBox.Show(
                     "No hemos encontrado tu usuario, asegurate de haber escrito tu usuario y contraseña correctamente");
-                return;
             }
 
-            if (userRole == 1)
+            if (found)
             {
-                var joinAdmin = new AdminMenu();
-                joinAdmin.Show();
+                if (userRole == 1)
+                {
+                    var joinAdmin = new AdminMenu();
+                    joinAdmin.Show();
 
-                currentForm.Hide();
-            }
-            else
-            {
-                var joinHomePage = new HomePage();
-                joinHomePage.Show();
+                    currentForm.Hide();
+                }
+                else
+                {
+                    var joinHomePage = new HomePage(pUsername);
+                    joinHomePage.Show();
 
-                currentForm.Hide();
+                    currentForm.Hide();
+                }
             }
+
+            return found;
         }
     }
 }

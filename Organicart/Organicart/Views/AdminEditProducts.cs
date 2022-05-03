@@ -15,10 +15,19 @@ namespace Organicart.Views
 {
     public partial class AdminEditProducts : Base
     {
+        /*
+        Integrantes: 
+        - Fernando Josué Montano González. MG210111 | 
+        - Andrea Guadalupe Velásquez Joyar. VJ210576 |
+        - Ivania María Lebrón Flores. LF212591 | 
+        - Luciana María Munguía Villacorta. MV210941 |
+        - Carlos Vicente Castillo Sayes. CS210003 |
+        */
         public AdminEditProducts()
         {
             InitializeComponent();
             
+            // obtenemos los nombres y llenamos las categorias.
             GetNames();
             FillCategories();
         }
@@ -48,7 +57,7 @@ namespace Organicart.Views
 
             var head = values.Head;
 
-            while (head != null)
+            while (head != null) // recorremos la linked list.
             {
                 if (head.Data.name == cmbNames.Text)
                 {
@@ -172,7 +181,7 @@ namespace Organicart.Views
             var dialog = MessageBox.Show("Entrar en el modo edición eliminará tu imagen, estás seguro?", "Alerta",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
 
-            if (dialog == DialogResult.Yes)
+            if (dialog == DialogResult.Yes) // cambiar los campos que estaban enabled = false a true.
             {
                 btnEdit.Visible = false;
                 btnDelete.Visible = false;
@@ -189,6 +198,7 @@ namespace Organicart.Views
             
         }
 
+        // este método nos sirve para cargar la imagen.
         private void btnLoadImage_Click(object sender, EventArgs e)
         {
             try
@@ -205,12 +215,16 @@ namespace Organicart.Views
             }
         }
 
+        // cuando el usuario haga click en confirmar los cambios.
         private void btnConfirm_Click(object sender, EventArgs e)
         {
+            // en un dado caso esté vacío, se retorna.
             if (cmbNames.Text == "" || txtPrice.Text == "" || chosenImage.Image == null || cmbCategories.Text == "")
                 return;
+            // si no está vacío, instanciamos el contexto del EF.
             using (var db = new OrganicartEntities())
             {
+                // query para saber cual estamos modificando.
                 var product = db.products.Where(
                     d => d.name == cmbNames.Text).First();
 
@@ -220,6 +234,7 @@ namespace Organicart.Views
                 product.price = float.Parse(txtPrice.Text);
                 product.stock = int.Parse(stockQuantity.Text);
 
+                // realizamos y aplicamos los cambios en la bd.
                 db.SaveChanges();
 
                 try
@@ -234,6 +249,7 @@ namespace Organicart.Views
                 }
             }
 
+            // limpiamos y revertimos los que estaban enabled a disabled y viceversa.
             Clean();
             btnEdit.Visible = true;
             btnDelete.Visible = true;
@@ -275,6 +291,7 @@ namespace Organicart.Views
             return category;
         }
 
+        // una vez el usuario entró en edición, decidió hacer clic en cancelar.
         private void btnCancel_Click(object sender, EventArgs e)
         {
             btnEdit.Visible = true;

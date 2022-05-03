@@ -30,13 +30,15 @@ namespace Organicart.Views
 
         CustomProductItem[] productItems;
 
+        private string username;
         //creamos el carrito 
         public static CartList Cart = new CartList();
-        public Products(int category)
+        public Products(int category, string pUsername)
         {
             selectedcategory = category;
             InitializeComponent();
-            GenerateDynamicUserControls();        
+            GenerateDynamicUserControls();
+            username = pUsername;
         }
         private void GenerateDynamicUserControls()
         {
@@ -74,14 +76,17 @@ namespace Organicart.Views
         //evento cuando se le da click a un item de producto
         void UserControl_Click(Object sender, EventArgs e)
         {
+            // si el producto NO está repetido
             if (!Cart.Repeated(productItems[CustomProductItem.Control.TabIndex].ProductNames))
             {
+                // lo añade a una lista enlazada.
                 Cart.InsertTail(productItems[CustomProductItem.Control.TabIndex].ProductNames);
+                MessageBox.Show("Hemos añadido con éxito tu producto!", "Información", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
             }
-            else
-            {
-                MessageBox.Show("Este producto ya se encuentra en tu carrito! puedes cambiar la cantidad en el carrito");
-            }
+            else // caso contrario, muestra error.
+                    MessageBox.Show(
+                        "Este producto ya se encuentra en tu carrito! puedes cambiar la cantidad en el apartado de carro.", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         //cuenta los items que cumplen con la categoria seleccionada
@@ -110,24 +115,40 @@ namespace Organicart.Views
                 return returnImage;
             }
         }
+
+        // lo siguiente nos permite movilizarnos en los formularios
         private void Cartbtn_Click(object sender, EventArgs e)
         {
-            var enterCart = new Cart();
+            var enterCart = new Cart(username);
             enterCart.Show();
             this.Hide();
         }
 
         private void profilebtn_Click(object sender, EventArgs e)
         {
-            var enterProfile = new Profile();
+            var enterProfile = new Profile(username);
             enterProfile.Show();
             this.Hide();
         }
 
         private void Productsbtn_Click(object sender, EventArgs e)
         {
-            var enterHome = new HomePage();
+            var enterHome = new HomePage(username);
             enterHome.Show();
+            this.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            var enterAbout = new About(username);
+            enterAbout.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            var newLogin = new Login();
+            newLogin.Show();
             this.Hide();
         }
     }

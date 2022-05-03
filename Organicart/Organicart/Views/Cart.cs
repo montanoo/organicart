@@ -24,12 +24,13 @@ namespace Organicart
         - Carlos Vicente Castillo Sayes. CS210003 |
         */
 
+        private string username;
         CustomCartItem[] cartItems;
-        public Cart()
+        public Cart(string pUsername)
         {
             InitializeComponent();
             GenerateDynamicUserControls();
-
+            username = pUsername;
         }
         private void GenerateDynamicUserControls()
         {
@@ -67,12 +68,19 @@ namespace Organicart
         }
         void UserControl_Click(Object sender, EventArgs e)
         {
-            MessageBox.Show(cartItems[CustomCartItem.Control.TabIndex].ProductName);
-            Products.Cart.DeleteItem(cartItems[CustomCartItem.Control.TabIndex].ProductNames);
-            GenerateDynamicUserControls();
-            //hacer metodo de cart para delete
-            //esto nooo Cart.InsertTail(productItems[CustomProductItem.Control.TabIndex].ProductNames);
+            var dialog = MessageBox.Show("Estás seguro que deseas eliminar este elemento de tu carrito?", "Alerta",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+
+            // si el usuario aceptó la pregunta.
+            if (dialog == DialogResult.Yes)
+            {
+                Products.Cart.DeleteItem(cartItems[CustomCartItem.Control.TabIndex].ProductNames);
+                GenerateDynamicUserControls();
+                MessageBox.Show("Se ha eliminado con éxito tu producto", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
+
+        // este metodo nos permite cambiar de un array de bytes a un tipo Image.
         public Image ByteToImage(byte[] byteArrayIn)
         {
             using (var ms = new MemoryStream(byteArrayIn))
@@ -86,7 +94,6 @@ namespace Organicart
             int quantity = 0;
             var linkedCart = Products.Cart;
             //obtenemos los productos del carrito
-            
 
             var head = linkedCart.Head;
             while (head != null)
@@ -97,24 +104,30 @@ namespace Organicart
             return quantity;
         }
 
+        // si se desea ir al perfil.
         private void profilebtn_Click(object sender, EventArgs e)
         {
-            var enterProfile = new Profile();
+            var enterProfile = new Profile(username);
             enterProfile.Show();
             this.Hide();
         }
 
         private void Productsbtn_Click(object sender, EventArgs e)
         {
-            var enterHome = new HomePage();
+            var enterHome = new HomePage(username);
             enterHome.Show();
             this.Hide();
         }
 
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            var enterAddress = new Address();
-            enterAddress.Show();
+            MessageBox.Show("Esta funcionalidad estará disponible en la entrega final", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            var enterAbout = new About(username);
+            enterAbout.Show();
             this.Hide();
         }
     }
