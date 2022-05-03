@@ -43,8 +43,8 @@ namespace Organicart
         [Category("Custom Props")]
         public decimal Quantity
         {
-            get { return _quantity; }
-            set { _quantity = value; Quantitynum.Value = value ; }
+            get { return Quantitynum.Value; }
+            set { _quantity = Quantitynum.Value; }
         }
 
         #endregion

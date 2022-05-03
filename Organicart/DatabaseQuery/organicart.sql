@@ -130,6 +130,12 @@ INSERT INTO categories VALUES
 	('Snacks','')
 GO
 
+INSERT INTO stores VALUES
+	('San Salvador', 'Colonia Dina.'),
+	('Santa Ana', 'Metrocentro.'),
+	('San Miguel', '-.')
+GO
+
 SELECT * FROM products
 
 SELECT * FROM categories
