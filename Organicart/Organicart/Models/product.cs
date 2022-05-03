@@ -24,7 +24,7 @@ namespace Organicart.Models
         public byte[] photo { get; set; }
         public Nullable<int> category_id { get; set; }
         public Nullable<double> price { get; set; }
-        public Nullable<int> stock { get; set; }
+        public int stock { get; set; }
     
         public virtual ICollection<billing> billings { get; set; }
         public virtual category category { get; set; }
