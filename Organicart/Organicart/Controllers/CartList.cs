@@ -154,46 +154,5 @@ namespace Organicart.Controllers
 
         }
 
-        //public void Eliminar(int dui)
-        //{
-        //    /*creamos dos nodos: uno actual y otro anterior.
-        //     Igualmente creamos boleanos que nos indique si ya
-        //    hemos encontrado el nodo que deseamos eliminar*/
-        //    nodo1 actual, anterior;
-        //    Boolean encontrado = false;
-        //    actual = raiz;
-        //    anterior = null;
-
-        //    //iteracion de búsqueda
-        //    while ((actual != null) && (!encontrado))
-        //    {
-        //        encontrado = (actual.DUI == dui);
-
-        //        //evalua si es verdadero toma el nodo actual y el siguiente
-        //        if (!encontrado)
-        //        {
-        //            anterior = actual;
-        //            actual = actual.siguiente;
-        //        }
-        //    }
-
-        //    //iteracion de cambio de enlace entre nodos
-        //    if (actual != null)
-        //    {
-        //        if (actual == raiz)
-        //        {
-        //            //elimina el primer nodo de la lista
-        //            raiz = actual.siguiente;
-        //        }
-        //        else
-        //        {
-        //            //intercambio entre enlaces de nodos
-        //            anterior.siguiente = actual.siguiente;
-        //        }
-        //        //elimina el nodo
-        //        actual = null;
-        //    }
-        //}
-
     }
 }

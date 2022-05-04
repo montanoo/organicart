@@ -47,5 +47,10 @@ namespace Organicart.Views
             enterLogin.Show();
             this.Hide();
         }
+
+        private void btnOrders_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

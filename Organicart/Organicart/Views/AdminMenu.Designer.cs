@@ -37,13 +37,13 @@
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnPedidos = new System.Windows.Forms.PictureBox();
+            this.btnOrders = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnAdd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnEdit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPedidos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnOrders)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -157,19 +157,20 @@
             this.label3.Text = "ADMINISTRAR PEDIDOS";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnPedidos
+            // btnOrders
             // 
-            this.btnPedidos.BackColor = System.Drawing.Color.Transparent;
-            this.btnPedidos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnPedidos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPedidos.Image = global::Organicart.Properties.Resources.receipts;
-            this.btnPedidos.Location = new System.Drawing.Point(679, 342);
-            this.btnPedidos.Margin = new System.Windows.Forms.Padding(2);
-            this.btnPedidos.Name = "btnPedidos";
-            this.btnPedidos.Size = new System.Drawing.Size(143, 132);
-            this.btnPedidos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnPedidos.TabIndex = 9;
-            this.btnPedidos.TabStop = false;
+            this.btnOrders.BackColor = System.Drawing.Color.Transparent;
+            this.btnOrders.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOrders.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOrders.Image = global::Organicart.Properties.Resources.receipts;
+            this.btnOrders.Location = new System.Drawing.Point(679, 342);
+            this.btnOrders.Margin = new System.Windows.Forms.Padding(2);
+            this.btnOrders.Name = "btnOrders";
+            this.btnOrders.Size = new System.Drawing.Size(143, 132);
+            this.btnOrders.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnOrders.TabIndex = 9;
+            this.btnOrders.TabStop = false;
+            this.btnOrders.Click += new System.EventHandler(this.btnOrders_Click);
             // 
             // AdminMenu
             // 
@@ -177,7 +178,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1047, 540);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.btnPedidos);
+            this.Controls.Add(this.btnOrders);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
@@ -192,7 +193,7 @@
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.pictureBox2, 0);
-            this.Controls.SetChildIndex(this.btnPedidos, 0);
+            this.Controls.SetChildIndex(this.btnOrders, 0);
             this.Controls.SetChildIndex(this.label3, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -200,7 +201,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnEdit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPedidos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnOrders)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,6 +217,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox btnPedidos;
+        private System.Windows.Forms.PictureBox btnOrders;
     }
 }

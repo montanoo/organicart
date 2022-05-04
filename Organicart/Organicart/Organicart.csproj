@@ -241,6 +241,8 @@
     <Compile Include="Controllers\CheckDatabase.cs" />
     <Compile Include="Controllers\GetAddress.cs" />
     <Compile Include="Controllers\LoginUser.cs" />
+    <Compile Include="Controllers\OrdersNode.cs" />
+    <Compile Include="Controllers\OrdersQueue.cs" />
     <Compile Include="Controllers\ProductsList.cs" />
     <Compile Include="Controllers\UserList.cs" />
     <Compile Include="Controllers\UsersNode.cs" />
@@ -281,6 +283,12 @@
     <Compile Include="Models\user.cs">
       <DependentUpon>OrganicartModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\CustomOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\CustomOrder.Designer.cs">
+      <DependentUpon>CustomOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\About.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -310,6 +318,12 @@
     </Compile>
     <Compile Include="Views\AdminMenu.Designer.cs">
       <DependentUpon>AdminMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdminOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AdminOrders.Designer.cs">
+      <DependentUpon>AdminOrders.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Cart.cs">
       <SubType>Form</SubType>
@@ -373,6 +387,9 @@
     <Compile Include="Views\SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserControls\CustomOrder.resx">
+      <DependentUpon>CustomOrder.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
@@ -387,6 +404,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\AdminMenu.resx">
       <DependentUpon>AdminMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AdminOrders.resx">
+      <DependentUpon>AdminOrders.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Cart.resx">
       <DependentUpon>Cart.cs</DependentUpon>
