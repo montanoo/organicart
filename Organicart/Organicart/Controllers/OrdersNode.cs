@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Organicart.Controllers;
+using Organicart.Models;
 
 namespace Organicart.Controllers
 {
@@ -24,7 +26,7 @@ namespace Organicart.Controllers
         public int Quantity { get; set; }
         public DateTime Date { get; set; }
         public string Address { get; set; }
-        public ProductsList Productos { get; set; }
+        public List<product> Productos { get; set; }
         public OrdersNode Next { get; set; }
     }
 }

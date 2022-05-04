@@ -50,7 +50,7 @@
             // 
             this.Datelbl.AutoSize = true;
             this.Datelbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Datelbl.Location = new System.Drawing.Point(183, 50);
+            this.Datelbl.Location = new System.Drawing.Point(220, 21);
             this.Datelbl.Name = "Datelbl";
             this.Datelbl.Size = new System.Drawing.Size(116, 20);
             this.Datelbl.TabIndex = 19;
@@ -60,7 +60,7 @@
             // 
             this.IDlbl.AutoSize = true;
             this.IDlbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IDlbl.Location = new System.Drawing.Point(21, 50);
+            this.IDlbl.Location = new System.Drawing.Point(10, 39);
             this.IDlbl.Name = "IDlbl";
             this.IDlbl.Size = new System.Drawing.Size(42, 20);
             this.IDlbl.TabIndex = 18;
@@ -70,7 +70,7 @@
             // 
             this.Clientlbl.AutoSize = true;
             this.Clientlbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Clientlbl.Location = new System.Drawing.Point(21, 25);
+            this.Clientlbl.Location = new System.Drawing.Point(10, 21);
             this.Clientlbl.Name = "Clientlbl";
             this.Clientlbl.Size = new System.Drawing.Size(189, 20);
             this.Clientlbl.TabIndex = 16;
@@ -80,7 +80,7 @@
             // 
             this.Quantitylbl.AutoSize = true;
             this.Quantitylbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Quantitylbl.Location = new System.Drawing.Point(21, 71);
+            this.Quantitylbl.Location = new System.Drawing.Point(221, 39);
             this.Quantitylbl.Name = "Quantitylbl";
             this.Quantitylbl.Size = new System.Drawing.Size(97, 20);
             this.Quantitylbl.TabIndex = 20;
@@ -90,7 +90,7 @@
             // 
             this.Addresslbl.AutoSize = true;
             this.Addresslbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Addresslbl.Location = new System.Drawing.Point(21, 91);
+            this.Addresslbl.Location = new System.Drawing.Point(10, 59);
             this.Addresslbl.Name = "Addresslbl";
             this.Addresslbl.Size = new System.Drawing.Size(350, 20);
             this.Addresslbl.TabIndex = 21;
@@ -99,7 +99,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
-            this.panel1.Location = new System.Drawing.Point(0, 133);
+            this.panel1.Location = new System.Drawing.Point(2, 90);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(485, 17);
@@ -117,7 +117,7 @@
             this.Controls.Add(this.Clientlbl);
             this.Controls.Add(this.panel3);
             this.Name = "CustomOrder";
-            this.Size = new System.Drawing.Size(484, 149);
+            this.Size = new System.Drawing.Size(377, 107);
             this.Click += new System.EventHandler(this.CustomOrder_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
