@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Organicart.Models;
+using Organicart.Controllers;
 
 namespace Organicart.Views
 {
@@ -15,6 +17,8 @@ namespace Organicart.Views
         public AdminOrders()
         {
             InitializeComponent();
+            OrdersQueue ordenes = new OrdersQueue();
+            ordenes.TailTrying();
         }
     }
 }

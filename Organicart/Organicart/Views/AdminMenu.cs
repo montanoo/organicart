@@ -50,7 +50,9 @@ namespace Organicart.Views
 
         private void btnOrders_Click(object sender, EventArgs e)
         {
-
+            var checkorders = new AdminOrders();
+            checkorders.Show();
+            this.Hide();
         }
     }
 }

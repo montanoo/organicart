@@ -126,15 +126,50 @@ namespace Organicart.Controllers
         {
             using (var db = new Organicart.Models.OrganicartEntities())
             {
-                Organicart.Models.billing order = new Models.billing();
-                var or = db.billings;
+                //sacamos las fechas que se repiten y el numero de repeticiones para separar pedidos
+                var dategroups = (from t in db.billings
+                                  group t by t.date into g
+                                  select new
+                                  {
+                                      dategr = g.Key,
+                                      productquantity = g.Count()
+                                  }).ToArray();
 
-                Organicart.Models.billing[] orders = new Models.billing[db.billings.Count()];
+                //captamos los valores de la primer fecha y cantidad de veces que se repite
 
+                for (int i =0; i < dategroups.Length; i++)
+                {
+                    int quantity = dategroups[i].productquantity;
+                    DateTime dateq = (DateTime)dategroups[i].dategr;
+
+                    //array con todas las instancias de billing que tienen la fecha que se esta buscando
+                    var query = (from c in db.billings
+                                 where c.date == dateq
+                                 select c).ToArray();
+
+                    for (int j =0; j < query.Length; j++)
+                    {
+                        //aqui es donde vamos a llenar la colita, aqui llenaremos el nodo orders
+                        var helper = new OrdersNode
+                        {
+                            //los errores son pq tenemos id y no el dato pero eso lo podes sacar wuwu
+                            //Client = query[i].client,
+                            //Id = (int)query[i].client_id,
+                            //Quantity = (int)query[i].quantity,
+                            //Date = (DateTime)query[i].date,
+                            //Address = query[i].address_id,
+                            //Next = null
+                        };
+                    }
+                }
+
+                //var query = (  from c in db.billings
+                //          where c.date == DateTime.Now //poner la date a comparar
+                //          select c).SingleOrDefault();
                 //cosas malas
                 //var helper = new OrdersNode
                 //{
-                    
+
                 //    Client = order.client_id.ToString(),
                 //    Id = order.client_id,
                 //    Quantity = quantity,
@@ -152,7 +187,7 @@ namespace Organicart.Controllers
                 //    fechaacomun = db.billings.Where() ;
                 //    orders = db.billings.Where(a => a.date == fechaacomun);
                 //}
-            
+
             }
         }
     }
