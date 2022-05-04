@@ -1044,3 +1044,5 @@ C:\Users\ivani\OneDrive\Documentos\GitHub\organicart\Organicart\Organicart\obj\D
 C:\Users\ivani\OneDrive\Documentos\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.exe
 C:\Users\ivani\OneDrive\Documentos\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.pdb
 C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.About.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.UserControls.CustomOrder.resources
+C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.AdminOrders.resources

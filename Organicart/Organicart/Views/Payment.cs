@@ -119,7 +119,7 @@ namespace Organicart
                             user gettingid = database.users.Where(a => a.username == username).FirstOrDefault();
                             client refid = database.clients.Where(a => a.user_id == gettingid.id).FirstOrDefault();
                             databilling.client_id = refid.id;
-                            databilling.date = DateTime.Now; 
+                            databilling.date = DateTime.Now.AddMilliseconds(-DateTime.Now.Millisecond); 
                             string pname = Cart.cartItems[i].ProductNames.ToString();
                             product productid = database.products.Where(a => a.name == pname).FirstOrDefault();
                             databilling.product_id = productid.id;
