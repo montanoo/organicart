@@ -40,7 +40,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
-            this.panel3.Location = new System.Drawing.Point(-1, -1);
+            this.panel3.Location = new System.Drawing.Point(-1, -8);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(485, 17);
@@ -99,7 +99,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(125)))), ((int)(((byte)(94)))));
-            this.panel1.Location = new System.Drawing.Point(2, 90);
+            this.panel1.Location = new System.Drawing.Point(-1, 97);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(485, 17);

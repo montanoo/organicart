@@ -289,6 +289,12 @@
     <Compile Include="UserControls\CustomOrder.Designer.cs">
       <DependentUpon>CustomOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\CustomProductResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\CustomProductResult.Designer.cs">
+      <DependentUpon>CustomProductResult.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\About.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -389,6 +395,9 @@
     </Compile>
     <EmbeddedResource Include="UserControls\CustomOrder.resx">
       <DependentUpon>CustomOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\CustomProductResult.resx">
+      <DependentUpon>CustomProductResult.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\About.resx">
       <DependentUpon>About.cs</DependentUpon>

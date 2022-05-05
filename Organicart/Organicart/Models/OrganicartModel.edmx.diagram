@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="5da1e19ad7434422bbdd206075b16418" Name="Diagram1" ZoomLevel="74">
+      <Diagram DiagramId="5da1e19ad7434422bbdd206075b16418" Name="Diagram1" ZoomLevel="97">
         <EntityTypeShape EntityType="OrganicartModel.billing" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
         <EntityTypeShape EntityType="OrganicartModel.category" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
         <EntityTypeShape EntityType="OrganicartModel.client" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />

@@ -33,6 +33,8 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.OrdersflowPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.ProductsLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnLoadImage = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
@@ -68,6 +70,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 69;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // OrdersflowPanel
             // 
@@ -85,11 +88,41 @@
             this.ProductsLayoutPanel2.Size = new System.Drawing.Size(467, 314);
             this.ProductsLayoutPanel2.TabIndex = 51;
             // 
+            // btnLoadImage
+            // 
+            this.btnLoadImage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
+            this.btnLoadImage.Enabled = false;
+            this.btnLoadImage.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoadImage.ForeColor = System.Drawing.Color.White;
+            this.btnLoadImage.Location = new System.Drawing.Point(416, 141);
+            this.btnLoadImage.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLoadImage.Name = "btnLoadImage";
+            this.btnLoadImage.Size = new System.Drawing.Size(119, 68);
+            this.btnLoadImage.TabIndex = 60;
+            this.btnLoadImage.Text = "Despachar pedido";
+            this.btnLoadImage.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
+            this.button1.Enabled = false;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(559, 141);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(119, 68);
+            this.button1.TabIndex = 61;
+            this.button1.Text = "Ver productos";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // AdminOrders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1047, 540);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnLoadImage);
             this.Controls.Add(this.ProductsLayoutPanel2);
             this.Controls.Add(this.OrdersflowPanel);
             this.Name = "AdminOrders";
@@ -97,6 +130,8 @@
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.OrdersflowPanel, 0);
             this.Controls.SetChildIndex(this.ProductsLayoutPanel2, 0);
+            this.Controls.SetChildIndex(this.btnLoadImage, 0);
+            this.Controls.SetChildIndex(this.button1, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -110,5 +145,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.FlowLayoutPanel OrdersflowPanel;
         private System.Windows.Forms.FlowLayoutPanel ProductsLayoutPanel2;
+        private System.Windows.Forms.Button btnLoadImage;
+        private System.Windows.Forms.Button button1;
     }
 }
