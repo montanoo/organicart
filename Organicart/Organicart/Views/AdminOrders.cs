@@ -83,8 +83,8 @@ namespace Organicart.Views
         {
             orders.FillList();
             var linkedBills = orders;
-            OrdersNode searching = orders.SearchByDatetime(datee);
-            List<product> productos = searching.Productos;
+            OrdersNode searching = linkedBills.SearchByDatetime(datee);
+            List<product> productos = searching.Productos; //aca da 10 siempre?
 
             //limpiamos el flow layout panel
             ProductsLayoutPanel2.Controls.Clear();
@@ -123,7 +123,8 @@ namespace Organicart.Views
 
         private void btnDespachar_Click(object sender, EventArgs e)
         {
-            //orders.DeleteHead()
+            orders.DeleteHead(ordersItems[0].Date);
+            GenerateDynamicUserControls();
         }
     }
 }

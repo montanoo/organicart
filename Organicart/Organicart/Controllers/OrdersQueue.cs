@@ -90,22 +90,23 @@ namespace Organicart.Controllers
             OrdersQueue orders = new OrdersQueue();
             orders.FillList();
             var helper = orders.Head;
-            OrdersNode pointer = Head;
+            OrdersNode chosenpointer = null;// apuntador para seleccionar el puntero en la posicion escogida
 
             if (Head != null)// si la cola no esta vacia
             {
                 while (helper.Date != datee)
                 {
                     helper = helper.Next;
-                    if (pointer.Next == null)// si llegamos al final de la cola
+                    if (helper.Next == null)// si llegamos al final de la cola
                     {
                         break;
                     }
                 }
-                OrdersNode chosenpointer;// apuntador para seleccionar el puntero en la posicion escogida
-                chosenpointer = pointer; // asignamos el puntero a la posicion elegida
+                chosenpointer = helper; // asignamos el puntero a la posicion elegida
+                DateTime a = chosenpointer.Date;
+                int b = chosenpointer.Quantity;
             }
-            return pointer;
+            return chosenpointer;
         }
         public OrdersNode SearchOrders(int position)
         {
