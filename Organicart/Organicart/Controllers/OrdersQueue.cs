@@ -103,8 +103,6 @@ namespace Organicart.Controllers
                     }
                 }
                 chosenpointer = helper; // asignamos el puntero a la posicion elegida
-                DateTime a = chosenpointer.Date;
-                int b = chosenpointer.Quantity;
             }
             return chosenpointer;
         }
