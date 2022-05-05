@@ -49,6 +49,7 @@
             // Datelbl
             // 
             this.Datelbl.AutoSize = true;
+            this.Datelbl.Enabled = false;
             this.Datelbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Datelbl.Location = new System.Drawing.Point(220, 21);
             this.Datelbl.Name = "Datelbl";
@@ -59,6 +60,7 @@
             // IDlbl
             // 
             this.IDlbl.AutoSize = true;
+            this.IDlbl.Enabled = false;
             this.IDlbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IDlbl.Location = new System.Drawing.Point(10, 39);
             this.IDlbl.Name = "IDlbl";
@@ -69,6 +71,7 @@
             // Clientlbl
             // 
             this.Clientlbl.AutoSize = true;
+            this.Clientlbl.Enabled = false;
             this.Clientlbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Clientlbl.Location = new System.Drawing.Point(10, 21);
             this.Clientlbl.Name = "Clientlbl";
@@ -79,6 +82,7 @@
             // Quantitylbl
             // 
             this.Quantitylbl.AutoSize = true;
+            this.Quantitylbl.Enabled = false;
             this.Quantitylbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Quantitylbl.Location = new System.Drawing.Point(221, 39);
             this.Quantitylbl.Name = "Quantitylbl";
@@ -89,6 +93,7 @@
             // Addresslbl
             // 
             this.Addresslbl.AutoSize = true;
+            this.Addresslbl.Enabled = false;
             this.Addresslbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Addresslbl.Location = new System.Drawing.Point(10, 59);
             this.Addresslbl.Name = "Addresslbl";

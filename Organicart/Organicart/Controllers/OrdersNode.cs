@@ -26,6 +26,7 @@ namespace Organicart.Controllers
         public int Quantity { get; set; }
         public DateTime Date { get; set; }
         public string Address { get; set; }
+        public List<int> CantperProd { get; set; }
         public List<product> Productos { get; set; }
         public OrdersNode Next { get; set; }
     }

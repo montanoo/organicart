@@ -12,7 +12,6 @@ namespace Organicart.UserControls
 {
     public partial class CustomProductResult : UserControl
     {
-        public static Control Control;
         public CustomProductResult()
         {
             InitializeComponent();
@@ -24,6 +23,7 @@ namespace Organicart.UserControls
         private string _name;
         private double _price;
         private int _quantity;
+        private int _prodid;
 
         [Category("Custom Props")]
         public Image ProductImage
@@ -38,6 +38,12 @@ namespace Organicart.UserControls
             get { return _name; }
             set { _name = value; Namelbl.Text = value; }
         }
+        [Category("Custom Props")]
+        public int ProdID
+        {
+            get { return _prodid; }
+            set { _prodid = value; ProdIDlbl.Text = "Product ID: " + value; }
+        }
 
         [Category("Custom Props")]
         public double Price
@@ -50,15 +56,10 @@ namespace Organicart.UserControls
         public int Quantity
         {
             get { return _quantity; }
-            set { _quantity = value; Quantitylbl.Text = "Cantidad:" + value; }
+            set { _quantity = value; Quantitylbl.Text = "Cantidad: " + value; }
 
         }
 
         #endregion
-
-        private void CustomCartItem_Click(object sender, System.EventArgs e)
-        {
-            Control = (Control)sender;   // Sender gives you which control is clicked.
-        }
     }
 }

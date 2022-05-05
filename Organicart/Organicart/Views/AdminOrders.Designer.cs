@@ -34,6 +34,9 @@
             this.OrdersflowPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.ProductsLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnDespachar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
@@ -74,6 +77,7 @@
             // OrdersflowPanel
             // 
             this.OrdersflowPanel.AutoScroll = true;
+            this.OrdersflowPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.OrdersflowPanel.Location = new System.Drawing.Point(21, 214);
             this.OrdersflowPanel.Name = "OrdersflowPanel";
             this.OrdersflowPanel.Size = new System.Drawing.Size(524, 314);
@@ -82,6 +86,7 @@
             // ProductsLayoutPanel2
             // 
             this.ProductsLayoutPanel2.AutoScroll = true;
+            this.ProductsLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ProductsLayoutPanel2.Location = new System.Drawing.Point(551, 214);
             this.ProductsLayoutPanel2.Name = "ProductsLayoutPanel2";
             this.ProductsLayoutPanel2.Size = new System.Drawing.Size(467, 314);
@@ -92,20 +97,53 @@
             this.btnDespachar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
             this.btnDespachar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDespachar.ForeColor = System.Drawing.Color.White;
-            this.btnDespachar.Location = new System.Drawing.Point(489, 135);
+            this.btnDespachar.Location = new System.Drawing.Point(221, 132);
             this.btnDespachar.Margin = new System.Windows.Forms.Padding(2);
             this.btnDespachar.Name = "btnDespachar";
-            this.btnDespachar.Size = new System.Drawing.Size(119, 68);
+            this.btnDespachar.Size = new System.Drawing.Size(111, 63);
             this.btnDespachar.TabIndex = 60;
             this.btnDespachar.Text = "Despachar pedido";
             this.btnDespachar.UseVisualStyleBackColor = false;
             this.btnDespachar.Click += new System.EventHandler(this.btnDespachar_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(486, 165);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(548, 21);
+            this.label2.TabIndex = 61;
+            this.label2.Text = "*Haz click en cualquier parte que se muestre el pedido para ver los productos!";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label3.Location = new System.Drawing.Point(23, 192);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 21);
+            this.label3.TabIndex = 62;
+            this.label3.Text = "Pedidos";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label4.Location = new System.Drawing.Point(554, 192);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(80, 21);
+            this.label4.TabIndex = 63;
+            this.label4.Text = "Productos";
             // 
             // AdminOrders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1047, 540);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnDespachar);
             this.Controls.Add(this.ProductsLayoutPanel2);
             this.Controls.Add(this.OrdersflowPanel);
@@ -115,10 +153,14 @@
             this.Controls.SetChildIndex(this.OrdersflowPanel, 0);
             this.Controls.SetChildIndex(this.ProductsLayoutPanel2, 0);
             this.Controls.SetChildIndex(this.btnDespachar, 0);
+            this.Controls.SetChildIndex(this.label2, 0);
+            this.Controls.SetChildIndex(this.label3, 0);
+            this.Controls.SetChildIndex(this.label4, 0);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -129,5 +171,8 @@
         private System.Windows.Forms.FlowLayoutPanel OrdersflowPanel;
         private System.Windows.Forms.FlowLayoutPanel ProductsLayoutPanel2;
         private System.Windows.Forms.Button btnDespachar;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }

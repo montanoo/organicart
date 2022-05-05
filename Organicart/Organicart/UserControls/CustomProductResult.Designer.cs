@@ -34,6 +34,7 @@
             this.Namelbl = new System.Windows.Forms.Label();
             this.Pricelbl = new System.Windows.Forms.Label();
             this.Quantitylbl = new System.Windows.Forms.Label();
+            this.ProdIDlbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Productimg)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,7 +69,7 @@
             // 
             this.Namelbl.AutoSize = true;
             this.Namelbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Namelbl.Location = new System.Drawing.Point(110, 14);
+            this.Namelbl.Location = new System.Drawing.Point(110, 13);
             this.Namelbl.Name = "Namelbl";
             this.Namelbl.Size = new System.Drawing.Size(107, 20);
             this.Namelbl.TabIndex = 18;
@@ -78,7 +79,7 @@
             // 
             this.Pricelbl.AutoSize = true;
             this.Pricelbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pricelbl.Location = new System.Drawing.Point(110, 38);
+            this.Pricelbl.Location = new System.Drawing.Point(110, 54);
             this.Pricelbl.Name = "Pricelbl";
             this.Pricelbl.Size = new System.Drawing.Size(45, 20);
             this.Pricelbl.TabIndex = 19;
@@ -88,16 +89,27 @@
             // 
             this.Quantitylbl.AutoSize = true;
             this.Quantitylbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Quantitylbl.Location = new System.Drawing.Point(110, 65);
+            this.Quantitylbl.Location = new System.Drawing.Point(110, 71);
             this.Quantitylbl.Name = "Quantitylbl";
             this.Quantitylbl.Size = new System.Drawing.Size(97, 20);
             this.Quantitylbl.TabIndex = 20;
             this.Quantitylbl.Text = "Cantidad: 50";
             // 
+            // ProdIDlbl
+            // 
+            this.ProdIDlbl.AutoSize = true;
+            this.ProdIDlbl.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProdIDlbl.Location = new System.Drawing.Point(110, 33);
+            this.ProdIDlbl.Name = "ProdIDlbl";
+            this.ProdIDlbl.Size = new System.Drawing.Size(107, 20);
+            this.ProdIDlbl.TabIndex = 21;
+            this.ProdIDlbl.Text = "Product id: 10";
+            // 
             // CustomProductResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ProdIDlbl);
             this.Controls.Add(this.Quantitylbl);
             this.Controls.Add(this.Pricelbl);
             this.Controls.Add(this.Namelbl);
@@ -105,7 +117,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.Productimg);
             this.Name = "CustomProductResult";
-            this.Size = new System.Drawing.Size(353, 107);
+            this.Size = new System.Drawing.Size(291, 107);
             ((System.ComponentModel.ISupportInitialize)(this.Productimg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -120,5 +132,6 @@
         private System.Windows.Forms.Label Namelbl;
         private System.Windows.Forms.Label Pricelbl;
         private System.Windows.Forms.Label Quantitylbl;
+        private System.Windows.Forms.Label ProdIDlbl;
     }
 }

@@ -154,6 +154,7 @@ namespace Organicart.Controllers
                 {
                     //aca guardamos los productos que estan en el billing
                     List<product> listaproductos = new List<product>();
+                    List<int> quantityprod = new List<int>();
 
                     int quantity = dategroups[i].productquantity;
                     DateTime dateq = (DateTime)dategroups[i].dategr;
@@ -181,17 +182,20 @@ namespace Organicart.Controllers
                     for (int j = 0; j < query.Length; j++)
                     {
                         int a = (int)query[j].product_id;
+                        int b = (int)query[j].quantity;
                         var idproductos = (from prod in db.products
                                            where prod.id == a
                                            select prod).FirstOrDefault();
                         listaproductos.Add(idproductos);
+                        quantityprod.Add(b);
                     }
                     //aqui es donde vamos a llenar la colita, aqui llenaremos el nodo orders
                     helper = new OrdersNode
                     {
-                        Client = idclient.name,
+                        Client = idclient.name + " " + idclient.lastname,
                         Id = (int)firstquery.client_id,
                         /*Questionable*/
+                        CantperProd = quantityprod,
                         Quantity = query.Length,
                         Date = (DateTime)firstquery.date,
                         //ADDRESS VACIA MIENTRAS SE QUITA LA REPETICION EN CLIENT_ADDRESS

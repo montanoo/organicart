@@ -97,14 +97,13 @@ namespace Organicart.Views
                 //creating cart items
                 productItems[i] = new CustomProductResult();
                 productItems[i].ProdName = prod.name;
-                productItems[i].Quantity = searching.Quantity;
+                productItems[i].Quantity = searching.CantperProd[i];
+                productItems[i].ProdID = prod.id;
                 productItems[i].Price = (double)prod.price;
                 productItems[i].ProductImage = ByteToImage(prod.photo);
 
                 //adding items to the flow layout panel
                 ProductsLayoutPanel2.Controls.Add(productItems[i]);
-
-                productItems[i].Click += this.CustomOrder_Click;
 
                 //IDProducto = productItems[i].ProductNames;
                 i++;
