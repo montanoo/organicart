@@ -33,13 +33,13 @@ namespace Organicart.Views
 
         private void GenerateDynamicUserControls()
         {
+            //limpiamos el flow layout panel
+            OrdersflowPanel.Controls.Clear();
             orders.FillList();
             var linkedBills = orders;
             //obtenemos los productos de la categoria seleccionada
 
             var head = linkedBills.Head;
-            //limpiamos el flow layout panel
-            OrdersflowPanel.Controls.Clear();
             //establecemos la cantidad de product items que aparecerán en pantalla
             ordersItems = new CustomOrder[orders.CountQuantity()];
             var i = 0;
@@ -124,7 +124,9 @@ namespace Organicart.Views
         private void btnDespachar_Click(object sender, EventArgs e)
         {
             orders.DeleteHead(ordersItems[0].Date);
-            GenerateDynamicUserControls();
+            OrdersflowPanel.Controls.RemoveAt(0);
+            OrdersflowPanel.Update();
+            //GenerateDynamicUserControls();
         }
     }
 }

@@ -90,7 +90,6 @@
             // btnDespachar
             // 
             this.btnDespachar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(119)))), ((int)(((byte)(94)))));
-            this.btnDespachar.Enabled = false;
             this.btnDespachar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDespachar.ForeColor = System.Drawing.Color.White;
             this.btnDespachar.Location = new System.Drawing.Point(489, 135);
