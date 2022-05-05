@@ -42,6 +42,7 @@
             this.Productimg.Location = new System.Drawing.Point(4, 10);
             this.Productimg.Name = "Productimg";
             this.Productimg.Size = new System.Drawing.Size(93, 89);
+            this.Productimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Productimg.TabIndex = 0;
             this.Productimg.TabStop = false;
             // 

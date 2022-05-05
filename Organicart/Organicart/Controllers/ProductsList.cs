@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Organicart.Models;
+using Organicart.Views;
 
 namespace Organicart.Controllers
 {
@@ -87,6 +88,19 @@ namespace Organicart.Controllers
 
                 return linkedProducts;
             }
+        }
+
+        // Método para contar la cantidad de elementos en la lista.
+        public int CountQuantity()
+        {
+            var helper = Head;
+            int i = 0;
+            while (helper != null)
+            {
+                i++;
+                helper = helper.Next;
+            }
+            return i;
         }
     }
 }

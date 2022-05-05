@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Drawing;
 using System.Threading.Tasks;
 using Organicart.Views;
 using Organicart.Models;
@@ -26,7 +27,6 @@ namespace Organicart.Controllers
         {
             Head = null;
         }
-
         public void DeleteHead(DateTime actual)
         {
             // si el primer valor no es null borramos
@@ -65,6 +65,7 @@ namespace Organicart.Controllers
             }
         }
 
+
         // Método para contar la cantidad de elementos en la queue.
         public int CountQuantity()
         {
@@ -89,12 +90,22 @@ namespace Organicart.Controllers
             OrdersQueue orders = new OrdersQueue();
             orders.FillList();
             var helper = orders.Head;
+            OrdersNode pointer = Head;
 
-            while (helper.Date != datee)
+            if (Head != null)// si la cola no esta vacia
             {
-                helper = helper.Next;
+                while (helper.Date != datee)
+                {
+                    helper = helper.Next;
+                    if (pointer.Next == null)// si llegamos al final de la cola
+                    {
+                        break;
+                    }
+                }
+                OrdersNode chosenpointer;// apuntador para seleccionar el puntero en la posicion escogida
+                chosenpointer = pointer; // asignamos el puntero a la posicion elegida
             }
-
+            return pointer;
         }
         public OrdersNode SearchOrders(int position)
         {
@@ -205,33 +216,5 @@ namespace Organicart.Controllers
                 }
             }
         }
-
-        //public OrdersQueue GetOrders()
-        //{
-        //    OrdersQueue ordenes = new OrdersQueue();
-        //    ordenes.FillList();
-
-        //    foreach (var p in ordenes)
-        //    {
-
-        //    }
-        //    // instanciamos la lista.
-        //    var linkedProducts = new ProductsList();
-        //    // contexto de la base de datos dada por Entity Framework.
-        //    using (var db = new OrganicartEntities())
-        //    {
-        //        /* en la variable products están todos los productos de la base,
-        //           guardados como clase product.*/
-        //        var products = db.products;
-
-        //        // recorremos los productos y los guardamos en el final de la lista.
-        //        foreach (var product in products)
-        //        {
-        //            linkedProducts.InsertTail(product);
-        //        }
-
-        //        return linkedProducts;
-        //    }
-        //}
     }
 }

@@ -10,13 +10,18 @@ using System.Windows.Forms;
 using Organicart.Models;
 using Organicart.Controllers;
 using Organicart.UserControls;
+using System.IO;
+using Organicart.Views;
 
 namespace Organicart.Views
 {
     public partial class AdminOrders : Base
     {
         public static CustomOrder[] ordersItems;
+        public static CustomProductResult[] productItems;
         public static int TotalItems = 0;
+        public static int TotalItems2 = 0;
+
         OrdersQueue orders = new OrdersQueue();
         public AdminOrders()
         {
@@ -63,24 +68,8 @@ namespace Organicart.Views
         void CustomOrder_Click(Object sender, EventArgs e)
         {
             CustomOrder orden = (CustomOrder)sender; // para acceder a los elementos de la orden seleccionada
-
             DateTime clavedate = orden.Date;
-
-            orden.BackColor = Color.BlanchedAlmond;
-
-            //mostrar los productos en el otro panel
-
-
-            //lo que se ejecuta al darle click al control 
-            //var dialog = MessageBox.Show("Estás seguro que deseas eliminar este elemento de tu carrito?", "Alerta",
-            //    MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
-
-            //// si el usuario aceptó la pregunta.
-            //if (dialog != DialogResult.Yes) return;
-            //Products.Cart.DeleteItem(ordersItems[CustomOrder.Control.TabIndex].Address);
-            //GenerateDynamicUserControls();
-            //MessageBox.Show("Se ha eliminado con éxito tu producto", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //TotalItems--;
+            GenerateSelectedProducts(clavedate);
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -94,50 +83,47 @@ namespace Organicart.Views
         {
             orders.FillList();
             var linkedBills = orders;
+            OrdersNode searching = orders.SearchByDatetime(datee);
+            List<product> productos = searching.Productos;
 
-
-            var head = linkedBills.Head;
-
-            List<product> productos = head.Productos;
-
-            //foreach (var item in linkedBills)
-            //{
-
-            //}
-
-            using (var db = new OrganicartEntities())
-            { 
-                
-            }
-
-            //obtenemos los productos de la categoria seleccionada
-
-            var head = linkedBills.Head;
             //limpiamos el flow layout panel
-            OrdersflowPanel.Controls.Clear();
+            ProductsLayoutPanel2.Controls.Clear();
             //establecemos la cantidad de product items que aparecerán en pantalla
-            ordersItems = new CustomOrder[orders.CountQuantity()];
+            productItems = new CustomProductResult[productos.Count()];
             var i = 0;
-            while (head != null)
+            foreach (var prod in productos)
             {
                 var values = linkedBills.SearchOrders(i);
                 //creating cart items
-                ordersItems[i] = new CustomOrder();
-                ordersItems[i].ClientName = head.Client;
-                ordersItems[i].ID = head.Id;
-                ordersItems[i].Date = head.Date;
-                ordersItems[i].Quantity = head.Quantity;
-                ordersItems[i].Address = head.Address;
+                productItems[i] = new CustomProductResult();
+                productItems[i].ProdName = prod.name;
+                productItems[i].Quantity = searching.Quantity;
+                productItems[i].Price = (double)prod.price;
+                productItems[i].ProductImage = ByteToImage(prod.photo);
 
                 //adding items to the flow layout panel
-                OrdersflowPanel.Controls.Add(ordersItems[i]);
+                ProductsLayoutPanel2.Controls.Add(productItems[i]);
+
+                productItems[i].Click += this.CustomOrder_Click;
 
                 //IDProducto = productItems[i].ProductNames;
                 i++;
-                head = head.Next;
-                TotalItems++;
+                TotalItems2++;
             }
+        }
+        // este metodo nos permite cambiar de un array de bytes a un tipo Image.
+        public Image ByteToImage(byte[] byteArrayIn)
+        {
+            using (var ms = new MemoryStream(byteArrayIn))
+            {
+                var returnImage = Image.FromStream(ms);
+                return returnImage;
+            }
+        }
 
+        private void btnDespachar_Click(object sender, EventArgs e)
+        {
+            //orders.DeleteHead()
         }
     }
 }
