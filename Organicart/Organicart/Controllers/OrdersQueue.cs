@@ -174,9 +174,9 @@ namespace Organicart.Controllers
                                     select c).SingleOrDefault();
 
                     /*ES NECESARIO QUE NO HAYA REPETICION EN CLIENT_ADDRESS PARA QUE ESTO FUNCIONE*/
-                    //var idaddress = (from ad in db.client_address
-                    //                 where ad.client_id == firstquery.client_id
-                    //                 select ad).SingleOrDefault();
+                    var idaddress = (from ad in db.client_address
+                                     where ad.client_id == firstquery.client_id
+                                     select ad).SingleOrDefault();
 
                     //recorremos el array con los billings
                     for (int j = 0; j < query.Length; j++)
@@ -194,12 +194,11 @@ namespace Organicart.Controllers
                     {
                         Client = idclient.name + " " + idclient.lastname,
                         Id = (int)firstquery.client_id,
-                        /*Questionable*/
                         CantperProd = quantityprod,
                         Quantity = query.Length,
                         Date = (DateTime)firstquery.date,
                         //ADDRESS VACIA MIENTRAS SE QUITA LA REPETICION EN CLIENT_ADDRESS
-                        Address = "sample address",
+                        Address = idaddress.address,
                         Productos = listaproductos,
                         Next = null
                     };

@@ -140,9 +140,9 @@ namespace Organicart
             if (radioButtonefectivo.Checked == true)
             {
                 //Validación que el textbox del monto con el que pagará en efectivo no esté vacío
-                if (string.IsNullOrEmpty(textBox2.Text))
+                if (string.IsNullOrEmpty(textBox2.Text) || double.Parse(textBox2.Text) < Cart.SessionPrice)
                 {
-                    MessageBox.Show("Debe ingresar el monto con que pagará en efectivo.", "Monto de efectivo vacío", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Debe ingresar un monto de efectivo mayor al total de su compra.", "Monto de efectivo menor", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
                 else
@@ -170,8 +170,8 @@ namespace Organicart
 
                     }
 
-                    //Mensaje si paga con tarjeta
-                    MessageBox.Show("Tu pago con tarjeta ha sido recibido.\nFecha: " + DateTime.Now.ToLongDateString() + "\nHora: " + DateTime.Now.ToShortTimeString(), "¡PAGO EXITOSO!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    ////Mensaje si paga con tarjeta
+                    //MessageBox.Show("Tu pago con tarjeta ha sido recibido.\nFecha: " + DateTime.Now.ToLongDateString() + "\nHora: " + DateTime.Now.ToShortTimeString(), "¡PAGO EXITOSO!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 //Mensaje si paga en efectivo
                 MessageBox.Show("\nTu orden ha sido procesada: \nFecha: " + DateTime.Now.ToLongDateString() + "\nHora: " + DateTime.Now.ToShortTimeString(), "¡GRACIAS POR SU PAGO EN EFECTIVO!", MessageBoxButtons.OK, MessageBoxIcon.Information);

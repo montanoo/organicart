@@ -17,6 +17,14 @@ namespace Organicart.Views
 {
     public partial class AdminOrders : Base
     {
+        /*
+Integrantes: 
+- Fernando Josué Montano González. MG210111 | 
+- Andrea Guadalupe Velásquez Joyar. VJ210576 |
+- Ivania María Lebrón Flores. LF212591 | 
+- Luciana María Munguía Villacorta. MV210941 |
+- Carlos Vicente Castillo Sayes. CS210003 |
+*/
         public static CustomOrder[] ordersItems;
         public static CustomProductResult[] productItems;
         public static int TotalItems = 0;
@@ -127,6 +135,8 @@ namespace Organicart.Views
             OrdersflowPanel.Controls.RemoveAt(0);
             OrdersflowPanel.Update();
             ProductsLayoutPanel2.Controls.Clear();
+
+            MessageBox.Show("Pedido despachado con éxito", "Despacho de pedidos", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

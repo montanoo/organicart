@@ -100,9 +100,9 @@
             this.btnDespachar.Location = new System.Drawing.Point(221, 132);
             this.btnDespachar.Margin = new System.Windows.Forms.Padding(2);
             this.btnDespachar.Name = "btnDespachar";
-            this.btnDespachar.Size = new System.Drawing.Size(111, 63);
+            this.btnDespachar.Size = new System.Drawing.Size(132, 63);
             this.btnDespachar.TabIndex = 60;
-            this.btnDespachar.Text = "Despachar pedido";
+            this.btnDespachar.Text = "Despachar último pedido";
             this.btnDespachar.UseVisualStyleBackColor = false;
             this.btnDespachar.Click += new System.EventHandler(this.btnDespachar_Click);
             // 
