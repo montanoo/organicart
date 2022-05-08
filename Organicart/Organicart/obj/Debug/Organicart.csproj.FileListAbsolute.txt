@@ -1047,3 +1047,6 @@ C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organ
 C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.UserControls.CustomOrder.resources
 C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.AdminOrders.resources
 C:\Users\ANDREA\OneDrive - Universidad Don Bosco\Documentos\PED\organicart\Organicart\Organicart\obj\Debug\Organicart.UserControls.CustomProductResult.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.UserControls.CustomOrder.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.UserControls.CustomProductResult.resources
+D:\Documents\GitHub\organicart\Organicart\Organicart\obj\Debug\Organicart.Views.AdminOrders.resources

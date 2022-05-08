@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Organicart.Models;
 using System.IO;
+using Organicart.Controllers;
 
 namespace Organicart.Views
 {
@@ -71,6 +72,7 @@ namespace Organicart.Views
                 database.client_address.Add(dataadress);
                 database.SaveChanges();
                 adressid = dataadress.id;
+                
             }
             var enterCheckout = new Payment(username, adressid);
             enterCheckout.Show();

@@ -34,8 +34,10 @@ namespace Organicart.Controllers
             using (var db = new OrganicartEntities())
             {
                 var currentUser = db.users.FirstOrDefault(a => a.username.Equals(username));
-                currentUserId = currentUser.id;
+                var getId = db.clients.FirstOrDefault(b => b.user_id == currentUser.id);
+                currentUserId = getId.id;
             }
+
             return currentUserId;
         }
     }

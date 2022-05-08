@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Organicart.Controllers;
+using Organicart.Models;
 using Organicart.Views;
 
 namespace Organicart
@@ -126,10 +127,27 @@ namespace Organicart
                 return;
             }
 
-            Price();
             var getAddress = new GetAddress();
             var values = getAddress.GetUserInfo(username);
             var amountOfAddress = values.CountQuantity(values.Head);
+            if (amountOfAddress == 1)
+            {
+                var addressid = 0;
+                using (OrganicartEntities database = new OrganicartEntities())
+                {
+                    client_address dataadress = new client_address();
+                    user gettingid = database.users.Where(a => a.username == username).FirstOrDefault();
+                    client refid = database.clients.Where(a => a.user_id == gettingid.id).FirstOrDefault();
+                    dataadress.client_id = refid.id;
+                    addressid = dataadress.id;
+                }
+                Price();
+                var enterPayment = new Payment(username, addressid);
+                enterPayment.Show();
+                this.Hide();
+                return;
+            }
+            Price();
             var enterCheckout = new Address(username);
             enterCheckout.Show();
             this.Hide();
