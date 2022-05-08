@@ -25,7 +25,7 @@ namespace Organicart
         */
         private string username;
         private int Adressid_;
-       // public static CustomCartItem[] cartItems= new CustomCartItem();
+        // public static CustomCartItem[] cartItems= new CustomCartItem();
         public Payment(string pUsername, int Adressid)
         {
             InitializeComponent();
@@ -118,7 +118,7 @@ namespace Organicart
                             client refid = database.clients.Where(a => a.user_id == gettingid.id).FirstOrDefault();
                             databilling.client_id = refid.id;
                             //le restamos el milisegundo actual al datetime
-                            databilling.date = DateTime.Now.AddMilliseconds(-DateTime.Now.Millisecond); 
+                            databilling.date = DateTime.Now.AddMilliseconds(-DateTime.Now.Millisecond);
                             string pname = Cart.cartItems[i].ProductNames.ToString();
                             product productid = database.products.Where(a => a.name == pname).FirstOrDefault();
                             databilling.product_id = productid.id;
@@ -128,11 +128,18 @@ namespace Organicart
                             database.SaveChanges();
 
                         }
-                        
+
                     }
 
                     //Mensaje si paga con tarjeta
                     MessageBox.Show("Tu pago con tarjeta ha sido recibido.\nFecha: " + DateTime.Now.ToLongDateString() + "\nHora: " + DateTime.Now.ToShortTimeString(), "¡PAGO EXITOSO!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //Borramos el carrito
+                    Cart carrito = new Cart(username);
+                    carrito.ClearCart();
+                    //Regresamos al homepage
+                    HomePage home = new HomePage(username);
+                    home.Show();
+                    this.Hide();
                 }
             }
 
@@ -170,8 +177,13 @@ namespace Organicart
 
                     }
 
-                    ////Mensaje si paga con tarjeta
-                    //MessageBox.Show("Tu pago con tarjeta ha sido recibido.\nFecha: " + DateTime.Now.ToLongDateString() + "\nHora: " + DateTime.Now.ToShortTimeString(), "¡PAGO EXITOSO!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //Borramos el carrito
+                    Cart carrito = new Cart(username);
+                    carrito.ClearCart();
+                    //Regresamos al homepage
+                    HomePage home = new HomePage(username);
+                    home.Show();
+                    this.Hide();
                 }
                 //Mensaje si paga en efectivo
                 MessageBox.Show("\nTu orden ha sido procesada: \nFecha: " + DateTime.Now.ToLongDateString() + "\nHora: " + DateTime.Now.ToShortTimeString(), "¡GRACIAS POR SU PAGO EN EFECTIVO!", MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -169,5 +169,11 @@ namespace Organicart
             }
         }
 
+        //metodo para limpiar el carrito
+        public void ClearCart()
+        {
+            flowLayoutPanel1.Controls.Clear();
+        }
+
     }
 }
