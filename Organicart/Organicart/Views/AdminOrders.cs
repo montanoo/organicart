@@ -122,10 +122,11 @@ namespace Organicart.Views
 
         private void btnDespachar_Click(object sender, EventArgs e)
         {
+            //despacho de productos
             orders.DeleteHead(ordersItems[0].Date);
             OrdersflowPanel.Controls.RemoveAt(0);
             OrdersflowPanel.Update();
-            //GenerateDynamicUserControls();
+            ProductsLayoutPanel2.Controls.Clear();
         }
     }
 }
