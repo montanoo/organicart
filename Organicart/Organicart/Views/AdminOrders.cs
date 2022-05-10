@@ -100,7 +100,7 @@ Integrantes:
             //establecemos la cantidad de product items que aparecerán en pantalla
             productItems = new CustomProductResult[productos.CountQuantity()];
             var i = 0;
-            for(i=0; i<productos.CountQuantity(); i++)
+            for(i=0; i< productos.CountQuantity(); i++)
             {
                 var values = linkedBills.SearchOrders(i);
                 //creating cart items
@@ -132,13 +132,27 @@ Integrantes:
 
         private void btnDespachar_Click(object sender, EventArgs e)
         {
-            //despacho de productos
-            orders.DeleteHead(ordersItems[0].Date);
-            OrdersflowPanel.Controls.RemoveAt(0);
-            OrdersflowPanel.Update();
-            ProductsLayoutPanel2.Controls.Clear();
+            if(!CheckIfEmpty())
+            {
+                //despacho de productos
+                orders.DeleteHead(ordersItems[0].Date);
+                OrdersflowPanel.Controls.RemoveAt(0);
+                OrdersflowPanel.Update();
+                ProductsLayoutPanel2.Controls.Clear();
 
-            MessageBox.Show("Pedido despachado con éxito", "Despacho de pedidos", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Pedido despachado con éxito", "Despacho de pedidos", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            
+        }
+
+        public bool CheckIfEmpty()
+        {
+            bool empty = false;
+            if(OrdersflowPanel.Controls.Count == 0)
+            {
+                empty = true;
+            }
+            return empty;
         }
     }
 }
