@@ -93,6 +93,7 @@ Integrantes:
             var linkedBills = orders;
             OrdersNode searching = linkedBills.SearchByDatetime(datee);
             ProductsList productos = searching.Productos; //aca da 10 siempre?
+            QuantityQueue cantidades = searching.CantperProd;
 
             //limpiamos el flow layout panel
             ProductsLayoutPanel2.Controls.Clear();
@@ -105,7 +106,8 @@ Integrantes:
                 //creating cart items
                 productItems[i] = new CustomProductResult();
                 productItems[i].ProdName = productos.SearchProd(i).Data.name;
-                productItems[i].Quantity = searching.CantperProd.SearchQuantity(i);
+                //productItems[i].ProdName = productos.SearchProd(i).Data.name;
+                productItems[i].Quantity = cantidades.SearchQuantity(i);
                 productItems[i].ProdID = productos.SearchProd(i).Data.id;
                 productItems[i].Price = (double)productos.SearchProd(i).Data.price;
                 productItems[i].ProductImage = ByteToImage(productos.SearchProd(i).Data.photo);
