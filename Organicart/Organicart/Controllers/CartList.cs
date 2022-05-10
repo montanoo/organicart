@@ -24,6 +24,7 @@ namespace Organicart.Controllers
             Head = null;
         }
 
+        //Método para insertar al final
         public void InsertTail(string name)
         {
             using (var db = new OrganicartEntities())
@@ -53,6 +54,7 @@ namespace Organicart.Controllers
                 }
             }
         }
+
         //método de busqueda por posiciones del carrito, asi lo recorremos uno a uno
         public CartNode SearchCart(int position)
         {
@@ -80,6 +82,7 @@ namespace Organicart.Controllers
             return pointer;
         }
 
+        //Bool para evaluar estado de repetición
         public bool Repeated(string name)
         {
             /*Tenemos un nuevo nodo auxiliar (puntero) que toma lo que tenga
@@ -111,6 +114,19 @@ namespace Organicart.Controllers
             return repetition;
         }
 
+        //Método para vaciar el carrito
+        public void Clear()
+        {
+
+            // Mientras head no sea null
+            while (Head != null)
+            {
+                //eliminamos el elemento de head
+                Head = Head.Next;
+            }
+        }
+
+        //Método para borrar un elemento especifico
         public void DeleteItem(string name)
         {
 

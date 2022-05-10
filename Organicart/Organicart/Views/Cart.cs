@@ -173,6 +173,7 @@ namespace Organicart
         public void ClearCart()
         {
             flowLayoutPanel1.Controls.Clear();
+            Products.Cart.Clear();
         }
 
     }
