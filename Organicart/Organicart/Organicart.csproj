@@ -244,6 +244,8 @@
     <Compile Include="Controllers\OrdersNode.cs" />
     <Compile Include="Controllers\OrdersQueue.cs" />
     <Compile Include="Controllers\ProductsList.cs" />
+    <Compile Include="Controllers\QuantityNode.cs" />
+    <Compile Include="Controllers\QuantityQueue.cs" />
     <Compile Include="Controllers\UserList.cs" />
     <Compile Include="Controllers\UsersNode.cs" />
     <Compile Include="Controllers\ProductsNode.cs" />

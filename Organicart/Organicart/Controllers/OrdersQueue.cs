@@ -38,7 +38,6 @@ namespace Organicart.Controllers
                 //borrar de la tabla
                 //iniciamos un helper vacío
                 var helper = new OrdersNode { };
-                List<billing> billList = new List<billing>();
 
                 using (var db = new OrganicartEntities())
                 {
@@ -154,7 +153,7 @@ namespace Organicart.Controllers
                 {
                     //aca guardamos los productos que estan en el billing
                     ProductsList listaproductos = new ProductsList();
-                    List<int> quantityprod = new List<int>();
+                    QuantityQueue quantityprod = new QuantityQueue();
 
                     int quantity = dategroups[i].productquantity;
                     DateTime dateq = (DateTime)dategroups[i].dategr;
@@ -187,7 +186,7 @@ namespace Organicart.Controllers
                                            where prod.id == a
                                            select prod).FirstOrDefault();
                         listaproductos.InsertTail(idproductos);
-                        quantityprod.Add(b);
+                        quantityprod.InsertTail(b);
                     }
                     //aqui es donde vamos a llenar la colita, aqui llenaremos el nodo orders
                     helper = new OrdersNode

@@ -105,7 +105,7 @@ Integrantes:
                 //creating cart items
                 productItems[i] = new CustomProductResult();
                 productItems[i].ProdName = productos.SearchProd(i).Data.name;
-                productItems[i].Quantity = searching.CantperProd[i];
+                productItems[i].Quantity = searching.CantperProd.SearchQuantity(i);
                 productItems[i].ProdID = productos.SearchProd(i).Data.id;
                 productItems[i].Price = (double)productos.SearchProd(i).Data.price;
                 productItems[i].ProductImage = ByteToImage(productos.SearchProd(i).Data.photo);
