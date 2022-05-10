@@ -153,8 +153,10 @@ namespace Organicart.Controllers
                 for (int i = 0; i < dategroups.Length; i++)
                 {
                     //aca guardamos los productos que estan en el billing
+                    #region billing
                     List<product> listaproductos = new List<product>();
                     List<int> quantityprod = new List<int>();
+                    #endregion
 
                     int quantity = dategroups[i].productquantity;
                     DateTime dateq = (DateTime)dategroups[i].dategr;

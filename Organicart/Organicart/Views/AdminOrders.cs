@@ -35,7 +35,6 @@ Integrantes:
         {
             InitializeComponent();
             OrdersQueue ordenes = new OrdersQueue();
-            //ordenes.InsertTail();
             GenerateDynamicUserControls();
         }
 
@@ -67,7 +66,6 @@ Integrantes:
 
                 ordersItems[i].Click += this.CustomOrder_Click;
 
-                //IDProducto = productItems[i].ProductNames;
                 i++;
                 head = head.Next;
                 TotalItems++;
@@ -92,7 +90,9 @@ Integrantes:
             orders.FillList();
             var linkedBills = orders;
             OrdersNode searching = linkedBills.SearchByDatetime(datee);
-            List<product> productos = searching.Productos; //aca da 10 siempre?
+            #region orders
+            List<product> productos = searching.Productos; 
+            #endregion
 
             //limpiamos el flow layout panel
             ProductsLayoutPanel2.Controls.Clear();
@@ -113,7 +113,6 @@ Integrantes:
                 //adding items to the flow layout panel
                 ProductsLayoutPanel2.Controls.Add(productItems[i]);
 
-                //IDProducto = productItems[i].ProductNames;
                 i++;
                 TotalItems2++;
             }
@@ -130,13 +129,27 @@ Integrantes:
 
         private void btnDespachar_Click(object sender, EventArgs e)
         {
-            //despacho de productos
-            orders.DeleteHead(ordersItems[0].Date);
-            OrdersflowPanel.Controls.RemoveAt(0);
-            OrdersflowPanel.Update();
-            ProductsLayoutPanel2.Controls.Clear();
+            if(!CheckIfEmpty())
+            {
+                //despacho de productos
+                DateTime ordering = ordersItems[0].Date;
+                orders.DeleteHead(ordering); //se elimina de la tad y de la base
+                OrdersflowPanel.Controls.RemoveAt(0);
+                OrdersflowPanel.Update();
+                ProductsLayoutPanel2.Controls.Clear();
 
-            MessageBox.Show("Pedido despachado con éxito", "Despacho de pedidos", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Pedido despachado con éxito", "Despacho de pedidos", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        public bool CheckIfEmpty()
+        {
+            bool empty = false;
+            if (OrdersflowPanel.Controls.Count == 0)
+            {
+                empty = true;
+            }
+            return empty;
         }
     }
 }

@@ -20,14 +20,16 @@ namespace Organicart.Controllers
        */
         // valores de tipo billing son los que recibirá (billing -> base de datos tabla billing)
         //public Organicart.Models.billing Data { get; set; }
+        #region node
+        public List<int> CantperProd { get; set; }
+        public List<product> Productos { get; set; }
+        #endregion
 
         public string Client { get; set; }
         public int Id { get; set; }
         public int Quantity { get; set; }
         public DateTime Date { get; set; }
         public string Address { get; set; }
-        public List<int> CantperProd { get; set; }
-        public List<product> Productos { get; set; }
         public OrdersNode Next { get; set; }
     }
 }
