@@ -102,32 +102,5 @@ namespace Organicart.Controllers
             }
             return i;
         }
-
-        //método de busqueda por posiciones producto, asi lo recorremos uno a uno
-        public ProductsNode SearchProd(int position)
-        {
-                ProductsNode pointer = Head;
-            if (Head != null)// si la lista no esta vacia
-            {
-                if (position == 1)//cuando se necesita el nodo 1
-                {
-                    pointer = Head;
-                }
-                else
-                {
-                    for (int i = 1; i <= position - 1; i++) // si se necesita otra posicion que no sea 1
-                    {
-                        pointer = pointer.Next;
-                        if (pointer.Next == null)// si llegamos al final de la lista
-                        {
-                            break;
-                        }
-                    }
-                    ProductsNode chosenpointer;// apuntador para seleccionar el puntero en la posicion escogida
-                    chosenpointer = pointer; // asignamos el puntero a la posicion elegida
-                }
-            }
-            return pointer;
-        }
     }
 }

@@ -153,7 +153,7 @@ namespace Organicart.Controllers
                 for (int i = 0; i < dategroups.Length; i++)
                 {
                     //aca guardamos los productos que estan en el billing
-                    ProductsList listaproductos = new ProductsList();
+                    List<product> listaproductos = new List<product>();
                     List<int> quantityprod = new List<int>();
 
                     int quantity = dategroups[i].productquantity;
@@ -186,7 +186,7 @@ namespace Organicart.Controllers
                         var idproductos = (from prod in db.products
                                            where prod.id == a
                                            select prod).FirstOrDefault();
-                        listaproductos.InsertTail(idproductos);
+                        listaproductos.Add(idproductos);
                         quantityprod.Add(b);
                     }
                     //aqui es donde vamos a llenar la colita, aqui llenaremos el nodo orders
