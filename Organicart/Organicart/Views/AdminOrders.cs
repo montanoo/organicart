@@ -92,23 +92,23 @@ Integrantes:
             orders.FillList();
             var linkedBills = orders;
             OrdersNode searching = linkedBills.SearchByDatetime(datee);
-            List<product> productos = searching.Productos; //aca da 10 siempre?
+            ProductsList productos = searching.Productos; //aca da 10 siempre?
 
             //limpiamos el flow layout panel
             ProductsLayoutPanel2.Controls.Clear();
             //establecemos la cantidad de product items que aparecerán en pantalla
-            productItems = new CustomProductResult[productos.Count()];
+            productItems = new CustomProductResult[productos.CountQuantity()];
             var i = 0;
-            foreach (var prod in productos)
+            for(i=0; i<productos.CountQuantity(); i++)
             {
                 var values = linkedBills.SearchOrders(i);
                 //creating cart items
                 productItems[i] = new CustomProductResult();
-                productItems[i].ProdName = prod.name;
+                productItems[i].ProdName = productos.SearchProd(i).Data.name;
                 productItems[i].Quantity = searching.CantperProd[i];
-                productItems[i].ProdID = prod.id;
-                productItems[i].Price = (double)prod.price;
-                productItems[i].ProductImage = ByteToImage(prod.photo);
+                productItems[i].ProdID = productos.SearchProd(i).Data.id;
+                productItems[i].Price = (double)productos.SearchProd(i).Data.price;
+                productItems[i].ProductImage = ByteToImage(productos.SearchProd(i).Data.photo);
 
                 //adding items to the flow layout panel
                 ProductsLayoutPanel2.Controls.Add(productItems[i]);
