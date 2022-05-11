@@ -75,6 +75,9 @@ namespace Organicart
         {
             textBox2.Enabled = false;
             groupBox1.Enabled = true;
+            txtarjeta.Text = "";
+            txtaño.Text = "";
+            txtcvv.Text = "";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -138,6 +141,7 @@ namespace Organicart
                     carrito.ClearCart();
                     //Regresamos al homepage
                     HomePage home = new HomePage(username);
+                    Cart.TotalItems = 0;
                     home.Show();
                     this.Hide();
                 }
@@ -147,16 +151,20 @@ namespace Organicart
             if (radioButtonefectivo.Checked == true)
             {
                 //Validación que el textbox del monto con el que pagará en efectivo no esté vacío
-                if (string.IsNullOrEmpty(textBox2.Text) || double.Parse(textBox2.Text) < Cart.SessionPrice)
+                if (textBox2.Text == "  ")
                 {
                     MessageBox.Show("Debe ingresar un monto de efectivo mayor al total de su compra.", "Monto de efectivo menor", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
                 }
-                else
+                else 
                 {
+                    if ((double.Parse(textBox2.Text) < Cart.SessionPrice))
+                    {
+                        MessageBox.Show("Debe ingresar un monto de efectivo mayor al total de su compra.",
+                            "Monto de efectivo menor", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
                     using (OrganicartEntities database = new OrganicartEntities())
                     {
-
                         for (int i = 0; i < Cart.cartItems.Length; i++)
                         {
                             billing databilling = new billing();
@@ -184,9 +192,10 @@ namespace Organicart
                     HomePage home = new HomePage(username);
                     home.Show();
                     this.Hide();
+                    //Mensaje si paga en efectivo
+                    MessageBox.Show("\nTu orden ha sido procesada: \nFecha: " + DateTime.Now.ToLongDateString() + "\nHora: " + DateTime.Now.ToShortTimeString(), "¡GRACIAS POR SU PAGO EN EFECTIVO!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Cart.TotalItems = 0;
                 }
-                //Mensaje si paga en efectivo
-                MessageBox.Show("\nTu orden ha sido procesada: \nFecha: " + DateTime.Now.ToLongDateString() + "\nHora: " + DateTime.Now.ToShortTimeString(), "¡GRACIAS POR SU PAGO EN EFECTIVO!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -227,6 +236,11 @@ namespace Organicart
         {
             if (txtcvv.Text == "XXX")
                 txtarjeta.Text = "";
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
