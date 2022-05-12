@@ -38,7 +38,9 @@ namespace Organicart.Controllers
                 //borrar de la tabla
                 //iniciamos un helper vacío
                 var helper = new OrdersNode { };
+                #region billing
                 List<billing> billList = new List<billing>();
+                #endregion
 
                 using (var db = new OrganicartEntities())
                 {
@@ -83,8 +85,8 @@ namespace Organicart.Controllers
             }
             return quantity;
         }
-        //método de busqueda por posiciones de la cola, asi lo recorremos uno a uno
 
+        //metodo de busqueda segun el datetime
         public OrdersNode SearchByDatetime(DateTime datee)
         {
             OrdersQueue orders = new OrdersQueue();
@@ -106,6 +108,7 @@ namespace Organicart.Controllers
             }
             return chosenpointer;
         }
+        //método de busqueda por posiciones de la cola, asi lo recorremos uno a uno
         public OrdersNode SearchOrders(int position)
         {
             OrdersNode pointer = Head;
